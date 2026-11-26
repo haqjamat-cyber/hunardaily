@@ -4,9 +4,9 @@ class QuizQuestion {
   const QuizQuestion({
     required this.id,
     required this.prompts,
-    required this.options,
+    required this.optionsByLang,
     required this.correctIndex,
-    required this.explanation,
+    required this.explanations,
   });
 
   factory QuizQuestion.fromJson(Map<String, dynamic> json) {
@@ -14,26 +14,65 @@ class QuizQuestion {
     final prompts = rawPrompts.map(
       (key, value) => MapEntry<String, String>(key, value.toString()),
     );
-    final rawOptions = json['options'] as List<dynamic>;
+
+    final rawOptions = json['options'];
+    final optionsByLang = <String, List<String>>{};
+    if (rawOptions is Map<String, dynamic>) {
+      for (final entry in rawOptions.entries) {
+        final list = (entry.value as List<dynamic>)
+            .map((e) => e.toString())
+            .toList(growable: false);
+        optionsByLang[entry.key] = list;
+      }
+    } else if (rawOptions is List<dynamic>) {
+      optionsByLang['en'] =
+          rawOptions.map((e) => e.toString()).toList(growable: false);
+    }
+
+    final rawExp = json['explanation'];
+    final explanations = <String, String>{};
+    if (rawExp is Map<String, dynamic>) {
+      for (final entry in rawExp.entries) {
+        explanations[entry.key] = entry.value.toString();
+      }
+    } else if (rawExp != null) {
+      explanations['en'] = rawExp.toString();
+    }
+
     return QuizQuestion(
       id: json['id'] as String,
       prompts: prompts,
-      options: rawOptions.map((e) => e.toString()).toList(growable: false),
+      optionsByLang: optionsByLang,
       correctIndex: json['correctIndex'] as int,
-      explanation: json['explanation'] as String,
+      explanations: explanations,
     );
   }
 
   final String id;
   final Map<String, String> prompts;
-  final List<String> options;
+  final Map<String, List<String>> optionsByLang;
   final int correctIndex;
-  final String explanation;
+  final Map<String, String> explanations;
 
-  String promptForPair(String learningPairCode) {
-    return prompts[learningPairCode] ??
+  String promptForLanguage(String langCode) {
+    return prompts[langCode] ??
+        prompts['en'] ??
         prompts['default'] ??
         (prompts.values.isNotEmpty ? prompts.values.first : '');
+  }
+
+  List<String> optionsForLanguage(String langCode) {
+    return optionsByLang[langCode] ??
+        optionsByLang['en'] ??
+        (optionsByLang.values.isNotEmpty
+            ? optionsByLang.values.first
+            : const <String>[]);
+  }
+
+  String explanationForLanguage(String langCode) {
+    return explanations[langCode] ??
+        explanations['en'] ??
+        (explanations.values.isNotEmpty ? explanations.values.first : '');
   }
 }
 

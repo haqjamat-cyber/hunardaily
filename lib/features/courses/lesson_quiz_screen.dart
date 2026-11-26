@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hunardaily/core/config/app_constants.dart';
 import 'package:hunardaily/data/local/progress_repository.dart';
 import 'package:hunardaily/features/courses/models/curriculum_models.dart';
+import 'package:hunardaily/features/courses/quiz_ui_strings.dart';
 import 'package:hunardaily/features/settings/app_settings_controller.dart';
 
 class LessonQuizScreen extends ConsumerStatefulWidget {
@@ -11,11 +12,13 @@ class LessonQuizScreen extends ConsumerStatefulWidget {
     required this.courseId,
     required this.courseTitle,
     required this.level,
+    this.accentColor,
   });
 
   final String courseId;
   final String courseTitle;
   final CourseLevel level;
+  final Color? accentColor;
 
   @override
   ConsumerState<LessonQuizScreen> createState() => _LessonQuizScreenState();
@@ -49,7 +52,8 @@ class _LessonQuizScreenState extends ConsumerState<LessonQuizScreen> {
       return;
     }
 
-    final scorePercent = total == 0 ? 0 : ((_correctCount / total) * 100).round();
+    final scorePercent =
+        total == 0 ? 0 : ((_correctCount / total) * 100).round();
     await ref.read(progressControllerProvider.notifier).saveAttempt(
           courseId: widget.courseId,
           levelId: widget.level.id,
@@ -76,16 +80,23 @@ class _LessonQuizScreenState extends ConsumerState<LessonQuizScreen> {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
+    final isDark = theme.brightness == Brightness.dark;
     final settings = ref.watch(appSettingsProvider);
+    final langCode = settings.uiLanguage.code;
+    final ui = QuizUiStrings.of(settings.uiLanguage);
+    final levelTitle = ui.levelName(widget.level.id);
+    final accent = widget.accentColor ?? colorScheme.primary;
     final questions = widget.level.questions;
 
     if (_finished) {
       final total = questions.length;
-      final scorePercent = total == 0 ? 0 : ((_correctCount / total) * 100).round();
-      final passed = scorePercent >= AppConstants.defaultMasteryThresholdPercent;
+      final scorePercent =
+          total == 0 ? 0 : ((_correctCount / total) * 100).round();
+      final passed =
+          scorePercent >= AppConstants.defaultMasteryThresholdPercent;
 
       return Scaffold(
-        appBar: AppBar(title: Text('${widget.courseTitle} • ${widget.level.name}')),
+        appBar: AppBar(title: Text('${widget.courseTitle} • $levelTitle')),
         body: SafeArea(
           child: Padding(
             padding: const EdgeInsetsDirectional.all(24),
@@ -93,45 +104,93 @@ class _LessonQuizScreenState extends ConsumerState<LessonQuizScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Icon(
-                  passed ? Icons.emoji_events_rounded : Icons.refresh_rounded,
-                  size: 72,
-                  color: passed ? colorScheme.primary : colorScheme.tertiary,
-                ),
-                const SizedBox(height: 16),
-                Text(
-                  passed ? 'Level Mastered!' : 'Keep Practicing!',
-                  textAlign: TextAlign.center,
-                  style: theme.textTheme.headlineSmall,
-                ),
-                const SizedBox(height: 8),
-                Text(
-                  'Score: $scorePercent% ($_correctCount / $total)',
-                  textAlign: TextAlign.center,
-                  style: theme.textTheme.titleLarge?.copyWith(
-                    color: colorScheme.primary,
-                    fontWeight: FontWeight.bold,
+                Center(
+                  child: Container(
+                    width: 112,
+                    height: 112,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      gradient: LinearGradient(
+                        colors: passed
+                            ? [colorScheme.primary, colorScheme.secondary]
+                            : [
+                                colorScheme.tertiary,
+                                colorScheme.tertiary.withValues(alpha: 0.7),
+                              ],
+                        begin: Alignment.topLeft,
+                        end: Alignment.bottomRight,
+                      ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: (passed
+                                  ? colorScheme.primary
+                                  : colorScheme.tertiary)
+                              .withValues(alpha: 0.28),
+                          blurRadius: 24,
+                          offset: const Offset(0, 10),
+                        ),
+                      ],
+                    ),
+                    child: Icon(
+                      passed
+                          ? Icons.emoji_events_rounded
+                          : Icons.refresh_rounded,
+                      size: 56,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
-                const SizedBox(height: 8),
+                const SizedBox(height: 22),
+                Text(
+                  passed ? ui.levelMastered : ui.keepPracticing,
+                  textAlign: TextAlign.center,
+                  style: theme.textTheme.headlineSmall?.copyWith(
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+                const SizedBox(height: 10),
+                Center(
+                  child: Container(
+                    padding: const EdgeInsetsDirectional.symmetric(
+                      horizontal: 18,
+                      vertical: 8,
+                    ),
+                    decoration: BoxDecoration(
+                      color: colorScheme.primaryContainer,
+                      borderRadius: BorderRadius.circular(999),
+                    ),
+                    child: Text(
+                      '${ui.scoreLabel}: $scorePercent% ($_correctCount / $total)',
+                      style: theme.textTheme.titleMedium?.copyWith(
+                        color: colorScheme.onPrimaryContainer,
+                        fontWeight: FontWeight.w800,
+                      ),
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 14),
                 Text(
                   passed
-                      ? 'You reached the ${AppConstants.defaultMasteryThresholdPercent}% mastery threshold. The next level is now unlocked!'
-                      : 'Score at least ${AppConstants.defaultMasteryThresholdPercent}% to unlock the next level.',
+                      ? ui.passedHint(
+                          AppConstants.defaultMasteryThresholdPercent,
+                        )
+                      : ui.retryHint(
+                          AppConstants.defaultMasteryThresholdPercent,
+                        ),
                   textAlign: TextAlign.center,
                   style: theme.textTheme.bodyMedium,
                 ),
-                const SizedBox(height: 28),
+                const SizedBox(height: 30),
                 FilledButton.icon(
                   onPressed: () => Navigator.of(context).pop(),
                   icon: const Icon(Icons.arrow_back_rounded),
-                  label: const Text('Back to Levels'),
+                  label: Text(ui.backToLevels),
                 ),
                 const SizedBox(height: 12),
                 OutlinedButton.icon(
                   onPressed: _restart,
                   icon: const Icon(Icons.replay_rounded),
-                  label: const Text('Try Again'),
+                  label: Text(ui.tryAgain),
                 ),
               ],
             ),
@@ -141,67 +200,185 @@ class _LessonQuizScreenState extends ConsumerState<LessonQuizScreen> {
     }
 
     final question = questions[_currentIndex];
-    final prompt = question.promptForPair(settings.learningPair.id);
+    final prompt = question.promptForLanguage(langCode);
+    final options = question.optionsForLanguage(langCode);
+    final explanation = question.explanationForLanguage(langCode);
     final isAnswered = _selectedOptionIndex != null;
+    final answeredCorrectly =
+        isAnswered && _selectedOptionIndex == question.correctIndex;
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('${widget.courseTitle} • ${widget.level.name}'),
+        title: Text('${widget.courseTitle} • $levelTitle'),
       ),
       body: SafeArea(
         child: ListView(
-          padding: const EdgeInsetsDirectional.fromSTEB(16, 12, 16, 24),
+          padding: const EdgeInsetsDirectional.fromSTEB(16, 8, 16, 24),
           children: [
-            LinearProgressIndicator(
-              value: (_currentIndex + 1) / questions.length,
-              borderRadius: BorderRadius.circular(8),
+            // Modern Progress Header
+            Row(
+              children: [
+                Container(
+                  padding: const EdgeInsetsDirectional.symmetric(
+                    horizontal: 12,
+                    vertical: 6,
+                  ),
+                  decoration: BoxDecoration(
+                    color: accent.withValues(alpha: isDark ? 0.25 : 0.12),
+                    borderRadius: BorderRadius.circular(999),
+                  ),
+                  child: Text(
+                    ui.questionProgress(_currentIndex + 1, questions.length),
+                    style: theme.textTheme.labelLarge?.copyWith(
+                      color: isDark ? Colors.white : accent,
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                ),
+                const Spacer(),
+                Row(
+                  children: [
+                    Icon(
+                      Icons.check_circle_rounded,
+                      size: 18,
+                      color: colorScheme.primary,
+                    ),
+                    const SizedBox(width: 4),
+                    Text(
+                      '$_correctCount / ${questions.length}',
+                      style: theme.textTheme.labelLarge?.copyWith(
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ],
+                ),
+              ],
             ),
             const SizedBox(height: 10),
-            Text(
-              'Question ${_currentIndex + 1} of ${questions.length}',
-              style: theme.textTheme.labelLarge,
+            ClipRRect(
+              borderRadius: BorderRadius.circular(999),
+              child: LinearProgressIndicator(
+                value: (_currentIndex + 1) / questions.length,
+                minHeight: 8,
+                color: accent,
+                backgroundColor: colorScheme.surfaceContainerHighest,
+              ),
             ),
-            const SizedBox(height: 16),
-            Card(
-              child: Padding(
-                padding: const EdgeInsetsDirectional.all(18),
-                child: Text(
-                  prompt,
-                  style: theme.textTheme.titleMedium,
+            const SizedBox(height: 18),
+            // Modern Tinted Question Card
+            Container(
+              padding: const EdgeInsetsDirectional.all(20),
+              decoration: BoxDecoration(
+                color: colorScheme.surface,
+                borderRadius: BorderRadius.circular(22),
+                border: Border.all(
+                  color: accent.withValues(alpha: 0.28),
+                  width: 1.5,
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: accent.withValues(alpha: 0.08),
+                    blurRadius: 16,
+                    offset: const Offset(0, 6),
+                  ),
+                ],
+              ),
+              child: Text(
+                prompt,
+                style: theme.textTheme.titleLarge?.copyWith(
+                  fontWeight: FontWeight.w700,
                 ),
               ),
             ),
-            const SizedBox(height: 16),
-            ...List<Widget>.generate(question.options.length, (idx) {
-              final optionText = question.options[idx];
+            const SizedBox(height: 18),
+            // Tactile Option Cards
+            ...List<Widget>.generate(options.length, (idx) {
+              final optionText = options[idx];
               final isSelected = _selectedOptionIndex == idx;
               final isCorrect = idx == question.correctIndex;
 
-              Color? tileColor;
+              Color cardBg = colorScheme.surface;
+              Color borderColor = colorScheme.outline.withValues(alpha: 0.45);
+              Color badgeBg = colorScheme.surfaceContainerHighest;
+              Color badgeFg = colorScheme.onSurface;
+
               if (isAnswered) {
                 if (isCorrect) {
-                  tileColor = colorScheme.primaryContainer;
+                  cardBg = colorScheme.primaryContainer;
+                  borderColor = colorScheme.primary;
+                  badgeBg = colorScheme.primary;
+                  badgeFg = colorScheme.onPrimary;
                 } else if (isSelected) {
-                  tileColor = colorScheme.errorContainer;
+                  cardBg = colorScheme.errorContainer;
+                  borderColor = colorScheme.error;
+                  badgeBg = colorScheme.error;
+                  badgeFg = colorScheme.onError;
                 }
               }
 
               return Padding(
                 padding: const EdgeInsetsDirectional.only(bottom: 10),
-                child: Card(
-                  color: tileColor,
-                  child: ListTile(
-                    onTap: () => _selectOption(idx, question),
-                    leading: CircleAvatar(
-                      radius: 14,
-                      child: Text(String.fromCharCode(65 + idx)),
+                child: AnimatedContainer(
+                  duration: const Duration(milliseconds: 200),
+                  decoration: BoxDecoration(
+                    color: cardBg,
+                    borderRadius: BorderRadius.circular(18),
+                    border: Border.all(
+                      color: borderColor,
+                      width: (isAnswered && (isCorrect || isSelected))
+                          ? 1.8
+                          : 1.0,
                     ),
-                    title: Text(optionText),
-                    trailing: isAnswered && isCorrect
-                        ? Icon(Icons.check_circle_rounded, color: colorScheme.primary)
-                        : (isAnswered && isSelected && !isCorrect)
-                            ? Icon(Icons.cancel_rounded, color: colorScheme.error)
-                            : null,
+                  ),
+                  child: InkWell(
+                    borderRadius: BorderRadius.circular(18),
+                    onTap: () => _selectOption(idx, question),
+                    child: Padding(
+                      padding: const EdgeInsetsDirectional.symmetric(
+                        horizontal: 14,
+                        vertical: 14,
+                      ),
+                      child: Row(
+                        children: [
+                          Container(
+                            width: 32,
+                            height: 32,
+                            decoration: BoxDecoration(
+                              color: badgeBg,
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            child: Center(
+                              child: Text(
+                                String.fromCharCode(65 + idx),
+                                style: theme.textTheme.labelLarge?.copyWith(
+                                  color: badgeFg,
+                                  fontWeight: FontWeight.w800,
+                                ),
+                              ),
+                            ),
+                          ),
+                          const SizedBox(width: 12),
+                          Expanded(
+                            child: Text(
+                              optionText,
+                              style: theme.textTheme.bodyLarge?.copyWith(
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ),
+                          if (isAnswered && isCorrect)
+                            Icon(
+                              Icons.check_circle_rounded,
+                              color: colorScheme.primary,
+                            )
+                          else if (isAnswered && isSelected && !isCorrect)
+                            Icon(
+                              Icons.cancel_rounded,
+                              color: colorScheme.error,
+                            ),
+                        ],
+                      ),
+                    ),
                   ),
                 ),
               );
@@ -209,26 +386,42 @@ class _LessonQuizScreenState extends ConsumerState<LessonQuizScreen> {
             if (isAnswered) ...[
               const SizedBox(height: 8),
               Container(
-                padding: const EdgeInsetsDirectional.all(14),
+                padding: const EdgeInsetsDirectional.all(16),
                 decoration: BoxDecoration(
-                  color: colorScheme.secondaryContainer,
-                  borderRadius: BorderRadius.circular(12),
+                  color: answeredCorrectly
+                      ? colorScheme.secondaryContainer
+                      : colorScheme.surfaceContainerHighest,
+                  borderRadius: BorderRadius.circular(18),
                 ),
-                child: Row(
+                child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Icon(
-                      Icons.lightbulb_outline_rounded,
-                      color: colorScheme.onSecondaryContainer,
-                    ),
-                    const SizedBox(width: 10),
-                    Expanded(
-                      child: Text(
-                        question.explanation,
-                        style: theme.textTheme.bodyMedium?.copyWith(
-                          color: colorScheme.onSecondaryContainer,
+                    Row(
+                      children: [
+                        Icon(
+                          answeredCorrectly
+                              ? Icons.celebration_rounded
+                              : Icons.lightbulb_rounded,
+                          size: 20,
+                          color: answeredCorrectly
+                              ? colorScheme.onSecondaryContainer
+                              : colorScheme.primary,
                         ),
-                      ),
+                        const SizedBox(width: 8),
+                        Text(
+                          answeredCorrectly
+                              ? ui.correctLabel
+                              : ui.incorrectLabel,
+                          style: theme.textTheme.titleSmall?.copyWith(
+                            fontWeight: FontWeight.w700,
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 6),
+                    Text(
+                      explanation,
+                      style: theme.textTheme.bodyMedium,
                     ),
                   ],
                 ),
@@ -238,8 +431,8 @@ class _LessonQuizScreenState extends ConsumerState<LessonQuizScreen> {
                 onPressed: _nextQuestion,
                 child: Text(
                   _currentIndex + 1 < questions.length
-                      ? 'Next Question'
-                      : 'Finish & Save Score',
+                      ? ui.nextQuestion
+                      : ui.finishAndSave,
                 ),
               ),
             ],

@@ -4,6 +4,6 @@ class AppConstants {
 
   static const String appName = 'HunarDaily';
   static const String applicationId = 'com.hunardaily.app';
-  static const String appVersion = '0.2.0';
+  static const String appVersion = '0.3.0';
   static const int defaultMasteryThresholdPercent = 75;
 }

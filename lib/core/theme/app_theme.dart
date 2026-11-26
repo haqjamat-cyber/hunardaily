@@ -3,7 +3,7 @@ import 'package:hunardaily/core/localization/supported_language.dart';
 import 'package:hunardaily/core/theme/app_colors.dart';
 import 'package:hunardaily/core/theme/app_typography.dart';
 
-/// Builds accessible Material 3 Light (Teal/Emerald + Off-White) and
+/// Builds modern Material 3 Light (Teal/Emerald + Warm Off-White) and
 /// Dark (Dark Slate) themes tailored for the active interface script.
 class AppTheme {
   const AppTheme._();
@@ -44,27 +44,67 @@ class AppTheme {
         backgroundColor: AppColors.lightBackground,
         foregroundColor: AppColors.lightOnSurface,
         elevation: 0,
-        scrolledUnderElevation: 1,
+        scrolledUnderElevation: 0,
         centerTitle: false,
-        titleTextStyle: textTheme.titleLarge,
+        titleTextStyle: textTheme.titleLarge?.copyWith(
+          fontWeight: FontWeight.w700,
+          letterSpacing: -0.2,
+        ),
       ),
       cardTheme: CardThemeData(
         color: AppColors.lightSurface,
         elevation: 0,
         margin: EdgeInsets.zero,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(16),
-          side: const BorderSide(color: AppColors.lightOutline, width: 1),
+          borderRadius: BorderRadius.circular(20),
+          side: BorderSide(
+            color: AppColors.lightOutline.withValues(alpha: 0.45),
+          ),
         ),
+      ),
+      filledButtonTheme: FilledButtonThemeData(
+        style: FilledButton.styleFrom(
+          minimumSize: const Size(0, 50),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(14),
+          ),
+          textStyle: textTheme.titleSmall?.copyWith(
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+      ),
+      outlinedButtonTheme: OutlinedButtonThemeData(
+        style: OutlinedButton.styleFrom(
+          minimumSize: const Size(0, 50),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(14),
+          ),
+          side: BorderSide(color: AppColors.lightOutline.withValues(alpha: 0.8)),
+          textStyle: textTheme.titleSmall?.copyWith(
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+      ),
+      chipTheme: ChipThemeData(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(12),
+        ),
+        side: BorderSide(color: AppColors.lightOutline.withValues(alpha: 0.6)),
       ),
       navigationBarTheme: NavigationBarThemeData(
         backgroundColor: AppColors.lightSurface,
+        elevation: 2,
+        height: 68,
         indicatorColor: AppColors.lightPrimaryContainer,
-        labelTextStyle: WidgetStatePropertyAll(textTheme.labelMedium),
-      ),
-      dividerTheme: const DividerThemeData(
-        color: AppColors.lightOutline,
-        thickness: 1,
+        labelTextStyle: WidgetStateProperty.resolveWith((states) {
+          final selected = states.contains(WidgetState.selected);
+          return textTheme.labelMedium?.copyWith(
+            fontWeight: selected ? FontWeight.w700 : FontWeight.w500,
+            color: selected
+                ? AppColors.lightPrimary
+                : AppColors.lightOnSurfaceMuted,
+          );
+        }),
       ),
     );
   }
@@ -105,27 +145,67 @@ class AppTheme {
         backgroundColor: AppColors.darkBackground,
         foregroundColor: AppColors.darkOnSurface,
         elevation: 0,
-        scrolledUnderElevation: 1,
+        scrolledUnderElevation: 0,
         centerTitle: false,
-        titleTextStyle: textTheme.titleLarge,
+        titleTextStyle: textTheme.titleLarge?.copyWith(
+          fontWeight: FontWeight.w700,
+          letterSpacing: -0.2,
+        ),
       ),
       cardTheme: CardThemeData(
         color: AppColors.darkSurface,
         elevation: 0,
         margin: EdgeInsets.zero,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(16),
-          side: const BorderSide(color: AppColors.darkOutline, width: 1),
+          borderRadius: BorderRadius.circular(20),
+          side: BorderSide(
+            color: AppColors.darkOutline.withValues(alpha: 0.45),
+          ),
         ),
+      ),
+      filledButtonTheme: FilledButtonThemeData(
+        style: FilledButton.styleFrom(
+          minimumSize: const Size(0, 50),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(14),
+          ),
+          textStyle: textTheme.titleSmall?.copyWith(
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+      ),
+      outlinedButtonTheme: OutlinedButtonThemeData(
+        style: OutlinedButton.styleFrom(
+          minimumSize: const Size(0, 50),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(14),
+          ),
+          side: BorderSide(color: AppColors.darkOutline.withValues(alpha: 0.7)),
+          textStyle: textTheme.titleSmall?.copyWith(
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+      ),
+      chipTheme: ChipThemeData(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(12),
+        ),
+        side: BorderSide(color: AppColors.darkOutline.withValues(alpha: 0.5)),
       ),
       navigationBarTheme: NavigationBarThemeData(
         backgroundColor: AppColors.darkSurface,
+        elevation: 2,
+        height: 68,
         indicatorColor: AppColors.darkPrimaryContainer,
-        labelTextStyle: WidgetStatePropertyAll(textTheme.labelMedium),
-      ),
-      dividerTheme: const DividerThemeData(
-        color: AppColors.darkOutline,
-        thickness: 1,
+        labelTextStyle: WidgetStateProperty.resolveWith((states) {
+          final selected = states.contains(WidgetState.selected);
+          return textTheme.labelMedium?.copyWith(
+            fontWeight: selected ? FontWeight.w700 : FontWeight.w500,
+            color: selected
+                ? AppColors.darkPrimary
+                : AppColors.darkOnSurfaceMuted,
+          );
+        }),
       ),
     );
   }

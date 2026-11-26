@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "courses": [
     {
       "id": "vocab",
@@ -12,70 +12,170 @@
             {
               "id": "v_b_1",
               "prompt": {
-                "hi_to_en": "'धन्यवाद' का सही English शब्द क्या है?",
-                "ur_to_en": "'شکریہ' کا صحیح English لفظ کیا ہے؟",
-                "bn_to_en": "'ধন্যবাদ'-এর সঠিক English শব্দ কী?",
-                "default": "Which English word means 'Thank you'?"
+                "en": "Which English word means 'Thank you'?",
+                "hi": "'धन्यवाद' का सही English शब्द क्या है?",
+                "ur": "'شکریہ' کا صحیح English لفظ کیا ہے؟",
+                "bn": "'ধন্যবাদ'-এর সঠিক English শব্দ কী?"
               },
-              "options": [
-                "Sorry",
-                "Thank you",
-                "Please",
-                "Welcome"
-              ],
+              "options": {
+                "en": [
+                  "Sorry",
+                  "Thank you",
+                  "Please",
+                  "Welcome"
+                ],
+                "hi": [
+                  "Sorry",
+                  "Thank you",
+                  "Please",
+                  "Welcome"
+                ],
+                "ur": [
+                  "Sorry",
+                  "Thank you",
+                  "Please",
+                  "Welcome"
+                ],
+                "bn": [
+                  "Sorry",
+                  "Thank you",
+                  "Please",
+                  "Welcome"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "'Thank you' is used to express gratitude."
+              "explanation": {
+                "en": "'Thank you' is used to express gratitude.",
+                "hi": "'Thank you' का उपयोग आभार या धन्यवाद व्यक्त करने के लिए किया जाता है।",
+                "ur": "'Thank you' شکریہ ادا کرنے کے لیے استعمال ہوتا ہے۔",
+                "bn": "কৃতজ্ঞতা বা ধন্যবাদ জানাতে 'Thank you' ব্যবহার করা হয়।"
+              }
             },
             {
               "id": "v_b_2",
               "prompt": {
-                "hi_to_en": "'पानी' को English में क्या कहते हैं?",
-                "ur_to_en": "'پانی' کو English میں کیا کہتے ہیں؟",
-                "bn_to_en": "'জল/পানি'-কে English-এ কী বলে?",
-                "default": "What is the English word for water?"
+                "en": "What is the English word for water?",
+                "hi": "'पानी' को English में क्या कहते हैं?",
+                "ur": "'پانی' کو English میں کیا کہتے ہیں؟",
+                "bn": "'জল/পানি'-কে English-এ কী বলে?"
               },
-              "options": [
-                "Fire",
-                "Air",
-                "Water",
-                "Food"
-              ],
+              "options": {
+                "en": [
+                  "Fire",
+                  "Air",
+                  "Water",
+                  "Food"
+                ],
+                "hi": [
+                  "Fire",
+                  "Air",
+                  "Water",
+                  "Food"
+                ],
+                "ur": [
+                  "Fire",
+                  "Air",
+                  "Water",
+                  "Food"
+                ],
+                "bn": [
+                  "Fire",
+                  "Air",
+                  "Water",
+                  "Food"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "'Water' means पानी / پانی / জল."
+              "explanation": {
+                "en": "'Water' means drinking liquid essential for life.",
+                "hi": "'Water' का अर्थ पानी होता है।",
+                "ur": "'Water' کا مطلب پانی ہوتا ہے۔",
+                "bn": "'Water' শব্দের অর্থ জল বা পানি।"
+              }
             },
             {
               "id": "v_b_3",
               "prompt": {
-                "hi_to_en": "'किताब' का सही English शब्द चुनें:",
-                "ur_to_en": "'کتاب' کا صحیح English لفظ چنیں:",
-                "bn_to_en": "'বই'-এর সঠিক English শব্দ বাছুন:",
-                "default": "Choose the English word for book:"
+                "en": "Choose the English word for 'Book':",
+                "hi": "'किताब' का सही English शब्द चुनें:",
+                "ur": "'کتاب' کا صحیح English لفظ چنیں:",
+                "bn": "'বই'-এর সঠিক English শব্দ বাছুন:"
               },
-              "options": [
-                "Book",
-                "Pen",
-                "Chair",
-                "Table"
-              ],
+              "options": {
+                "en": [
+                  "Book",
+                  "Pen",
+                  "Chair",
+                  "Table"
+                ],
+                "hi": [
+                  "Book",
+                  "Pen",
+                  "Chair",
+                  "Table"
+                ],
+                "ur": [
+                  "Book",
+                  "Pen",
+                  "Chair",
+                  "Table"
+                ],
+                "bn": [
+                  "Book",
+                  "Pen",
+                  "Chair",
+                  "Table"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "'Book' means किताब / کتاب / বই."
+              "explanation": {
+                "en": "'Book' refers to written or printed pages bound together.",
+                "hi": "'Book' का अर्थ किताब या पुस्तक होता है।",
+                "ur": "'Book' کا مطلب کتاب ہوتا ہے۔",
+                "bn": "'Book' শব্দের অর্থ বই।"
+              }
             },
             {
               "id": "v_b_4",
               "prompt": {
-                "hi_to_en": "'सुबह' को English में क्या कहते हैं?",
-                "ur_to_en": "'صبح' کو English میں کیا کہتے ہیں؟",
-                "bn_to_en": "'সকাল'-কে English-এ কী বলে?",
-                "default": "What is the English word for morning?"
+                "en": "What is the English word for morning?",
+                "hi": "'सुबह' को English में क्या कहते हैं?",
+                "ur": "'صبح' کو English میں کیا کہتے ہیں؟",
+                "bn": "'সকাল'-কে English-এ কী বলে?"
               },
-              "options": [
-                "Night",
-                "Evening",
-                "Morning",
-                "Noon"
-              ],
+              "options": {
+                "en": [
+                  "Night",
+                  "Evening",
+                  "Morning",
+                  "Noon"
+                ],
+                "hi": [
+                  "Night",
+                  "Evening",
+                  "Morning",
+                  "Noon"
+                ],
+                "ur": [
+                  "Night",
+                  "Evening",
+                  "Morning",
+                  "Noon"
+                ],
+                "bn": [
+                  "Night",
+                  "Evening",
+                  "Morning",
+                  "Noon"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "'Morning' is the early part of the day."
+              "explanation": {
+                "en": "'Morning' is the early part of the day.",
+                "hi": "'Morning' दिन के शुरुआती समय यानी सुबह को कहते हैं।",
+                "ur": "'Morning' دن کے ابتدائی حصے یعنی صبح کو کہتے ہیں۔",
+                "bn": "'Morning' হলো দিনের শুরুর সময় অর্থাৎ সকাল।"
+              }
             }
           ]
         },
@@ -86,70 +186,170 @@
             {
               "id": "v_e_1",
               "prompt": {
-                "hi_to_en": "'भरोसा' के लिए सही English शब्द कौन-सा है?",
-                "ur_to_en": "'بھروسہ' کے لیے صحیح English لفظ کون سا ہے؟",
-                "bn_to_en": "'বিশ্বাস/ভরসা'-এর সঠিক English শব্দ কোনটি?",
-                "default": "Which word means 'Trust'?"
+                "en": "Which word means 'Trust'?",
+                "hi": "'भरोसा' के लिए सही English शब्द कौन-सा है?",
+                "ur": "'بھروسہ' کے لیے صحیح English لفظ کون سا ہے؟",
+                "bn": "'বিশ্বাস/ভরসা'-এর সঠিক English শব্দ কোনটি?"
               },
-              "options": [
-                "Trust",
-                "Doubt",
-                "Fear",
-                "Anger"
-              ],
+              "options": {
+                "en": [
+                  "Trust",
+                  "Doubt",
+                  "Fear",
+                  "Anger"
+                ],
+                "hi": [
+                  "Trust",
+                  "Doubt",
+                  "Fear",
+                  "Anger"
+                ],
+                "ur": [
+                  "Trust",
+                  "Doubt",
+                  "Fear",
+                  "Anger"
+                ],
+                "bn": [
+                  "Trust",
+                  "Doubt",
+                  "Fear",
+                  "Anger"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "'Trust' means firm belief in someone's reliability."
+              "explanation": {
+                "en": "'Trust' means firm belief in someone's reliability.",
+                "hi": "'Trust' का अर्थ किसी पर पक्का भरोसा या विश्वास होता है।",
+                "ur": "'Trust' کا مطلب کسی پر پختہ بھروسہ یا اعتماد ہوتا ہے۔",
+                "bn": "'Trust' শব্দের অর্থ কারও ওপর দৃঢ় বিশ্বাস বা ভরসা।"
+              }
             },
             {
               "id": "v_e_2",
               "prompt": {
-                "hi_to_en": "'मेहनत' को English में क्या कहते हैं?",
-                "ur_to_en": "'محنت' کو English میں کیا کہتے ہیں؟",
-                "bn_to_en": "'পরিশ্রম'-কে English-এ কী বলে?",
-                "default": "What is the English phrase for hard work?"
+                "en": "What is the English phrase for 'Hard work'?",
+                "hi": "'मेहनत' को English में क्या कहते हैं?",
+                "ur": "'محنت' کو English میں کیا کہتے ہیں؟",
+                "bn": "'পরিশ্রম'-কে English-এ কী বলে?"
               },
-              "options": [
-                "Lazy",
-                "Hard work",
-                "Sleep",
-                "Rest"
-              ],
+              "options": {
+                "en": [
+                  "Lazy",
+                  "Hard work",
+                  "Sleep",
+                  "Rest"
+                ],
+                "hi": [
+                  "Lazy",
+                  "Hard work",
+                  "Sleep",
+                  "Rest"
+                ],
+                "ur": [
+                  "Lazy",
+                  "Hard work",
+                  "Sleep",
+                  "Rest"
+                ],
+                "bn": [
+                  "Lazy",
+                  "Hard work",
+                  "Sleep",
+                  "Rest"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "'Hard work' means consistent effort and dedication."
+              "explanation": {
+                "en": "'Hard work' means consistent effort and dedication.",
+                "hi": "'Hard work' का अर्थ लगातार मेहनत और लगन है।",
+                "ur": "'Hard work' کا مطلب مسلسل محنت اور لگن ہے۔",
+                "bn": "'Hard work' বলতে নিয়মিত পরিশ্রম ও নিষ্ঠাকে বোঝায়।"
+              }
             },
             {
               "id": "v_e_3",
               "prompt": {
-                "hi_to_en": "'अवसर / मौका' का सही English शब्द है:",
-                "ur_to_en": "'موقع' کا صحیح English لفظ ہے:",
-                "bn_to_en": "'সুযোগ'-এর সঠিক English শব্দ হলো:",
-                "default": "Which word means 'Opportunity'?"
+                "en": "Which word means 'Opportunity'?",
+                "hi": "'अवसर / मौका' का सही English शब्द है:",
+                "ur": "'موقع' کا صحیح English لفظ ہے:",
+                "bn": "'সুযোগ'-এর সঠিক English শব্দ হলো:"
               },
-              "options": [
-                "Problem",
-                "Opportunity",
-                "Mistake",
-                "Delay"
-              ],
+              "options": {
+                "en": [
+                  "Problem",
+                  "Opportunity",
+                  "Mistake",
+                  "Delay"
+                ],
+                "hi": [
+                  "Problem",
+                  "Opportunity",
+                  "Mistake",
+                  "Delay"
+                ],
+                "ur": [
+                  "Problem",
+                  "Opportunity",
+                  "Mistake",
+                  "Delay"
+                ],
+                "bn": [
+                  "Problem",
+                  "Opportunity",
+                  "Mistake",
+                  "Delay"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "'Opportunity' means a favourable time or chance."
+              "explanation": {
+                "en": "'Opportunity' means a favourable time or chance.",
+                "hi": "'Opportunity' का अर्थ अच्छा मौका या अवसर होता है।",
+                "ur": "'Opportunity' کا مطلب اچھا موقع ہوتا ہے۔",
+                "bn": "'Opportunity' শব্দের অর্থ ভালো সুযোগ বা সম্ভাবনা।"
+              }
             },
             {
               "id": "v_e_4",
               "prompt": {
-                "hi_to_en": "'सुधारना' को English में क्या कहते हैं?",
-                "ur_to_en": "'بہتر بنانا' کو English میں کیا کہتے ہیں؟",
-                "bn_to_en": "'উন্নতি করা'-কে English-এ কী বলে?",
-                "default": "Which verb means 'to make better'?"
+                "en": "Which verb means 'to make better'?",
+                "hi": "'सुधारना' को English में क्या कहते हैं?",
+                "ur": "'بہتر بنانا' کو English میں کیا کہتے ہیں؟",
+                "bn": "'উন্নতি করা'-কে English-এ কী বলে?"
               },
-              "options": [
-                "Break",
-                "Forget",
-                "Improve",
-                "Stop"
-              ],
+              "options": {
+                "en": [
+                  "Break",
+                  "Forget",
+                  "Improve",
+                  "Stop"
+                ],
+                "hi": [
+                  "Break",
+                  "Forget",
+                  "Improve",
+                  "Stop"
+                ],
+                "ur": [
+                  "Break",
+                  "Forget",
+                  "Improve",
+                  "Stop"
+                ],
+                "bn": [
+                  "Break",
+                  "Forget",
+                  "Improve",
+                  "Stop"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "'Improve' means to make or become better."
+              "explanation": {
+                "en": "'Improve' means to make or become better.",
+                "hi": "'Improve' का अर्थ किसी चीज़ को बेहतर बनाना या सुधारना है।",
+                "ur": "'Improve' کا مطلب کسی چیز کو بہتر بنانا یا سدھارنا ہے۔",
+                "bn": "'Improve' শব্দের অর্থ কোনো কিছুর উন্নতি করা বা ভালো করা।"
+              }
             }
           ]
         },
@@ -160,58 +360,170 @@
             {
               "id": "v_i_1",
               "prompt": {
-                "default": "What is the closest meaning of 'Consistent'?"
+                "en": "What is the closest meaning of 'Consistent'?",
+                "hi": "'Consistent' शब्द का सबसे सही अर्थ क्या है?",
+                "ur": "'Consistent' لفظ کا سب سے قریبی مطلب کیا ہے؟",
+                "bn": "'Consistent' শব্দের সবচেয়ে কাছের অর্থ কী?"
               },
-              "options": [
-                "Changing often",
-                "Steady and regular",
-                "Very loud",
-                "Temporary"
-              ],
+              "options": {
+                "en": [
+                  "Changing often",
+                  "Steady and regular",
+                  "Very loud",
+                  "Temporary"
+                ],
+                "hi": [
+                  "बार-बार बदलने वाला",
+                  "स्थिर और नियमित",
+                  "बहुत तेज़ आवाज़",
+                  "अस्थायी"
+                ],
+                "ur": [
+                  "بار بار بدلنے والا",
+                  "مستقل اور باقاعدہ",
+                  "بہت تیز آواز",
+                  "عارضی"
+                ],
+                "bn": [
+                  "ঘন ঘন পরিবর্তনশীল",
+                  "স্থির ও নিয়মিত",
+                  "খুব জোরে",
+                  "অস্থায়ী"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "'Consistent' means acting or done in the same steady way over time."
+              "explanation": {
+                "en": "'Consistent' means acting or done in the same steady way over time.",
+                "hi": "'Consistent' का मतलब समय के साथ लगातार और नियमित रूप से काम करना है।",
+                "ur": "'Consistent' کا مطلب وقت کے ساتھ مسلسل اور باقاعدگی سے کام کرنا ہے۔",
+                "bn": "'Consistent' বলতে সময়ের সাথে ধারাবাহিক ও নিয়মিত থাকাকে বোঝায়।"
+              }
             },
             {
               "id": "v_i_2",
               "prompt": {
-                "default": "Choose the opposite of 'Scarce':"
+                "en": "Choose the opposite of 'Scarce' (rare/limited):",
+                "hi": "'Scarce' (दुर्लभ/कम) का विलोम (opposite) शब्द चुनें:",
+                "ur": "'Scarce' (نایاب/کم) کا الٹ (opposite) لفظ چنیں:",
+                "bn": "'Scarce' (দুর্লভ/কম)-এর বিপরীত শব্দ বাছুন:"
               },
-              "options": [
-                "Rare",
-                "Empty",
-                "Abundant",
-                "Tiny"
-              ],
+              "options": {
+                "en": [
+                  "Rare",
+                  "Empty",
+                  "Abundant",
+                  "Tiny"
+                ],
+                "hi": [
+                  "Rare",
+                  "Empty",
+                  "Abundant",
+                  "Tiny"
+                ],
+                "ur": [
+                  "Rare",
+                  "Empty",
+                  "Abundant",
+                  "Tiny"
+                ],
+                "bn": [
+                  "Rare",
+                  "Empty",
+                  "Abundant",
+                  "Tiny"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "'Abundant' means existing in large quantities."
+              "explanation": {
+                "en": "'Abundant' means existing in large quantities.",
+                "hi": "'Abundant' का अर्थ भरपूर या बड़ी मात्रा में उपलब्ध होना है।",
+                "ur": "'Abundant' کا مطلب وافر یا بڑی مقدار میں موجود ہونا ہے۔",
+                "bn": "'Abundant' শব্দের অর্থ প্রচুর পরিমাণে থাকা।"
+              }
             },
             {
               "id": "v_i_3",
               "prompt": {
-                "default": "Which word means 'able to adjust easily to new conditions'?"
+                "en": "Which word means 'able to adjust easily to new conditions'?",
+                "hi": "'नई परिस्थितियों के अनुसार आसानी से ढल जाना' किस शब्द का अर्थ है?",
+                "ur": "'نئے حالات کے مطابق آسانی سے ڈھل جانا' کس لفظ کا مطلب ہے؟",
+                "bn": "'নতুন পরিস্থিতির সাথে সহজে মানিয়ে নেওয়া' কোন শব্দের অর্থ?"
               },
-              "options": [
-                "Rigid",
-                "Adaptable",
-                "Fragile",
-                "Silent"
-              ],
+              "options": {
+                "en": [
+                  "Rigid",
+                  "Adaptable",
+                  "Fragile",
+                  "Silent"
+                ],
+                "hi": [
+                  "Rigid",
+                  "Adaptable",
+                  "Fragile",
+                  "Silent"
+                ],
+                "ur": [
+                  "Rigid",
+                  "Adaptable",
+                  "Fragile",
+                  "Silent"
+                ],
+                "bn": [
+                  "Rigid",
+                  "Adaptable",
+                  "Fragile",
+                  "Silent"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "'Adaptable' describes someone who adjusts well to change."
+              "explanation": {
+                "en": "'Adaptable' describes someone who adjusts well to change.",
+                "hi": "'Adaptable' उस व्यक्ति को कहते हैं जो बदलाव के साथ आसानी से ढल जाए।",
+                "ur": "'Adaptable' اس شخص کو کہتے ہیں جو تبدیلی کے مطابق آسانی سے ڈھل جائے۔",
+                "bn": "'Adaptable' বলতে বোঝায় যিনি পরিবর্তনের সাথে সহজে মানিয়ে নিতে পারেন।"
+              }
             },
             {
               "id": "v_i_4",
               "prompt": {
-                "default": "What does 'Verify' mean?"
+                "en": "What does 'Verify' mean?",
+                "hi": "'Verify' शब्द का क्या अर्थ है?",
+                "ur": "'Verify' لفظ کا کیا مطلب ہے؟",
+                "bn": "'Verify' শব্দের অর্থ কী?"
               },
-              "options": [
-                "To guess",
-                "To confirm truth or accuracy",
-                "To delete",
-                "To hide"
-              ],
+              "options": {
+                "en": [
+                  "To guess",
+                  "To confirm truth or accuracy",
+                  "To delete",
+                  "To hide"
+                ],
+                "hi": [
+                  "अंदाज़ा लगाना",
+                  "सच्चाई या सटीकता की पुष्टि करना",
+                  "हटा देना",
+                  "छिपाना"
+                ],
+                "ur": [
+                  "اندازہ لگانا",
+                  "سچائی یا درستگی کی تصدیق کرنا",
+                  "مٹا دینا",
+                  "چھپانا"
+                ],
+                "bn": [
+                  "অনুমান করা",
+                  "সত্যতা বা সঠিকতা যাচাই করা",
+                  "মুছে ফেলা",
+                  "লুকানো"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "'Verify' means to make sure something is true or accurate."
+              "explanation": {
+                "en": "'Verify' means to make sure something is true or accurate.",
+                "hi": "'Verify' का मतलब किसी बात की सच्चाई या सटीकता की जाँच करना है।",
+                "ur": "'Verify' کا مطلب کسی بات کی سچائی یا درستگی کی تصدیق کرنا ہے۔",
+                "bn": "'Verify' মানে কোনো তথ্য সত্য বা সঠিক কিনা তা নিশ্চিত করা।"
+              }
             }
           ]
         },
@@ -222,58 +534,170 @@
             {
               "id": "v_a_1",
               "prompt": {
-                "default": "What does 'Resilient' mean?"
+                "en": "What does 'Resilient' mean?",
+                "hi": "'Resilient' शब्द का क्या अर्थ है?",
+                "ur": "'Resilient' لفظ کا کیا مطلب ہے؟",
+                "bn": "'Resilient' শব্দের অর্থ কী?"
               },
-              "options": [
-                "Easily broken",
-                "Able to recover quickly from difficulties",
-                "Always late",
-                "Uncertain"
-              ],
+              "options": {
+                "en": [
+                  "Easily broken",
+                  "Able to recover quickly from difficulties",
+                  "Always late",
+                  "Uncertain"
+                ],
+                "hi": [
+                  "आसानी से टूटने वाला",
+                  "कठिनाइयों से जल्दी उबरने की क्षमता",
+                  "हमेशा देर से आने वाला",
+                  "अनिश्चित"
+                ],
+                "ur": [
+                  "آسانی سے ٹوٹنے والا",
+                  "مشکلات سے جلدی سنبھلنے کی صلاحیت",
+                  "ہمیشہ دیر سے آنے والا",
+                  "غیر یقینی"
+                ],
+                "bn": [
+                  "সহজে ভেঙে যায় এমন",
+                  "কঠিন পরিস্থিতি থেকে দ্রুত ঘুরে দাঁড়ানোর ক্ষমতা",
+                  "সবসময় দেরি করা",
+                  "অনিশ্চিত"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "'Resilient' means able to withstand or recover quickly from tough conditions."
+              "explanation": {
+                "en": "'Resilient' means able to withstand or recover quickly from tough conditions.",
+                "hi": "'Resilient' का अर्थ कठिन हालात का सामना करके जल्दी संभल जाना है।",
+                "ur": "'Resilient' کا مطلب مشکل حالات کا مقابلہ کرکے جلدی سنبھل جانا ہے۔",
+                "bn": "'Resilient' বলতে কঠিন অবস্থা সামলে দ্রুত ঘুরে দাঁড়াতে পারাকে বোঝায়।"
+              }
             },
             {
               "id": "v_a_2",
               "prompt": {
-                "default": "Choose the meaning of 'Pragmatic':"
+                "en": "Choose the meaning of 'Pragmatic':",
+                "hi": "'Pragmatic' शब्द का सही अर्थ चुनें:",
+                "ur": "'Pragmatic' لفظ کا صحیح مطلب چنیں:",
+                "bn": "'Pragmatic' শব্দের সঠিক অর্থ বাছুন:"
               },
-              "options": [
-                "Practical and realistic",
-                "Purely imaginary",
-                "Overly emotional",
-                "Very slow"
-              ],
+              "options": {
+                "en": [
+                  "Practical and realistic",
+                  "Purely imaginary",
+                  "Overly emotional",
+                  "Very slow"
+                ],
+                "hi": [
+                  "व्यावहारिक और यथार्थवादी",
+                  "पूरी तरह काल्पनिक",
+                  "बहुत अधिक भावुक",
+                  "बहुत धीमा"
+                ],
+                "ur": [
+                  "عملی اور حقیقت پسندانہ",
+                  "مکمل طور پر خیالی",
+                  "حد سے زیادہ جذباتی",
+                  "بہت سست"
+                ],
+                "bn": [
+                  "বাস্তবসম্মত ও ব্যবহারিক",
+                  "সম্পূর্ণ কাল্পনিক",
+                  "অতিরিক্ত আবেগপ্রবণ",
+                  "খুব ধীর"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "'Pragmatic' means dealing with things sensibly and realistically."
+              "explanation": {
+                "en": "'Pragmatic' means dealing with things sensibly and realistically.",
+                "hi": "'Pragmatic' का अर्थ समस्याओं को व्यावहारिक और समझदारी से सुलझाना है।",
+                "ur": "'Pragmatic' کا مطلب معاملات کو عملی اور حقیقت پسندانہ انداز میں حل کرنا ہے۔",
+                "bn": "'Pragmatic' মানে বাস্তবসম্মত ও বুদ্ধিমত্তার সাথে কাজ করা।"
+              }
             },
             {
               "id": "v_a_3",
               "prompt": {
-                "default": "What is the meaning of 'Articulate'?"
+                "en": "What is the meaning of 'Articulate'?",
+                "hi": "'Articulate' शब्द का क्या अर्थ है?",
+                "ur": "'Articulate' لفظ کا کیا مطلب ہے؟",
+                "bn": "'Articulate' শব্দের অর্থ কী?"
               },
-              "options": [
-                "Unable to speak",
-                "Able to express ideas clearly",
-                "Confusing",
-                "Secretive"
-              ],
+              "options": {
+                "en": [
+                  "Unable to speak",
+                  "Able to express ideas clearly",
+                  "Confusing",
+                  "Secretive"
+                ],
+                "hi": [
+                  "बोलने में असमर्थ",
+                  "विचारों को स्पष्ट रूप से व्यक्त करने में सक्षम",
+                  "भ्रम पैदा करने वाला",
+                  "गुप्त रखने वाला"
+                ],
+                "ur": [
+                  "بولنے سے قاصر",
+                  "خیالات کو واضح انداز میں بیان کرنے والا",
+                  "الجھن پیدا کرنے والا",
+                  "رازدار"
+                ],
+                "bn": [
+                  "কথা বলতে অক্ষম",
+                  "নিজের ভাবনা স্পষ্টভাবে প্রকাশ করতে সক্ষম",
+                  "বিভ্রান্তিকর",
+                  "গোপনীয়"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "'Articulate' means expressing thoughts clearly and effectively."
+              "explanation": {
+                "en": "'Articulate' means expressing thoughts clearly and effectively.",
+                "hi": "'Articulate' का अर्थ अपनी बात साफ़ और प्रभावी ढंग से कहना है।",
+                "ur": "'Articulate' کا مطلب اپنی بات صاف اور مؤثر انداز میں بیان کرنا ہے۔",
+                "bn": "'Articulate' বলতে পরিষ্কার ও সুন্দরভাবে মতামত প্রকাশ করাকে বোঝায়।"
+              }
             },
             {
               "id": "v_a_4",
               "prompt": {
-                "default": "Which word means 'to lessen the severity of a problem'?"
+                "en": "Which word means 'to lessen the severity of a problem'?",
+                "hi": "'किसी समस्या की गंभीरता को कम करना' किस शब्द का अर्थ है?",
+                "ur": "'کسی مسئلے کی شدت کو کم کرنا' کس لفظ کا مطلب ہے؟",
+                "bn": "'কোনো সমস্যার তীব্রতা কমানো' কোন শব্দের অর্থ?"
               },
-              "options": [
-                "Worsen",
-                "Mitigate",
-                "Ignore",
-                "Multiply"
-              ],
+              "options": {
+                "en": [
+                  "Worsen",
+                  "Mitigate",
+                  "Ignore",
+                  "Multiply"
+                ],
+                "hi": [
+                  "Worsen",
+                  "Mitigate",
+                  "Ignore",
+                  "Multiply"
+                ],
+                "ur": [
+                  "Worsen",
+                  "Mitigate",
+                  "Ignore",
+                  "Multiply"
+                ],
+                "bn": [
+                  "Worsen",
+                  "Mitigate",
+                  "Ignore",
+                  "Multiply"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "'Mitigate' means to make something less severe or painful."
+              "explanation": {
+                "en": "'Mitigate' means to make something less severe or painful.",
+                "hi": "'Mitigate' का अर्थ किसी नुकसान या समस्या को कम करना है।",
+                "ur": "'Mitigate' کا مطلب کسی نقصان یا مسئلے کی شدت کم کرنا ہے۔",
+                "bn": "'Mitigate' শব্দের অর্থ কোনো সমস্যা বা ক্ষতির তীব্রতা কমানো।"
+              }
             }
           ]
         }
@@ -290,58 +714,170 @@
             {
               "id": "t_b_1",
               "prompt": {
-                "default": "Which row of keys is called the 'Home Row' on a QWERTY keyboard?"
+                "en": "Which row of keys is called the 'Home Row' on a QWERTY keyboard?",
+                "hi": "QWERTY कीबोर्ड पर किस पंक्ति (row) को 'Home Row' कहा जाता है?",
+                "ur": "QWERTY کی بورڈ پر کس قطار کو 'Home Row' کہا جاتا ہے؟",
+                "bn": "QWERTY কিবোর্ডে কোন সারিকে 'Home Row' বলা হয়?"
               },
-              "options": [
-                "Q W E R T Y",
-                "A S D F G H J K L",
-                "Z X C V B N M",
-                "1 2 3 4 5 6"
-              ],
+              "options": {
+                "en": [
+                  "Q W E R T Y",
+                  "A S D F G H J K L",
+                  "Z X C V B N M",
+                  "1 2 3 4 5 6"
+                ],
+                "hi": [
+                  "Q W E R T Y",
+                  "A S D F G H J K L",
+                  "Z X C V B N M",
+                  "1 2 3 4 5 6"
+                ],
+                "ur": [
+                  "Q W E R T Y",
+                  "A S D F G H J K L",
+                  "Z X C V B N M",
+                  "1 2 3 4 5 6"
+                ],
+                "bn": [
+                  "Q W E R T Y",
+                  "A S D F G H J K L",
+                  "Z X C V B N M",
+                  "1 2 3 4 5 6"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Your fingers rest on A S D F (left) and J K L ; (right) — the Home Row."
+              "explanation": {
+                "en": "Your fingers rest on A S D F (left) and J K L ; (right) — the Home Row.",
+                "hi": "आपकी उंगलियाँ A S D F (बायाँ) और J K L ; (दायाँ) पर टिकती हैं — यही Home Row है।",
+                "ur": "آپ کی انگلیاں A S D F (بائیں) اور J K L ; (دائیں) پر رہتی ہیں — یہی Home Row ہے۔",
+                "bn": "আপনার আঙুল A S D F (বাম) এবং J K L ; (ডান) কি-তে থাকে — এটিই Home Row।"
+              }
             },
             {
               "id": "t_b_2",
               "prompt": {
-                "default": "Which two keys have small raised bumps to guide your index fingers?"
+                "en": "Which two keys have small raised bumps to guide your index fingers?",
+                "hi": "तर्जनी (index) उंगलियों को सही जगह रखने के लिए किन दो keys पर छोटे उभार होते हैं?",
+                "ur": "شہادت کی انگلیوں کی رہنمائی کے لیے کن دو بٹنوں پر ہلکا سا ابھار ہوتا ہے؟",
+                "bn": "তর্জনী আঙুল সঠিক জায়গায় রাখার জন্য কোন দুটি কি-তে ছোট উঁচু দাগ থাকে?"
               },
-              "options": [
-                "A and L",
-                "F and J",
-                "G and H",
-                "Q and P"
-              ],
+              "options": {
+                "en": [
+                  "A and L",
+                  "F and J",
+                  "G and H",
+                  "Q and P"
+                ],
+                "hi": [
+                  "A और L",
+                  "F और J",
+                  "G और H",
+                  "Q और P"
+                ],
+                "ur": [
+                  "A اور L",
+                  "F اور J",
+                  "G اور H",
+                  "Q اور P"
+                ],
+                "bn": [
+                  "A এবং L",
+                  "F এবং J",
+                  "G এবং H",
+                  "Q এবং P"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "F and J have tactile bumps so you can type without looking at the keyboard."
+              "explanation": {
+                "en": "F and J have tactile bumps so you can type without looking at the keyboard.",
+                "hi": "F और J पर उभार होते हैं ताकि आप कीबोर्ड देखे बिना टाइप कर सकें।",
+                "ur": "F اور J پر ابھار ہوتے ہیں تاکہ آپ کی بورڈ دیکھے بغیر ٹائپ کر سکیں۔",
+                "bn": "F এবং J কি-তে উঁচু দাগ থাকে যাতে কিবোর্ড না দেখেই টাইপ করা যায়।"
+              }
             },
             {
               "id": "t_b_3",
               "prompt": {
-                "default": "Which finger is normally used to press the Spacebar?"
+                "en": "Which finger is normally used to press the Spacebar?",
+                "hi": "Spacebar दबाने के लिए सामान्यतः किस उंगली का उपयोग किया जाता है?",
+                "ur": "Spacebar دبانے کے لیے عام طور پر کون سی انگلی استعمال ہوتی ہے؟",
+                "bn": "Spacebar চাপার জন্য সাধারণত কোন আঙুল ব্যবহার করা হয়?"
               },
-              "options": [
-                "Little finger",
-                "Ring finger",
-                "Thumb",
-                "Index finger"
-              ],
+              "options": {
+                "en": [
+                  "Little finger",
+                  "Ring finger",
+                  "Thumb",
+                  "Index finger"
+                ],
+                "hi": [
+                  "कनिष्ठा (छोटी उंगली)",
+                  "अनामिका (रिंग फिंगर)",
+                  "अंगूठा (Thumb)",
+                  "तर्जनी (Index finger)"
+                ],
+                "ur": [
+                  "چھوٹی انگلی",
+                  "انگوٹھی والی انگلی",
+                  "انگوٹھا (Thumb)",
+                  "شہادت کی انگلی"
+                ],
+                "bn": [
+                  "কনিষ্ঠা আঙুল",
+                  "অনামিকা আঙুল",
+                  "বৃদ্ধাঙ্গুলি (Thumb)",
+                  "তর্জনী আঙুল"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "Thumbs are used to press the Spacebar smoothly."
+              "explanation": {
+                "en": "Thumbs are used to press the Spacebar smoothly.",
+                "hi": "Spacebar को आराम से दबाने के लिए अंगूठे का उपयोग होता है।",
+                "ur": "Spacebar کو آسانی سے دبانے کے لیے انگوٹھا استعمال کیا جاتا ہے۔",
+                "bn": "Spacebar সহজে চাপার জন্য বুড়ো আঙুল (Thumb) ব্যবহার করা হয়।"
+              }
             },
             {
               "id": "t_b_4",
               "prompt": {
-                "default": "What is more important first when learning touch typing?"
+                "en": "What is more important first when learning touch typing?",
+                "hi": "टच टाइपिंग सीखते समय शुरुआत में क्या सबसे ज़्यादा ज़रूरी है?",
+                "ur": "ٹچ ٹائپنگ سیکھتے وقت شروع میں سب سے زیادہ کیا ضروری ہے؟",
+                "bn": "টাচ টাইপিং শেখার শুরুতে কোনটি সবচেয়ে বেশি গুরুত্বপূর্ণ?"
               },
-              "options": [
-                "Accuracy first, then speed",
-                "Speed only",
-                "Looking at every key",
-                "Using only one finger"
-              ],
+              "options": {
+                "en": [
+                  "Accuracy first, then speed",
+                  "Speed only",
+                  "Looking at every key",
+                  "Using only one finger"
+                ],
+                "hi": [
+                  "पहले सटीकता (Accuracy), फिर गति",
+                  "केवल तेज़ गति",
+                  "हर key को देखना",
+                  "केवल एक उंगली का उपयोग"
+                ],
+                "ur": [
+                  "پہلے درستگی (Accuracy)، پھر رفتار",
+                  "صرف تیز رفتار",
+                  "ہر بٹن کو دیکھنا",
+                  "صرف ایک انگلی استعمال کرنا"
+                ],
+                "bn": [
+                  "আগে নির্ভুলতা (Accuracy), তারপর গতি",
+                  "শুধু দ্রুত গতি",
+                  "প্রতিটি কি দেখা",
+                  "শুধু একটি আঙুল ব্যবহার করা"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "Building accuracy first creates clean muscle memory; speed follows naturally."
+              "explanation": {
+                "en": "Building accuracy first creates clean muscle memory; speed follows naturally.",
+                "hi": "पहले सटीकता बनाने से सही अभ्यास होता है; गति अपने आप बढ़ जाती है।",
+                "ur": "پہلے درستگی بنانے سے ہاتھ سیٹ ہو جاتا ہے اور رفتار خود بڑھنے لگتی ہے۔",
+                "bn": "আগে নির্ভুলভাবে টাইপ শিখলে গতি স্বাভাবিকভাবেই বেড়ে যায়।"
+              }
             }
           ]
         },
@@ -352,58 +888,170 @@
             {
               "id": "t_e_1",
               "prompt": {
-                "default": "What does WPM stand for in typing tests?"
+                "en": "What does WPM stand for in typing tests?",
+                "hi": "टाइपिंग टेस्ट में WPM का पूरा नाम क्या है?",
+                "ur": "ٹائپنگ ٹیسٹ میں WPM کا پورا نام کیا ہے؟",
+                "bn": "টাইপিং টেস্টে WPM-এর পূর্ণরূপ কী?"
               },
-              "options": [
-                "Words Per Month",
-                "Words Per Minute",
-                "Writes Per Machine",
-                "Word Page Mode"
-              ],
+              "options": {
+                "en": [
+                  "Words Per Month",
+                  "Words Per Minute",
+                  "Writes Per Machine",
+                  "Word Page Mode"
+                ],
+                "hi": [
+                  "Words Per Month (शब्द प्रति माह)",
+                  "Words Per Minute (शब्द प्रति मिनट)",
+                  "Writes Per Machine",
+                  "Word Page Mode"
+                ],
+                "ur": [
+                  "Words Per Month",
+                  "Words Per Minute (الفاظ فی منٹ)",
+                  "Writes Per Machine",
+                  "Word Page Mode"
+                ],
+                "bn": [
+                  "Words Per Month",
+                  "Words Per Minute (শব্দ প্রতি মিনিট)",
+                  "Writes Per Machine",
+                  "Word Page Mode"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "WPM stands for Words Per Minute."
+              "explanation": {
+                "en": "WPM stands for Words Per Minute.",
+                "hi": "WPM का अर्थ 'Words Per Minute' (प्रति मिनट शब्द) होता है।",
+                "ur": "WPM کا مطلب 'Words Per Minute' یعنی ایک منٹ میں لکھے گئے الفاظ ہیں۔",
+                "bn": "WPM-এর অর্থ হলো 'Words Per Minute' অর্থাৎ প্রতি মিনিটে লেখা শব্দ।"
+              }
             },
             {
               "id": "t_e_2",
               "prompt": {
-                "default": "Which shortcut copies selected text on most computers?"
+                "en": "Which shortcut copies selected text on most computers?",
+                "hi": "अधिकांश कंप्यूटरों में चुने हुए टेक्स्ट को कॉपी करने का शॉर्टकट क्या है?",
+                "ur": "زیادہ تر کمپیوٹرز پر منتخب متن کو کاپی کرنے کا شارٹ کٹ کیا ہے؟",
+                "bn": "বেশিরভাগ কম্পিউটারে নির্বাচিত লেখা কপি করার শর্টকাট কী?"
               },
-              "options": [
-                "Ctrl + V",
-                "Ctrl + X",
-                "Ctrl + C",
-                "Ctrl + Z"
-              ],
+              "options": {
+                "en": [
+                  "Ctrl + V",
+                  "Ctrl + X",
+                  "Ctrl + C",
+                  "Ctrl + Z"
+                ],
+                "hi": [
+                  "Ctrl + V",
+                  "Ctrl + X",
+                  "Ctrl + C",
+                  "Ctrl + Z"
+                ],
+                "ur": [
+                  "Ctrl + V",
+                  "Ctrl + X",
+                  "Ctrl + C",
+                  "Ctrl + Z"
+                ],
+                "bn": [
+                  "Ctrl + V",
+                  "Ctrl + X",
+                  "Ctrl + C",
+                  "Ctrl + Z"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "Ctrl + C copies, Ctrl + V pastes, and Ctrl + Z undoes."
+              "explanation": {
+                "en": "Ctrl + C copies, Ctrl + V pastes, and Ctrl + Z undoes.",
+                "hi": "Ctrl + C से कॉपी, Ctrl + V से पेस्ट और Ctrl + Z से Undo होता है।",
+                "ur": "Ctrl + C سے کاپی، Ctrl + V سے پیسٹ اور Ctrl + Z سے Undo ہوتا ہے۔",
+                "bn": "Ctrl + C দিয়ে কপি, Ctrl + V দিয়ে পেস্ট এবং Ctrl + Z দিয়ে Undo করা হয়।"
+              }
             },
             {
               "id": "t_e_3",
               "prompt": {
-                "default": "Which key removes the character immediately to the left of the cursor?"
+                "en": "Which key removes the character immediately to the left of the cursor?",
+                "hi": "कर्सर के ठीक बाईं ओर का अक्षर हटाने के लिए कौन-सी key उपयोग होती है?",
+                "ur": "کرسر کے بالکل بائیں جانب موجود حرف مٹانے کے لیے کون سا بٹن استعمال ہوتا ہے؟",
+                "bn": "কার্সারের ঠিক বাম দিকের অক্ষর মুছতে কোন কি ব্যবহার করা হয়?"
               },
-              "options": [
-                "Backspace",
-                "Shift",
-                "Tab",
-                "Caps Lock"
-              ],
+              "options": {
+                "en": [
+                  "Backspace",
+                  "Shift",
+                  "Tab",
+                  "Caps Lock"
+                ],
+                "hi": [
+                  "Backspace",
+                  "Shift",
+                  "Tab",
+                  "Caps Lock"
+                ],
+                "ur": [
+                  "Backspace",
+                  "Shift",
+                  "Tab",
+                  "Caps Lock"
+                ],
+                "bn": [
+                  "Backspace",
+                  "Shift",
+                  "Tab",
+                  "Caps Lock"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "Backspace deletes the character to the left of the cursor."
+              "explanation": {
+                "en": "Backspace deletes the character to the left of the cursor.",
+                "hi": "Backspace कर्सर के बाईं ओर के अक्षर को मिटाता है।",
+                "ur": "Backspace کرسر کے بائیں طرف کا حرف مٹاتا ہے۔",
+                "bn": "Backspace কার্সারের বাম দিকের অক্ষর মুছে দেয়।"
+              }
             },
             {
               "id": "t_e_4",
               "prompt": {
-                "default": "Holding Shift while pressing a letter key produces:"
+                "en": "Holding Shift while pressing a letter key produces:",
+                "hi": "Shift दबाकर किसी अक्षर (letter) की key दबाने से क्या होता है?",
+                "ur": "Shift دبا کر کسی حرف کا بٹن دبانے سے کیا بنتا ہے؟",
+                "bn": "Shift চেপে ধরে কোনো অক্ষরের কি চাপলে কী হয়?"
               },
-              "options": [
-                "A number",
-                "A capital letter",
-                "A space",
-                "A new line"
-              ],
+              "options": {
+                "en": [
+                  "A number",
+                  "A capital letter",
+                  "A space",
+                  "A new line"
+                ],
+                "hi": [
+                  "एक संख्या (Number)",
+                  "बड़ा अक्षर (Capital letter)",
+                  "एक स्पेस",
+                  "नई लाइन"
+                ],
+                "ur": [
+                  "ایک عدد (Number)",
+                  "بڑا حرف (Capital letter)",
+                  "ایک اسپیس",
+                  "نئی سطر"
+                ],
+                "bn": [
+                  "একটি সংখ্যা",
+                  "বড় হাতের অক্ষর (Capital letter)",
+                  "একটি স্পেস",
+                  "নতুন লাইন"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Shift temporarily capitalizes letters or types top symbols."
+              "explanation": {
+                "en": "Shift temporarily capitalizes letters or types top symbols.",
+                "hi": "Shift दबाने से अक्षर कैपिटल (बड़े) में या ऊपर वाले चिह्न टाइप होते हैं।",
+                "ur": "Shift دبانے سے حرف بڑا (Capital) یا اوپر کی علامت ٹائپ ہوتی ہے۔",
+                "bn": "Shift চেপে ধরলে বড় হাতের অক্ষর বা উপরের চিহ্ন টাইপ হয়।"
+              }
             }
           ]
         },
@@ -414,58 +1062,170 @@
             {
               "id": "t_i_1",
               "prompt": {
-                "default": "What is considered a solid office-ready typing speed?"
+                "en": "What is considered a solid office-ready typing speed?",
+                "hi": "ऑफिस के काम के लिए एक अच्छी टाइपिंग स्पीड कितनी मानी जाती है?",
+                "ur": "دفتری کام کے لیے ایک اچھی ٹائپنگ اسپیڈ کتنی مانی جاتی ہے؟",
+                "bn": "অফিসের কাজের জন্য ভালো টাইপিং স্পিড কত ধরা হয়?"
               },
-              "options": [
-                "10 WPM",
-                "40–50 WPM with 95%+ accuracy",
-                "5 WPM",
-                "15 WPM with 50% accuracy"
-              ],
+              "options": {
+                "en": [
+                  "10 WPM",
+                  "40–50 WPM with 95%+ accuracy",
+                  "5 WPM",
+                  "15 WPM with 50% accuracy"
+                ],
+                "hi": [
+                  "10 WPM",
+                  "95%+ सटीकता के साथ 40–50 WPM",
+                  "5 WPM",
+                  "50% सटीकता के साथ 15 WPM"
+                ],
+                "ur": [
+                  "10 WPM",
+                  "95%+ درستگی کے ساتھ 40–50 WPM",
+                  "5 WPM",
+                  "50% درستگی کے ساتھ 15 WPM"
+                ],
+                "bn": [
+                  "10 WPM",
+                  "৯৫%+ নির্ভুলতাসহ ৪০–৫০ WPM",
+                  "5 WPM",
+                  "৫০% নির্ভুলতাসহ ১৫ WPM"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "40–50 WPM with high accuracy is ideal for most office and data-entry roles."
+              "explanation": {
+                "en": "40–50 WPM with high accuracy is ideal for most office and data-entry roles.",
+                "hi": "ज़्यादातर ऑफिस और डेटा-एंट्री नौकरियों के लिए 95%+ सटीकता के साथ 40–50 WPM बेहतरीन है।",
+                "ur": "زیادہ تر دفتری اور ڈیٹا انٹری کاموں کے لیے 95%+ درستگی کے ساتھ 40–50 WPM بہترین ہے۔",
+                "bn": "বেশিরভাগ অফিস ও ডেটা এন্ট্রি কাজের জন্য ৯৫%+ নির্ভুলতাসহ ৪০–৫০ WPM আদর্শ।"
+              }
             },
             {
               "id": "t_i_2",
               "prompt": {
-                "default": "Which shortcut selects all text in a document?"
+                "en": "Which shortcut selects all text in a document?",
+                "hi": "डॉक्यूमेंट के पूरे टेक्स्ट को एक साथ चुनने (Select All) का शॉर्टकट क्या है?",
+                "ur": "ڈاکومنٹ کے تمام متن کو ایک ساتھ منتخب (Select All) کرنے کا شارٹ کٹ کیا ہے؟",
+                "bn": "ডকুমেন্টের সমস্ত লেখা একসাথে সিলেক্ট করার শর্টকাট কী?"
               },
-              "options": [
-                "Ctrl + S",
-                "Ctrl + A",
-                "Ctrl + P",
-                "Ctrl + F"
-              ],
+              "options": {
+                "en": [
+                  "Ctrl + S",
+                  "Ctrl + A",
+                  "Ctrl + P",
+                  "Ctrl + F"
+                ],
+                "hi": [
+                  "Ctrl + S",
+                  "Ctrl + A",
+                  "Ctrl + P",
+                  "Ctrl + F"
+                ],
+                "ur": [
+                  "Ctrl + S",
+                  "Ctrl + A",
+                  "Ctrl + P",
+                  "Ctrl + F"
+                ],
+                "bn": [
+                  "Ctrl + S",
+                  "Ctrl + A",
+                  "Ctrl + P",
+                  "Ctrl + F"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Ctrl + A selects all content."
+              "explanation": {
+                "en": "Ctrl + A selects all content.",
+                "hi": "Ctrl + A पूरे कंटेंट को सेलेक्ट करता है।",
+                "ur": "Ctrl + A پورا مواد منتخب کر لیتا ہے۔",
+                "bn": "Ctrl + A দিয়ে পুরো ডকুমেন্টের লেখা সিলেক্ট করা হয়।"
+              }
             },
             {
               "id": "t_i_3",
               "prompt": {
-                "default": "Why should you keep your wrists slightly raised instead of pressed hard on the desk?"
+                "en": "Why should you keep your wrists slightly raised instead of pressed hard on the desk?",
+                "hi": "टाइप करते समय कलाइयों को मेज़ पर दबाने की बजाय हल्का ऊपर क्यों रखना चाहिए?",
+                "ur": "ٹائپنگ کے دوران کلائیوں کو میز پر دبانے کے بجائے ہلکا اوپر کیوں رکھنا چاہیے؟",
+                "bn": "টাইপ করার সময় কবজি টেবিলে চেপে না রেখে সামান্য উঁচু রাখা উচিত কেন?"
               },
-              "options": [
-                "To reduce strain and type faster",
-                "To make noise",
-                "To slow down",
-                "No reason"
-              ],
+              "options": {
+                "en": [
+                  "To reduce strain and type faster",
+                  "To make noise",
+                  "To slow down",
+                  "No reason"
+                ],
+                "hi": [
+                  "तनाव कम करने और तेज़ टाइप करने के लिए",
+                  "शोर करने के लिए",
+                  "धीमा होने के लिए",
+                  "कोई कारण नहीं"
+                ],
+                "ur": [
+                  "تھکن کم کرنے اور تیز ٹائپ کرنے کے لیے",
+                  "شور کرنے کے لیے",
+                  "سست ہونے کے لیے",
+                  "کوئی وجہ نہیں"
+                ],
+                "bn": [
+                  "চাপ কমাতে এবং দ্রুত টাইপ করতে",
+                  "শব্দ করার জন্য",
+                  "ধীরে টাইপ করতে",
+                  "কোনো কারণ নেই"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "Good posture prevents wrist fatigue during long typing sessions."
+              "explanation": {
+                "en": "Good posture prevents wrist fatigue during long typing sessions.",
+                "hi": "सही मुद्रा (posture) लंबे समय तक टाइप करने में कलाई की थकान से बचाती है।",
+                "ur": "درست انداز سے لمبے عرصے تک ٹائپ کرنے میں کلائی کی تھکن نہیں ہوتی۔",
+                "bn": "সঠিক ভঙ্গি দীর্ঘক্ষণ টাইপ করার সময় কবজির ক্লান্তি কমায়।"
+              }
             },
             {
               "id": "t_i_4",
               "prompt": {
-                "default": "Which shortcut undoes your last typing action?"
+                "en": "Which shortcut undoes your last typing action?",
+                "hi": "अपनी पिछली टाइपिंग क्रिया को वापस (Undo) करने का शॉर्टकट क्या है?",
+                "ur": "اپنے پچھلے ٹائپنگ عمل کو واپس (Undo) کرنے کا شارٹ کٹ کیا ہے؟",
+                "bn": "শেষ টাইপিং কাজটি বাতিল (Undo) করার শর্টকাট কী?"
               },
-              "options": [
-                "Ctrl + Z",
-                "Ctrl + B",
-                "Ctrl + U",
-                "Ctrl + L"
-              ],
+              "options": {
+                "en": [
+                  "Ctrl + Z",
+                  "Ctrl + B",
+                  "Ctrl + U",
+                  "Ctrl + L"
+                ],
+                "hi": [
+                  "Ctrl + Z",
+                  "Ctrl + B",
+                  "Ctrl + U",
+                  "Ctrl + L"
+                ],
+                "ur": [
+                  "Ctrl + Z",
+                  "Ctrl + B",
+                  "Ctrl + U",
+                  "Ctrl + L"
+                ],
+                "bn": [
+                  "Ctrl + Z",
+                  "Ctrl + B",
+                  "Ctrl + U",
+                  "Ctrl + L"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "Ctrl + Z undoes the most recent action."
+              "explanation": {
+                "en": "Ctrl + Z undoes the most recent action.",
+                "hi": "Ctrl + Z सबसे हाल की क्रिया को Undo कर देता है।",
+                "ur": "Ctrl + Z آخری عمل کو فوراً Undo کر دیتا ہے۔",
+                "bn": "Ctrl + Z সর্বশেষ কাজটি Undo করে।"
+              }
             }
           ]
         },
@@ -476,58 +1236,170 @@
             {
               "id": "t_a_1",
               "prompt": {
-                "default": "How is a standard 'word' counted in WPM calculations?"
+                "en": "How is a standard 'word' counted in WPM calculations?",
+                "hi": "WPM की गणना में एक मानक 'शब्द' (word) कैसे गिना जाता है?",
+                "ur": "WPM کے حساب میں ایک معیاری 'لفظ' (word) کیسے گنا جاتا ہے؟",
+                "bn": "WPM হিসাব করার সময় একটি আদর্শ 'শব্দ' কীভাবে গণনা করা হয়?"
               },
-              "options": [
-                "Every 5 characters including spaces",
-                "Only long words",
-                "Every 10 characters",
-                "Every sentence"
-              ],
+              "options": {
+                "en": [
+                  "Every 5 characters including spaces",
+                  "Only long words",
+                  "Every 10 characters",
+                  "Every sentence"
+                ],
+                "hi": [
+                  "स्पेस सहित हर 5 अक्षर",
+                  "केवल लंबे शब्द",
+                  "हर 10 अक्षर",
+                  "हर वाक्य"
+                ],
+                "ur": [
+                  "اسپیس سمیت ہر 5 حروف",
+                  "صرف لمبے الفاظ",
+                  "ہر 10 حروف",
+                  "ہر جملہ"
+                ],
+                "bn": [
+                  "স্পেসসহ প্রতি ৫টি অক্ষর",
+                  "শুধু লম্বা শব্দ",
+                  "প্রতি ১০টি অক্ষর",
+                  "প্রতিটি বাক্য"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "Standard WPM counts 1 word as 5 keystrokes (including spaces)."
+              "explanation": {
+                "en": "Standard WPM counts 1 word as 5 keystrokes (including spaces).",
+                "hi": "मानक WPM में स्पेस सहित 5 कीस्ट्रोक्स को 1 शब्द माना जाता है।",
+                "ur": "معیاری WPM میں اسپیس سمیت 5 کی اسٹروکس کو 1 لفظ گنا جاتا ہے۔",
+                "bn": "আদর্শ WPM-এ স্পেসসহ ৫টি অক্ষরকে ১টি শব্দ ধরা হয়।"
+              }
             },
             {
               "id": "t_a_2",
               "prompt": {
-                "default": "What is the best way to break a speed plateau above 60 WPM?"
+                "en": "What is the best way to break a speed plateau above 60 WPM?",
+                "hi": "60 WPM से ऊपर स्पीड बढ़ाने का सबसे अच्छा तरीका क्या है?",
+                "ur": "60 WPM سے اوپر رفتار بڑھانے کا بہترین طریقہ کیا ہے؟",
+                "bn": "৬০ WPM-এর ওপরে গতি বাড়ানোর সেরা উপায় কী?"
               },
-              "options": [
-                "Look at the keyboard",
-                "Practice common word patterns and maintain rhythm",
-                "Press keys harder",
-                "Skip punctuation"
-              ],
+              "options": {
+                "en": [
+                  "Look at the keyboard",
+                  "Practice common word patterns and maintain rhythm",
+                  "Press keys harder",
+                  "Skip punctuation"
+                ],
+                "hi": [
+                  "कीबोर्ड देखकर टाइप करना",
+                  "आम शब्द पैटर्न का अभ्यास और लय बनाए रखना",
+                  "keys को ज़ोर से दबाना",
+                  "विराम चिह्न छोड़ देना"
+                ],
+                "ur": [
+                  "کی بورڈ دیکھ کر ٹائپ کرنا",
+                  "عام الفاظ کے پیٹرن کی مشق اور روانی رکھنا",
+                  "بٹن زور سے دبانا",
+                  "رموز اوقاف چھوڑ دینا"
+                ],
+                "bn": [
+                  "কিবোর্ডের দিকে তাকানো",
+                  "সাধারণ শব্দের প্যাটার্ন অনুশীলন ও ছন্দ বজায় রাখা",
+                  "জোরে কি চাপা",
+                  "বিরামচিহ্ন বাদ দেওয়া"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Steady rhythm and practicing common letter combinations boosts speed smoothly."
+              "explanation": {
+                "en": "Steady rhythm and practicing common letter combinations boosts speed smoothly.",
+                "hi": "एक जैसी लय और आम अक्षरों के मेल का अभ्यास स्पीड को आसानी से बढ़ाता है।",
+                "ur": "مسلسل روانی اور عام حروف کے جوڑ کی مشق سے رفتار تیزی سے بڑھتی ہے۔",
+                "bn": "সমান ছন্দ ও সাধারণ শব্দের অনুশীলন গতি স্বাভাবিকভাবে বাড়ায়।"
+              }
             },
             {
               "id": "t_a_3",
               "prompt": {
-                "default": "Which shortcut deletes an entire word to the left of the cursor on Windows/Linux?"
+                "en": "Which shortcut deletes an entire word to the left of the cursor on Windows/Linux?",
+                "hi": "Windows/Linux में कर्सर के बाईं ओर का पूरा शब्द एक साथ मिटाने का शॉर्टकट क्या है?",
+                "ur": "Windows/Linux میں کرسر کے بائیں طرف کا پورا لفظ ایک ساتھ مٹانے کا شارٹ کٹ کیا ہے؟",
+                "bn": "Windows/Linux-এ কার্সারের বাম দিকের পুরো শব্দ একসাথে মোছার শর্টকাট কী?"
               },
-              "options": [
-                "Ctrl + Backspace",
-                "Alt + Space",
-                "Shift + Enter",
-                "Tab + Delete"
-              ],
+              "options": {
+                "en": [
+                  "Ctrl + Backspace",
+                  "Alt + Space",
+                  "Shift + Enter",
+                  "Tab + Delete"
+                ],
+                "hi": [
+                  "Ctrl + Backspace",
+                  "Alt + Space",
+                  "Shift + Enter",
+                  "Tab + Delete"
+                ],
+                "ur": [
+                  "Ctrl + Backspace",
+                  "Alt + Space",
+                  "Shift + Enter",
+                  "Tab + Delete"
+                ],
+                "bn": [
+                  "Ctrl + Backspace",
+                  "Alt + Space",
+                  "Shift + Enter",
+                  "Tab + Delete"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "Ctrl + Backspace quickly removes the previous word."
+              "explanation": {
+                "en": "Ctrl + Backspace quickly removes the previous word.",
+                "hi": "Ctrl + Backspace तुरंत पिछला पूरा शब्द हटा देता है।",
+                "ur": "Ctrl + Backspace فوراً پچھلا پورا لفظ مٹا دیتا ہے۔",
+                "bn": "Ctrl + Backspace দ্রুত আগের পুরো শব্দটি মুছে দেয়।"
+              }
             },
             {
               "id": "t_a_4",
               "prompt": {
-                "default": "Net WPM differs from Gross WPM because Net WPM:"
+                "en": "Net WPM differs from Gross WPM because Net WPM:",
+                "hi": "Net WPM, Gross WPM से अलग क्यों होता है?",
+                "ur": "Net WPM، Gross WPM سے کیسے مختلف ہوتا ہے؟",
+                "bn": "Net WPM কীভাবে Gross WPM থেকে আলাদা?"
               },
-              "options": [
-                "Subtracts uncorrected errors",
-                "Ignores time",
-                "Counts only capital letters",
-                "Adds bonus points"
-              ],
+              "options": {
+                "en": [
+                  "Subtracts uncorrected errors",
+                  "Ignores time",
+                  "Counts only capital letters",
+                  "Adds bonus points"
+                ],
+                "hi": [
+                  "बिना सुधारी गई गलतियों को घटाता है",
+                  "समय को अनदेखा करता है",
+                  "केवल बड़े अक्षर गिनता है",
+                  "बोनस अंक जोड़ता है"
+                ],
+                "ur": [
+                  "نہ سدھاری گئی غلطیوں کو منفی کرتا ہے",
+                  "وقت کو نظر انداز کرتا ہے",
+                  "صرف بڑے حروف گنتا ہے",
+                  "بونس پوائنٹس جوڑتا ہے"
+                ],
+                "bn": [
+                  "সংশোধন না করা ভুলগুলো বাদ দেয়",
+                  "সময় হিসাব করে না",
+                  "শুধু বড় হাতের অক্ষর গোনে",
+                  "বোনাস পয়েন্ট যোগ করে"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "Net WPM accounts for mistakes, rewarding accurate typing."
+              "explanation": {
+                "en": "Net WPM accounts for mistakes, rewarding accurate typing.",
+                "hi": "Net WPM गलतियों को घटाता है, जिससे सटीक टाइपिंग का सही मूल्यांकन होता है।",
+                "ur": "Net WPM غلطیوں کو منفی کرتا ہے، جس سے درست ٹائپنگ کی اصل رفتار پتہ چلتی ہے۔",
+                "bn": "Net WPM ভুলগুলো বাদ দিয়ে নির্ভুল টাইপিংয়ের প্রকৃত গতি দেখায়।"
+              }
             }
           ]
         }
@@ -544,58 +1416,170 @@
             {
               "id": "q_b_1",
               "prompt": {
-                "default": "How many minutes are there in 2 hours?"
+                "en": "How many minutes are there in 2 hours?",
+                "hi": "2 घंटे में कितने मिनट होते हैं?",
+                "ur": "2 گھنٹے میں کتنے منٹ ہوتے ہیں؟",
+                "bn": "২ ঘণ্টায় কত মিনিট হয়?"
               },
-              "options": [
-                "60",
-                "90",
-                "120",
-                "150"
-              ],
+              "options": {
+                "en": [
+                  "60",
+                  "90",
+                  "120",
+                  "150"
+                ],
+                "hi": [
+                  "60",
+                  "90",
+                  "120",
+                  "150"
+                ],
+                "ur": [
+                  "60",
+                  "90",
+                  "120",
+                  "150"
+                ],
+                "bn": [
+                  "৬০",
+                  "৯০",
+                  "১২০",
+                  "১৫০"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "1 hour = 60 minutes, so 2 hours = 120 minutes."
+              "explanation": {
+                "en": "1 hour = 60 minutes, so 2 hours = 120 minutes.",
+                "hi": "1 घंटा = 60 मिनट, इसलिए 2 घंटे = 120 मिनट।",
+                "ur": "1 گھنٹہ = 60 منٹ، اس لیے 2 گھنٹے = 120 منٹ۔",
+                "bn": "১ ঘণ্টা = ৬০ মিনিট, তাই ২ ঘণ্টা = ১২০ মিনিট।"
+              }
             },
             {
               "id": "q_b_2",
               "prompt": {
-                "default": "Which planet is known as the Red Planet?"
+                "en": "Which planet is known as the Red Planet?",
+                "hi": "किस ग्रह को 'लाल ग्रह' (Red Planet) कहा जाता है?",
+                "ur": "کس سیارے کو 'سرخ سیارہ' (Red Planet) کہا جاتا ہے؟",
+                "bn": "কোন গ্রহকে 'লাল গ্রহ' (Red Planet) বলা হয়?"
               },
-              "options": [
-                "Venus",
-                "Mars",
-                "Jupiter",
-                "Saturn"
-              ],
+              "options": {
+                "en": [
+                  "Venus",
+                  "Mars",
+                  "Jupiter",
+                  "Saturn"
+                ],
+                "hi": [
+                  "शुक्र (Venus)",
+                  "मंगल (Mars)",
+                  "बृहस्पति (Jupiter)",
+                  "शनि (Saturn)"
+                ],
+                "ur": [
+                  "زہرہ (Venus)",
+                  "مریخ (Mars)",
+                  "مشتری (Jupiter)",
+                  "زحل (Saturn)"
+                ],
+                "bn": [
+                  "শুক্র (Venus)",
+                  "মঙ্গল (Mars)",
+                  "বৃহস্পতি (Jupiter)",
+                  "শনি (Saturn)"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Mars appears reddish due to iron oxide on its surface."
+              "explanation": {
+                "en": "Mars appears reddish due to iron oxide on its surface.",
+                "hi": "मंगल ग्रह की सतह पर आयरन ऑक्साइड के कारण यह लाल दिखाई देता है।",
+                "ur": "مریخ کی سطح پر آئرن آکسائیڈ کی وجہ سے یہ سرخ دکھائی دیتا ہے۔",
+                "bn": "মঙ্গল গ্রহের পৃষ্ঠে আয়রন অক্সাইড থাকায় এটি লাল দেখায়।"
+              }
             },
             {
               "id": "q_b_3",
               "prompt": {
-                "default": "What is 15% of 200?"
+                "en": "What is 15% of 200?",
+                "hi": "200 का 15% कितना होता है?",
+                "ur": "200 کا 15% کتنا ہوتا ہے؟",
+                "bn": "২০০-এর ১৫% কত?"
               },
-              "options": [
-                "20",
-                "25",
-                "30",
-                "35"
-              ],
+              "options": {
+                "en": [
+                  "20",
+                  "25",
+                  "30",
+                  "35"
+                ],
+                "hi": [
+                  "20",
+                  "25",
+                  "30",
+                  "35"
+                ],
+                "ur": [
+                  "20",
+                  "25",
+                  "30",
+                  "35"
+                ],
+                "bn": [
+                  "২০",
+                  "২৫",
+                  "৩০",
+                  "৩৫"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "15% of 100 is 15, so 15% of 200 is 30."
+              "explanation": {
+                "en": "15% of 100 is 15, so 15% of 200 is 30.",
+                "hi": "100 का 15% होता है 15, इसलिए 200 का 15% होगा 30।",
+                "ur": "100 کا 15% برابر 15 ہے، اس لیے 200 کا 15% برابر 30 ہوگا۔",
+                "bn": "১০০-এর ১৫% হলো ১৫, তাই ২০০-এর ১৫% হলো ৩০।"
+              }
             },
             {
               "id": "q_b_4",
               "prompt": {
-                "default": "Which gas do plants mainly absorb from the air for photosynthesis?"
+                "en": "Which gas do plants mainly absorb from the air for photosynthesis?",
+                "hi": "पौधे प्रकाश-संश्लेषण (photosynthesis) के लिए हवा से मुख्य रूप से कौन-सी गैस लेते हैं?",
+                "ur": "پودے ضیائی تالیف (photosynthesis) کے لیے ہوا سے بنیادی طور پر کون سی گیس جذب کرتے ہیں؟",
+                "bn": "উদ্ভিদ সালোকসংশ্লেষের জন্য বাতাস থেকে প্রধানত কোন গ্যাস শোষণ করে?"
               },
-              "options": [
-                "Oxygen",
-                "Carbon dioxide",
-                "Nitrogen",
-                "Helium"
-              ],
+              "options": {
+                "en": [
+                  "Oxygen",
+                  "Carbon dioxide",
+                  "Nitrogen",
+                  "Helium"
+                ],
+                "hi": [
+                  "ऑक्सीजन",
+                  "कार्बन डाइऑक्साइड",
+                  "नाइट्रोजन",
+                  "हीलियम"
+                ],
+                "ur": [
+                  "آکسیجن",
+                  "کاربن ڈائی آکسائیڈ",
+                  "نائٹروجن",
+                  "ہیلیم"
+                ],
+                "bn": [
+                  "অক্সিজেন",
+                  "কার্বন ডাই অক্সাইড",
+                  "নাইট্রোজেন",
+                  "হিলিয়াম"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Plants absorb carbon dioxide and release oxygen."
+              "explanation": {
+                "en": "Plants absorb carbon dioxide and release oxygen.",
+                "hi": "पौधे कार्बन डाइऑक्साइड ग्रहण करते हैं और ऑक्सीजन छोड़ते हैं।",
+                "ur": "پودے کاربن ڈائی آکسائیڈ جذب کرتے ہیں اور آکسیجن خارج کرتے ہیں۔",
+                "bn": "উদ্ভিদ কার্বন ডাই অক্সাইড শোষণ করে এবং অক্সিজেন ত্যাগ করে।"
+              }
             }
           ]
         },
@@ -606,58 +1590,170 @@
             {
               "id": "q_e_1",
               "prompt": {
-                "default": "If a train travels at 60 km/h, how far does it go in 3 hours?"
+                "en": "If a train travels at 60 km/h, how far does it go in 3 hours?",
+                "hi": "यदि एक ट्रेन 60 किमी/घंटा की गति से चलती है, तो 3 घंटे में कितनी दूरी तय करेगी?",
+                "ur": "اگر ایک ٹرین 60 کلومیٹر فی گھنٹہ کی رفتار سے چلے تو 3 گھنٹے میں کتنا فاصلہ طے کرے گی؟",
+                "bn": "একটি ট্রেন ঘণ্টায় ৬০ কিমি বেগে চললে ৩ ঘণ্টায় কত দূরত্ব যাবে?"
               },
-              "options": [
-                "120 km",
-                "150 km",
-                "180 km",
-                "200 km"
-              ],
+              "options": {
+                "en": [
+                  "120 km",
+                  "150 km",
+                  "180 km",
+                  "200 km"
+                ],
+                "hi": [
+                  "120 किमी",
+                  "150 किमी",
+                  "180 किमी",
+                  "200 किमी"
+                ],
+                "ur": [
+                  "120 کلومیٹر",
+                  "150 کلومیٹر",
+                  "180 کلومیٹر",
+                  "200 کلومیٹر"
+                ],
+                "bn": [
+                  "১২০ কিমি",
+                  "১৫০ কিমি",
+                  "১৮০ কিমি",
+                  "২০০ কিমি"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "Distance = Speed × Time = 60 × 3 = 180 km."
+              "explanation": {
+                "en": "Distance = Speed × Time = 60 × 3 = 180 km.",
+                "hi": "दूरी = गति × समय = 60 × 3 = 180 किमी।",
+                "ur": "فاصلہ = رفتار × وقت = 60 × 3 = 180 کلومیٹر۔",
+                "bn": "দূরত্ব = গতি × সময় = ৬০ × ৩ = ১৮০ কিমি।"
+              }
             },
             {
               "id": "q_e_2",
               "prompt": {
-                "default": "Which organ pumps blood throughout the human body?"
+                "en": "Which organ pumps blood throughout the human body?",
+                "hi": "मानव शरीर में कौन-सा अंग पूरे शरीर में रक्त (खून) पंप करता है?",
+                "ur": "انسانی جسم میں کون سا عضو پورے جسم میں خون پمپ کرتا ہے؟",
+                "bn": "মানবদেহের কোন অঙ্গ সারা শরীরে রক্ত পাম্প করে?"
               },
-              "options": [
-                "Lungs",
-                "Heart",
-                "Liver",
-                "Kidney"
-              ],
+              "options": {
+                "en": [
+                  "Lungs",
+                  "Heart",
+                  "Liver",
+                  "Kidney"
+                ],
+                "hi": [
+                  "फेफड़े",
+                  "हृदय (दिल)",
+                  "यकृत (लिवर)",
+                  "गुर्दा (किडनी)"
+                ],
+                "ur": [
+                  "پھیپھڑے",
+                  "دل (Heart)",
+                  "جگر (Liver)",
+                  "گردہ (Kidney)"
+                ],
+                "bn": [
+                  "ফুসফুস",
+                  "হৃৎপিণ্ড (Heart)",
+                  "যকৃৎ (Liver)",
+                  "বৃক্ক (Kidney)"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "The heart circulates blood through the body."
+              "explanation": {
+                "en": "The heart circulates blood through the body.",
+                "hi": "हृदय (दिल) पूरे शरीर में रक्त का संचार करता है।",
+                "ur": "دل پورے جسم میں خون کی گردش کو برقرار رکھتا ہے۔",
+                "bn": "হৃৎপিণ্ড সারা শরীরে রক্ত সঞ্চালন করে।"
+              }
             },
             {
               "id": "q_e_3",
               "prompt": {
-                "default": "What is the next number in the pattern: 2, 4, 8, 16, ...?"
+                "en": "What is the next number in the pattern: 2, 4, 8, 16, ...?",
+                "hi": "इस क्रम में अगली संख्या क्या होगी: 2, 4, 8, 16, ...?",
+                "ur": "اس ترتیب میں اگلا عدد کیا ہوگا: 2, 4, 8, 16, ...؟",
+                "bn": "এই ধারার পরবর্তী সংখ্যাটি কী: ২, ৪, ৮, ১৬, ...?"
               },
-              "options": [
-                "20",
-                "24",
-                "32",
-                "36"
-              ],
+              "options": {
+                "en": [
+                  "20",
+                  "24",
+                  "32",
+                  "36"
+                ],
+                "hi": [
+                  "20",
+                  "24",
+                  "32",
+                  "36"
+                ],
+                "ur": [
+                  "20",
+                  "24",
+                  "32",
+                  "36"
+                ],
+                "bn": [
+                  "২০",
+                  "২৪",
+                  "৩২",
+                  "৩৬"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "Each number doubles: 16 × 2 = 32."
+              "explanation": {
+                "en": "Each number doubles: 16 × 2 = 32.",
+                "hi": "हर संख्या दोगुनी हो रही है: 16 × 2 = 32।",
+                "ur": "ہر عدد دگنا ہو رہا ہے: 16 × 2 = 32۔",
+                "bn": "প্রতিটি সংখ্যা দ্বিগুণ হচ্ছে: ১৬ × ২ = ৩২।"
+              }
             },
             {
               "id": "q_e_4",
               "prompt": {
-                "default": "How many days are there in a leap year?"
+                "en": "How many days are there in a leap year?",
+                "hi": "एक लीप वर्ष (Leap Year) में कितने दिन होते हैं?",
+                "ur": "ایک لیپ سال (Leap Year) میں کتنے دن ہوتے ہیں؟",
+                "bn": "একটি অধিবর্ষে (Leap Year) কত দিন থাকে?"
               },
-              "options": [
-                "364",
-                "365",
-                "366",
-                "367"
-              ],
+              "options": {
+                "en": [
+                  "364",
+                  "365",
+                  "366",
+                  "367"
+                ],
+                "hi": [
+                  "364",
+                  "365",
+                  "366",
+                  "367"
+                ],
+                "ur": [
+                  "364",
+                  "365",
+                  "366",
+                  "367"
+                ],
+                "bn": [
+                  "৩৬৪",
+                  "৩৬৫",
+                  "৩৬৬",
+                  "৩৬৭"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "A leap year has 366 days (February has 29 days)."
+              "explanation": {
+                "en": "A leap year has 366 days (February has 29 days).",
+                "hi": "लीप वर्ष में 366 दिन होते हैं (फ़रवरी 29 दिनों की होती है)।",
+                "ur": "لیپ سال میں 366 دن ہوتے ہیں (فروری 29 دنوں کا ہوتا ہے)۔",
+                "bn": "অধিবর্ষে ৩৬৬ দিন থাকে (ফেব্রুয়ারি ২৯ দিনের হয়)।"
+              }
             }
           ]
         },
@@ -668,58 +1764,170 @@
             {
               "id": "q_i_1",
               "prompt": {
-                "default": "What is the square root of 144?"
+                "en": "What is the square root of 144?",
+                "hi": "144 का वर्गमूल (Square root) क्या है?",
+                "ur": "144 کا جذر (Square root) کیا ہے؟",
+                "bn": "১৪৪-এর বর্গমূল (Square root) কত?"
               },
-              "options": [
-                "11",
-                "12",
-                "13",
-                "14"
-              ],
+              "options": {
+                "en": [
+                  "11",
+                  "12",
+                  "13",
+                  "14"
+                ],
+                "hi": [
+                  "11",
+                  "12",
+                  "13",
+                  "14"
+                ],
+                "ur": [
+                  "11",
+                  "12",
+                  "13",
+                  "14"
+                ],
+                "bn": [
+                  "১১",
+                  "১২",
+                  "১৩",
+                  "১৪"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "12 × 12 = 144."
+              "explanation": {
+                "en": "12 × 12 = 144.",
+                "hi": "12 × 12 = 144 होता है।",
+                "ur": "12 × 12 = 144 ہوتا ہے۔",
+                "bn": "১২ × ১২ = ১৪৪।"
+              }
             },
             {
               "id": "q_i_2",
               "prompt": {
-                "default": "Which vitamin is mainly produced when skin is exposed to sunlight?"
+                "en": "Which vitamin is mainly produced when skin is exposed to sunlight?",
+                "hi": "धूप में रहने पर त्वचा में मुख्य रूप से कौन-सा विटामिन बनता है?",
+                "ur": "دھوپ لگنے پر جلد میں بنیادی طور پر کون سا وٹامن بنتا ہے؟",
+                "bn": "রোদে থাকলে ত্বকে প্রধানত কোন ভিটামিন তৈরি হয়?"
               },
-              "options": [
-                "Vitamin A",
-                "Vitamin C",
-                "Vitamin D",
-                "Vitamin K"
-              ],
+              "options": {
+                "en": [
+                  "Vitamin A",
+                  "Vitamin C",
+                  "Vitamin D",
+                  "Vitamin K"
+                ],
+                "hi": [
+                  "विटामिन A",
+                  "विटामिन C",
+                  "विटामिन D",
+                  "विटामिन K"
+                ],
+                "ur": [
+                  "وٹامن A",
+                  "وٹامن C",
+                  "وٹامن D",
+                  "وٹامن K"
+                ],
+                "bn": [
+                  "ভিটামিন A",
+                  "ভিটামিন C",
+                  "ভিটামিন D",
+                  "ভিটামিন K"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "Sunlight helps the body synthesize Vitamin D."
+              "explanation": {
+                "en": "Sunlight helps the body synthesize Vitamin D.",
+                "hi": "सूरज की रोशनी शरीर को विटामिन D बनाने में मदद करती है।",
+                "ur": "سورج کی روشنی جسم کو وٹامن D بنانے میں مدد دیتی ہے۔",
+                "bn": "সূর্যের আলো শরীরে ভিটামিন D তৈরি করতে সাহায্য করে।"
+              }
             },
             {
               "id": "q_i_3",
               "prompt": {
-                "default": "If ₹500 is divided equally among 4 people, each person gets:"
+                "en": "If ₹500 is divided equally among 4 people, each person gets:",
+                "hi": "यदि ₹500 को 4 लोगों में बराबर बाँटा जाए, तो हर एक को कितने रुपये मिलेंगे?",
+                "ur": "اگر ₹500 کو 4 لوگوں میں برابر تقسیم کیا جائے تو ہر ایک کو کتنے ملیں گے؟",
+                "bn": "₹৫০০ সমানভাবে ৪ জনের মধ্যে ভাগ করলে প্রত্যেকে কত পাবে?"
               },
-              "options": [
-                "₹100",
-                "₹120",
-                "₹125",
-                "₹150"
-              ],
+              "options": {
+                "en": [
+                  "₹100",
+                  "₹120",
+                  "₹125",
+                  "₹150"
+                ],
+                "hi": [
+                  "₹100",
+                  "₹120",
+                  "₹125",
+                  "₹150"
+                ],
+                "ur": [
+                  "₹100",
+                  "₹120",
+                  "₹125",
+                  "₹150"
+                ],
+                "bn": [
+                  "₹১০০",
+                  "₹১২০",
+                  "₹১২৫",
+                  "₹১৫০"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "500 ÷ 4 = ₹125."
+              "explanation": {
+                "en": "500 ÷ 4 = ₹125.",
+                "hi": "500 ÷ 4 = ₹125।",
+                "ur": "500 ÷ 4 = ₹125۔",
+                "bn": "৫০০ ÷ ৪ = ₹১২৫।"
+              }
             },
             {
               "id": "q_i_4",
               "prompt": {
-                "default": "Which is the largest ocean on Earth?"
+                "en": "Which is the largest ocean on Earth?",
+                "hi": "पृथ्वी का सबसे बड़ा महासागर कौन-सा है?",
+                "ur": "زمین کا سب سے بڑا سمندر (Ocean) کون سا ہے؟",
+                "bn": "পৃথিবীর সবচেয়ে বড় মহাসাগর কোনটি?"
               },
-              "options": [
-                "Indian Ocean",
-                "Atlantic Ocean",
-                "Pacific Ocean",
-                "Arctic Ocean"
-              ],
+              "options": {
+                "en": [
+                  "Indian Ocean",
+                  "Atlantic Ocean",
+                  "Pacific Ocean",
+                  "Arctic Ocean"
+                ],
+                "hi": [
+                  "हिंद महासागर",
+                  "अटलांटिक महासागर",
+                  "प्रशांत महासागर",
+                  "आर्कटिक महासागर"
+                ],
+                "ur": [
+                  "بحرِ ہند",
+                  "بحرِ اوقیانوس",
+                  "بحرالکاہل (Pacific)",
+                  "بحرِ منجمد شمالی"
+                ],
+                "bn": [
+                  "ভারত মহাসাগর",
+                  "আটলান্টিক মহাসাগর",
+                  "প্রশান্ত মহাসাগর",
+                  "আর্কটিক মহাসাগর"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "The Pacific Ocean is the largest and deepest ocean."
+              "explanation": {
+                "en": "The Pacific Ocean is the largest and deepest ocean.",
+                "hi": "प्रशांत महासागर दुनिया का सबसे बड़ा और गहरा महासागर है।",
+                "ur": "بحرالکاہل (Pacific Ocean) دنیا کا سب سے بڑا اور گہرا سمندر ہے۔",
+                "bn": "প্রশান্ত মহাসাগর পৃথিবীর সবচেয়ে বড় ও গভীর মহাসাগর।"
+              }
             }
           ]
         },
@@ -730,58 +1938,170 @@
             {
               "id": "q_a_1",
               "prompt": {
-                "default": "A shop gives a 20% discount on a ₹1,000 item. What is the final price?"
+                "en": "A shop gives a 20% discount on a ₹1,000 item. What is the final price?",
+                "hi": "एक दुकान ₹1,000 की वस्तु पर 20% की छूट देती है। अंतिम कीमत क्या होगी?",
+                "ur": "ایک دکان ₹1,000 کی چیز پر 20% رعایت دیتی ہے۔ حتمی قیمت کیا ہوگی؟",
+                "bn": "একটি দোকান ₹১,০০০-এর জিনিসে ২০% ছাড় দেয়। চূড়ান্ত দাম কত হবে?"
               },
-              "options": [
-                "₹750",
-                "₹800",
-                "₹820",
-                "₹900"
-              ],
+              "options": {
+                "en": [
+                  "₹750",
+                  "₹800",
+                  "₹820",
+                  "₹900"
+                ],
+                "hi": [
+                  "₹750",
+                  "₹800",
+                  "₹820",
+                  "₹900"
+                ],
+                "ur": [
+                  "₹750",
+                  "₹800",
+                  "₹820",
+                  "₹900"
+                ],
+                "bn": [
+                  "₹৭৫০",
+                  "₹৮০০",
+                  "₹৮২০",
+                  "₹৯০০"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "20% of ₹1,000 is ₹200; 1,000 - 200 = ₹800."
+              "explanation": {
+                "en": "20% of ₹1,000 is ₹200; 1,000 - 200 = ₹800.",
+                "hi": "₹1,000 का 20% = ₹200; 1,000 - 200 = ₹800।",
+                "ur": "₹1,000 کا 20% برابر ₹200 ہے؛ 1,000 - 200 = ₹800۔",
+                "bn": "₹১,০০০-এর ২০% হলো ₹২০০; ১,০০০ - ২০০ = ₹৮০০।"
+              }
             },
             {
               "id": "q_a_2",
               "prompt": {
-                "default": "What is the chemical symbol for Gold?"
+                "en": "What is the chemical symbol for Gold?",
+                "hi": "सोने (Gold) का रासायनिक प्रतीक (Chemical Symbol) क्या है?",
+                "ur": "سونے (Gold) کی کیمیائی علامت (Chemical Symbol) کیا ہے؟",
+                "bn": "সোনার (Gold) রাসায়নিক সংকেত কী?"
               },
-              "options": [
-                "Ag",
-                "Au",
-                "Gd",
-                "Go"
-              ],
+              "options": {
+                "en": [
+                  "Ag",
+                  "Au",
+                  "Gd",
+                  "Go"
+                ],
+                "hi": [
+                  "Ag",
+                  "Au",
+                  "Gd",
+                  "Go"
+                ],
+                "ur": [
+                  "Ag",
+                  "Au",
+                  "Gd",
+                  "Go"
+                ],
+                "bn": [
+                  "Ag",
+                  "Au",
+                  "Gd",
+                  "Go"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Au comes from the Latin word 'Aurum'."
+              "explanation": {
+                "en": "Au comes from the Latin word 'Aurum'.",
+                "hi": "Au लैटिन शब्द 'Aurum' से लिया गया है।",
+                "ur": "Au لاطینی لفظ 'Aurum' سے لیا گیا ہے۔",
+                "bn": "Au ল্যাটিন শব্দ 'Aurum' থেকে এসেছে।"
+              }
             },
             {
               "id": "q_a_3",
               "prompt": {
-                "default": "Which SI unit is used to measure electric current?"
+                "en": "Which SI unit is used to measure electric current?",
+                "hi": "विद्युत धारा (Electric current) मापने की SI इकाई क्या है?",
+                "ur": "برقی رو (Electric current) ماپنے کی SI اکائی کیا ہے؟",
+                "bn": "বিদ্যুৎ প্রবাহ (Electric current) মাপার SI একক কী?"
               },
-              "options": [
-                "Volt",
-                "Watt",
-                "Ampere",
-                "Ohm"
-              ],
+              "options": {
+                "en": [
+                  "Volt",
+                  "Watt",
+                  "Ampere",
+                  "Ohm"
+                ],
+                "hi": [
+                  "वोल्ट (Volt)",
+                  "वाट (Watt)",
+                  "एम्पियर (Ampere)",
+                  "ओम (Ohm)"
+                ],
+                "ur": [
+                  "وولٹ (Volt)",
+                  "واٹ (Watt)",
+                  "ایمپیئر (Ampere)",
+                  "اوہم (Ohm)"
+                ],
+                "bn": [
+                  "ভোল্ট (Volt)",
+                  "ওয়াট (Watt)",
+                  "অ্যাম্পিয়ার (Ampere)",
+                  "ওহম (Ohm)"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "Electric current is measured in Amperes (A)."
+              "explanation": {
+                "en": "Electric current is measured in Amperes (A).",
+                "hi": "विद्युत धारा को एम्पियर (A) में मापा जाता है।",
+                "ur": "برقی رو کو ایمپیئر (A) میں ماپا جاتا ہے۔",
+                "bn": "বিদ্যুৎ প্রবাহ অ্যাম্পিয়ার (A) এককে মাপা হয়।"
+              }
             },
             {
               "id": "q_a_4",
               "prompt": {
-                "default": "If 3x + 6 = 21, what is the value of x?"
+                "en": "If 3x + 6 = 21, what is the value of x?",
+                "hi": "यदि 3x + 6 = 21 है, तो x का मान क्या होगा?",
+                "ur": "اگر 3x + 6 = 21 ہو، تو x کی قیمت کیا ہوگی؟",
+                "bn": "যদি 3x + 6 = 21 হয়, তবে x-এর মান কত?"
               },
-              "options": [
-                "3",
-                "4",
-                "5",
-                "6"
-              ],
+              "options": {
+                "en": [
+                  "3",
+                  "4",
+                  "5",
+                  "6"
+                ],
+                "hi": [
+                  "3",
+                  "4",
+                  "5",
+                  "6"
+                ],
+                "ur": [
+                  "3",
+                  "4",
+                  "5",
+                  "6"
+                ],
+                "bn": [
+                  "৩",
+                  "৪",
+                  "৫",
+                  "৬"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "3x = 15, so x = 5."
+              "explanation": {
+                "en": "3x = 15, so x = 5.",
+                "hi": "3x = 21 - 6 = 15, इसलिए x = 5।",
+                "ur": "3x = 15، اس لیے x = 5۔",
+                "bn": "3x = 15, তাই x = 5।"
+              }
             }
           ]
         }
@@ -798,58 +2118,170 @@
             {
               "id": "g_b_1",
               "prompt": {
-                "default": "What is the national emergency helpline number in India?"
+                "en": "What is the national emergency helpline number in India?",
+                "hi": "भारत में राष्ट्रीय आपातकालीन (Emergency) हेल्पलाइन नंबर क्या है?",
+                "ur": "بھارت میں قومی ایمرجنسی ہیلپ لائن نمبر کیا ہے؟",
+                "bn": "ভারতের জাতীয় জরুরি (Emergency) হেল্পলাইন নম্বর কোনটি?"
               },
-              "options": [
-                "112",
-                "911",
-                "999",
-                "123"
-              ],
+              "options": {
+                "en": [
+                  "112",
+                  "911",
+                  "999",
+                  "123"
+                ],
+                "hi": [
+                  "112",
+                  "911",
+                  "999",
+                  "123"
+                ],
+                "ur": [
+                  "112",
+                  "911",
+                  "999",
+                  "123"
+                ],
+                "bn": [
+                  "১১২",
+                  "৯১১",
+                  "৯৯৯",
+                  "১২৩"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "112 is India's unified emergency response number."
+              "explanation": {
+                "en": "112 is India's unified emergency response number.",
+                "hi": "112 भारत का एकीकृत राष्ट्रीय आपातकालीन नंबर है।",
+                "ur": "112 بھارت کا متحدہ قومی ایمرجنسی نمبر ہے۔",
+                "bn": "১১২ হলো ভারতের সমন্বিত জাতীয় জরুরি নম্বর।"
+              }
             },
             {
               "id": "g_b_2",
               "prompt": {
-                "default": "Which city is the capital of India?"
+                "en": "Which city is the capital of India?",
+                "hi": "भारत की राजधानी कौन-सा शहर है?",
+                "ur": "بھارت کا دارالحکومت کون سا شہر ہے؟",
+                "bn": "ভারতের রাজধানী কোন শহর?"
               },
-              "options": [
-                "Mumbai",
-                "New Delhi",
-                "Kolkata",
-                "Bengaluru"
-              ],
+              "options": {
+                "en": [
+                  "Mumbai",
+                  "New Delhi",
+                  "Kolkata",
+                  "Bengaluru"
+                ],
+                "hi": [
+                  "मुंबई",
+                  "नई दिल्ली",
+                  "कोलकाता",
+                  "बेंगलुरु"
+                ],
+                "ur": [
+                  "ممبئی",
+                  "نئی دہلی",
+                  "کولکاتا",
+                  "بنگلورو"
+                ],
+                "bn": [
+                  "মুম্বাই",
+                  "নয়াদিল্লি",
+                  "কলকাতা",
+                  "বেঙ্গালুরু"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "New Delhi is the capital of India."
+              "explanation": {
+                "en": "New Delhi is the capital of India.",
+                "hi": "नई दिल्ली भारत की राजधानी है।",
+                "ur": "نئی دہلی بھارت کا دارالحکومت ہے۔",
+                "bn": "নয়াদিল্লি ভারতের রাজধানী।"
+              }
             },
             {
               "id": "g_b_3",
               "prompt": {
-                "default": "Which river is the longest river flowing in India?"
+                "en": "Which river is the longest river flowing in India?",
+                "hi": "भारत में बहने वाली सबसे लंबी नदी कौन-सी है?",
+                "ur": "بھارت میں بہنے والا سب سے لمبا دریا کون سا ہے؟",
+                "bn": "ভারতে প্রবাহিত সবচেয়ে দীর্ঘ নদী কোনটি?"
               },
-              "options": [
-                "Yamuna",
-                "Ganga",
-                "Kaveri",
-                "Narmada"
-              ],
+              "options": {
+                "en": [
+                  "Yamuna",
+                  "Ganga",
+                  "Kaveri",
+                  "Narmada"
+                ],
+                "hi": [
+                  "यमुना",
+                  "गंगा",
+                  "कावेरी",
+                  "नर्मदा"
+                ],
+                "ur": [
+                  "یمنا",
+                  "گنگا",
+                  "کاویری",
+                  "نرمدا"
+                ],
+                "bn": [
+                  "যমুনা",
+                  "গঙ্গা",
+                  "কাবেরী",
+                  "নর্মদা"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "The Ganga is the longest river in India."
+              "explanation": {
+                "en": "The Ganga is the longest river in India.",
+                "hi": "गंगा भारत की सबसे लंबी नदी है।",
+                "ur": "گنگا بھارت کا سب سے لمبا دریا ہے۔",
+                "bn": "গঙ্গা ভারতের দীর্ঘতম নদী।"
+              }
             },
             {
               "id": "g_b_4",
               "prompt": {
-                "default": "On which date is India's Republic Day celebrated?"
+                "en": "On which date is India's Republic Day celebrated?",
+                "hi": "भारत का गणतंत्र दिवस (Republic Day) किस तारीख को मनाया जाता है?",
+                "ur": "بھارت کا یومِ جمہوریہ (Republic Day) کس تاریخ کو منایا جاتا ہے؟",
+                "bn": "ভারতের প্রজাতন্ত্র দিবস (Republic Day) কবে পালিত হয়?"
               },
-              "options": [
-                "15 August",
-                "2 October",
-                "26 January",
-                "14 November"
-              ],
+              "options": {
+                "en": [
+                  "15 August",
+                  "2 October",
+                  "26 January",
+                  "14 November"
+                ],
+                "hi": [
+                  "15 अगस्त",
+                  "2 अक्टूबर",
+                  "26 जनवरी",
+                  "14 नवंबर"
+                ],
+                "ur": [
+                  "15 اگست",
+                  "2 اکتوبر",
+                  "26 جنوری",
+                  "14 نومبر"
+                ],
+                "bn": [
+                  "১৫ আগস্ট",
+                  "২ অক্টোবর",
+                  "২৬ জানুয়ারি",
+                  "১৪ নভেম্বর"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "India's Constitution came into effect on 26 January 1950."
+              "explanation": {
+                "en": "India's Constitution came into effect on 26 January 1950.",
+                "hi": "भारत का संविधान 26 जनवरी 1950 को लागू हुआ था।",
+                "ur": "بھارت کا آئین 26 جنوری 1950 کو نافذ ہوا تھا۔",
+                "bn": "১৯৫০ সালের ২৬ জানুয়ারি ভারতের সংবিধান কার্যকর হয়।"
+              }
             }
           ]
         },
@@ -860,58 +2292,170 @@
             {
               "id": "g_e_1",
               "prompt": {
-                "default": "What does ISRO stand for?"
+                "en": "What does ISRO stand for?",
+                "hi": "ISRO का पूरा नाम क्या है?",
+                "ur": "ISRO کا پورا نام کیا ہے؟",
+                "bn": "ISRO-এর পূর্ণরূপ কী?"
               },
-              "options": [
-                "Indian Space Research Organisation",
-                "International Science Research Office",
-                "Indian Satellite Radio Organisation",
-                "Institute of Space Robotics"
-              ],
+              "options": {
+                "en": [
+                  "Indian Space Research Organisation",
+                  "International Science Research Office",
+                  "Indian Satellite Radio Organisation",
+                  "Institute of Space Robotics"
+                ],
+                "hi": [
+                  "भारतीय अंतरिक्ष अनुसंधान संगठन (Indian Space Research Organisation)",
+                  "अंतर्राष्ट्रीय विज्ञान अनुसंधान कार्यालय",
+                  "भारतीय उपग्रह रेडियो संगठन",
+                  "अंतरिक्ष रोबोटिक्स संस्थान"
+                ],
+                "ur": [
+                  "انڈین اسپیس ریسرچ آرگنائزیشن (ISRO)",
+                  "انٹرنیشنل سائنس ریسرچ آفس",
+                  "انڈین سیٹلائٹ ریڈیو آرگنائزیشن",
+                  "انسٹی ٹیوٹ آف اسپیس روبوٹکس"
+                ],
+                "bn": [
+                  "ভারতীয় মহাকাশ গবেষণা সংস্থা (Indian Space Research Organisation)",
+                  "ইন্টারন্যাশনাল সায়েন্স রিসার্চ অফিস",
+                  "ইন্ডিয়ান স্যাটেলাইট রেডিও অর্গানাইজেশন",
+                  "ইনস্টিটিউট অফ স্পেস রোবোটিক্স"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "ISRO is India's national space agency."
+              "explanation": {
+                "en": "ISRO is India's national space agency.",
+                "hi": "ISRO भारत की राष्ट्रीय अंतरिक्ष एजेंसी है।",
+                "ur": "ISRO بھارت کی قومی خلائی ایجنسی ہے۔",
+                "bn": "ISRO হলো ভারতের জাতীয় মহাকাশ গবেষণা সংস্থা।"
+              }
             },
             {
               "id": "g_e_2",
               "prompt": {
-                "default": "Which Indian state is known as the 'Spice Garden of India'?"
+                "en": "Which Indian state is known as the 'Spice Garden of India'?",
+                "hi": "भारत के किस राज्य को 'मसालों का बगीचा' (Spice Garden of India) कहा जाता है?",
+                "ur": "بھارت کی کس ریاست کو 'مصالحوں کا باغ' (Spice Garden of India) کہا جاتا ہے؟",
+                "bn": "ভারতের কোন রাজ্যকে 'মশলার বাগান' (Spice Garden of India) বলা হয়?"
               },
-              "options": [
-                "Punjab",
-                "Kerala",
-                "Rajasthan",
-                "Gujarat"
-              ],
+              "options": {
+                "en": [
+                  "Punjab",
+                  "Kerala",
+                  "Rajasthan",
+                  "Gujarat"
+                ],
+                "hi": [
+                  "पंजाब",
+                  "केरल",
+                  "राजस्थान",
+                  "गुजरात"
+                ],
+                "ur": [
+                  "پنجاب",
+                  "کیرالہ",
+                  "راجستھان",
+                  "گجرات"
+                ],
+                "bn": [
+                  "পাঞ্জাব",
+                  "কেরালা",
+                  "রাজস্থান",
+                  "গুজরাট"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Kerala is famous for its rich variety of spices."
+              "explanation": {
+                "en": "Kerala is famous for its rich variety of spices.",
+                "hi": "केरल अपने विविध और उच्च गुणवत्ता वाले मसालों के लिए प्रसिद्ध है।",
+                "ur": "کیرالہ اپنے مختلف قسم کے بہترین مصالحوں کے لیے مشہور ہے۔",
+                "bn": "কেরালা তার বিচিত্র ও উন্নত মানের মশলার জন্য বিখ্যাত।"
+              }
             },
             {
               "id": "g_e_3",
               "prompt": {
-                "default": "Which currency symbol is used for the Indian Rupee?"
+                "en": "Which currency symbol is used for the Indian Rupee?",
+                "hi": "भारतीय रुपये के लिए किस मुद्रा चिह्न (Symbol) का उपयोग किया जाता है?",
+                "ur": "بھارتی روپے کے لیے کون سی کرنسی علامت استعمال کی جاتی ہے؟",
+                "bn": "ভারতীয় রুপির জন্য কোন মুদ্রা চিহ্ন ব্যবহার করা হয়?"
               },
-              "options": [
-                "$",
-                "€",
-                "₹",
-                "£"
-              ],
+              "options": {
+                "en": [
+                  "$",
+                  "€",
+                  "₹",
+                  "£"
+                ],
+                "hi": [
+                  "$",
+                  "€",
+                  "₹",
+                  "£"
+                ],
+                "ur": [
+                  "$",
+                  "€",
+                  "₹",
+                  "£"
+                ],
+                "bn": [
+                  "$",
+                  "€",
+                  "₹",
+                  "£"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "₹ is the official symbol of the Indian Rupee (INR)."
+              "explanation": {
+                "en": "₹ is the official symbol of the Indian Rupee (INR).",
+                "hi": "₹ भारतीय रुपये (INR) का आधिकारिक चिह्न है।",
+                "ur": "₹ بھارتی روپے (INR) کی سرکاری علامت ہے۔",
+                "bn": "₹ হলো ভারতীয় রুপির (INR) সরকারি প্রতীক।"
+              }
             },
             {
               "id": "g_e_4",
               "prompt": {
-                "default": "In India, vehicles are driven on which side of the road?"
+                "en": "In India, vehicles are driven on which side of the road?",
+                "hi": "भारत में वाहन सड़क के किस तरफ़ चलाए जाते हैं?",
+                "ur": "بھارت میں گاڑیاں سڑک کے کس جانب چلائی جاتی ہیں؟",
+                "bn": "ভারতে রাস্তার কোন দিক দিয়ে গাড়ি চালানো হয়?"
               },
-              "options": [
-                "Left side",
-                "Right side",
-                "Center",
-                "Either side"
-              ],
+              "options": {
+                "en": [
+                  "Left side",
+                  "Right side",
+                  "Center",
+                  "Either side"
+                ],
+                "hi": [
+                  "बाईं तरफ़ (Left side)",
+                  "दाईं तरफ़ (Right side)",
+                  "बीच में",
+                  "किसी भी तरफ़"
+                ],
+                "ur": [
+                  "بائیں جانب (Left side)",
+                  "دائیں جانب (Right side)",
+                  "درمیان میں",
+                  "کسی بھی جانب"
+                ],
+                "bn": [
+                  "বাম দিক (Left side)",
+                  "ডান দিক (Right side)",
+                  "মাঝখান দিয়ে",
+                  "যেকোনো দিক"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "India follows left-hand traffic (driving on the left side)."
+              "explanation": {
+                "en": "India follows left-hand traffic (driving on the left side).",
+                "hi": "भारत में बाईं ओर गाड़ी चलाने (Left-side driving) का नियम है।",
+                "ur": "بھارت میں بائیں جانب گاڑی چلانے کا قانون ہے۔",
+                "bn": "ভারতে রাস্তার বাম দিক দিয়ে গাড়ি চালানোর নিয়ম রয়েছে।"
+              }
             }
           ]
         },
@@ -922,58 +2466,170 @@
             {
               "id": "g_i_1",
               "prompt": {
-                "default": "Who is known as the Father of the Indian Constitution?"
+                "en": "Who is known as the Father of the Indian Constitution?",
+                "hi": "भारतीय संविधान के जनक (Father of the Indian Constitution) किसे कहा जाता है?",
+                "ur": "بھارتی آئین کے معمار (Father of the Indian Constitution) کسے کہا جاتا ہے؟",
+                "bn": "ভারতীয় সংবিধানের জনক কাকে বলা হয়?"
               },
-              "options": [
-                "Dr. B. R. Ambedkar",
-                "Mahatma Gandhi",
-                "Sardar Patel",
-                "Dr. Rajendra Prasad"
-              ],
+              "options": {
+                "en": [
+                  "Dr. B. R. Ambedkar",
+                  "Mahatma Gandhi",
+                  "Sardar Patel",
+                  "Dr. Rajendra Prasad"
+                ],
+                "hi": [
+                  "डॉ. बी. आर. आंबेडकर",
+                  "महात्मा गांधी",
+                  "सरदार पटेल",
+                  "डॉ. राजेंद्र प्रसाद"
+                ],
+                "ur": [
+                  "ڈاکٹر بی آر امبیڈکر",
+                  "مہاتما گاندھی",
+                  "سردار پٹیل",
+                  "ڈاکٹر راجندر پرساد"
+                ],
+                "bn": [
+                  "ড. বি. আর. আম্বেদকর",
+                  "মহাত্মা গান্ধী",
+                  "সর্দার প্যাটেল",
+                  "ড. রাজেন্দ্র প্রসাদ"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "Dr. B. R. Ambedkar chaired the Drafting Committee of the Constitution."
+              "explanation": {
+                "en": "Dr. B. R. Ambedkar chaired the Drafting Committee of the Constitution.",
+                "hi": "डॉ. बी. आर. आंबेडकर संविधान की प्रारूप समिति (Drafting Committee) के अध्यक्ष थे।",
+                "ur": "ڈاکٹر بی آر امبیڈکر آئین کی ڈرافٹنگ کمیٹی کے چیئرمین تھے۔",
+                "bn": "ড. বি. আর. আম্বেদকর সংবিধানের খসড়া কমিটির সভাপতি ছিলেন।"
+              }
             },
             {
               "id": "g_i_2",
               "prompt": {
-                "default": "Which mission made India the first country to land near the Moon's south pole?"
+                "en": "Which mission made India the first country to land near the Moon's south pole?",
+                "hi": "किस मिशन ने भारत को चंद्रमा के दक्षिणी ध्रुव के पास उतरने वाला पहला देश बनाया?",
+                "ur": "کس مشن نے بھارت کو چاند کے قطبِ جنوبی کے قریب اترنے والا پہلا ملک بنایا؟",
+                "bn": "কোন মিশন ভারতকে চাঁদের দক্ষিণ মেরুর কাছে অবতরণকারী প্রথম দেশ করে তোলে?"
               },
-              "options": [
-                "Chandrayaan-1",
-                "Chandrayaan-2",
-                "Chandrayaan-3",
-                "Mangalyaan"
-              ],
+              "options": {
+                "en": [
+                  "Chandrayaan-1",
+                  "Chandrayaan-2",
+                  "Chandrayaan-3",
+                  "Mangalyaan"
+                ],
+                "hi": [
+                  "चंद्रयान-1",
+                  "चंद्रयान-2",
+                  "चंद्रयान-3",
+                  "मंगलयान"
+                ],
+                "ur": [
+                  "چندریان-1",
+                  "چندریان-2",
+                  "چندریان-3",
+                  "منگلیان"
+                ],
+                "bn": [
+                  "চন্দ্রযান-১",
+                  "চন্দ্রযান-২",
+                  "চন্দ্রযান-৩",
+                  "মঙ্গলযান"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "Chandrayaan-3 successfully landed near the lunar south pole in August 2023."
+              "explanation": {
+                "en": "Chandrayaan-3 successfully landed near the lunar south pole in August 2023.",
+                "hi": "चंद्रयान-3 ने अगस्त 2023 में चंद्रमा के दक्षिणी ध्रुव के पास सफल लैंडिंग की।",
+                "ur": "چندریان-3 نے اگست 2023 میں چاند کے قطبِ جنوبی کے قریب کامیاب لینڈنگ کی۔",
+                "bn": "চন্দ্রযান-৩ ২০২৩ সালের আগস্টে চাঁদের দক্ষিণ মেরুর কাছে সফলভাবে অবতরণ করে।"
+              }
             },
             {
               "id": "g_i_3",
               "prompt": {
-                "default": "What is the central bank of India called?"
+                "en": "What is the central bank of India called?",
+                "hi": "भारत के केंद्रीय बैंक (Central Bank) का नाम क्या है?",
+                "ur": "بھارت کے مرکزی بینک (Central Bank) کا نام کیا ہے؟",
+                "bn": "ভারতের কেন্দ্রীয় ব্যাংকের নাম কী?"
               },
-              "options": [
-                "State Bank of India",
-                "Reserve Bank of India",
-                "National Bank of India",
-                "Central Finance Bank"
-              ],
+              "options": {
+                "en": [
+                  "State Bank of India",
+                  "Reserve Bank of India",
+                  "National Bank of India",
+                  "Central Finance Bank"
+                ],
+                "hi": [
+                  "भारतीय स्टेट बैंक (SBI)",
+                  "भारतीय रिज़र्व बैंक (RBI)",
+                  "नेशनल बैंक ऑफ इंडिया",
+                  "सेंट्रल फाइनेंस बैंक"
+                ],
+                "ur": [
+                  "اسٹیٹ بینک آف انڈیا",
+                  "ریزرو بینک آف انڈیا (RBI)",
+                  "نیشنل بینک آف انڈیا",
+                  "سینٹرل فنانس بینک"
+                ],
+                "bn": [
+                  "স্টেট ব্যাংক অফ ইন্ডিয়া",
+                  "রিজার্ভ ব্যাংক অফ ইন্ডিয়া (RBI)",
+                  "ন্যাশনাল ব্যাংক অফ ইন্ডিয়া",
+                  "সেন্ট্রাল ফাইন্যান্স ব্যাংক"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "The Reserve Bank of India (RBI) is India's central bank."
+              "explanation": {
+                "en": "The Reserve Bank of India (RBI) is India's central bank.",
+                "hi": "भारतीय रिज़र्व बैंक (RBI) भारत का केंद्रीय बैंक है।",
+                "ur": "ریزرو بینک آف انڈیا (RBI) بھارت کا مرکزی بینک ہے۔",
+                "bn": "রিজার্ভ ব্যাংক অফ ইন্ডিয়া (RBI) ভারতের কেন্দ্রীয় ব্যাংক।"
+              }
             },
             {
               "id": "g_i_4",
               "prompt": {
-                "default": "Which monument in Agra is a UNESCO World Heritage Site?"
+                "en": "Which monument in Agra is a UNESCO World Heritage Site?",
+                "hi": "आगरा का कौन-सा स्मारक यूनेस्को विश्व धरोहर स्थल (UNESCO World Heritage Site) है?",
+                "ur": "آگرہ کی کون سی یادگار یونیسکو کے عالمی ورثے میں شامل ہے؟",
+                "bn": "আগ্রার কোন স্মৃতিসৌধটি ইউনেস্কো বিশ্ব ঐতিহ্যবাহী স্থান?"
               },
-              "options": [
-                "Hawa Mahal",
-                "Taj Mahal",
-                "Charminar",
-                "Victoria Memorial"
-              ],
+              "options": {
+                "en": [
+                  "Hawa Mahal",
+                  "Taj Mahal",
+                  "Charminar",
+                  "Victoria Memorial"
+                ],
+                "hi": [
+                  "हवा महल",
+                  "ताजमहल",
+                  "चारमीनार",
+                  "विक्टोरिया मेमोरियल"
+                ],
+                "ur": [
+                  "ہوا محل",
+                  "تاج محل",
+                  "چارمینار",
+                  "وکٹوریہ میموریل"
+                ],
+                "bn": [
+                  "হাওয়া মহল",
+                  "তাজমহল",
+                  "চারমিনার",
+                  "ভিক্টোরিয়া মেমোরিয়াল"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "The Taj Mahal in Agra is a world-famous UNESCO site."
+              "explanation": {
+                "en": "The Taj Mahal in Agra is a world-famous UNESCO site.",
+                "hi": "आगरा का ताजमहल विश्व प्रसिद्ध यूनेस्को धरोहर स्थल है।",
+                "ur": "آگرہ کا تاج محل دنیا بھر میں مشہور یونیسکو ورثہ ہے۔",
+                "bn": "আগ্রার তাজমহল বিশ্ববিখ্যাত ইউনেস্কো ঐতিহ্যবাহী স্থান।"
+              }
             }
           ]
         },
@@ -984,58 +2640,170 @@
             {
               "id": "g_a_1",
               "prompt": {
-                "default": "What does DPDP Act, 2023 in India primarily protect?"
+                "en": "What does DPDP Act, 2023 in India primarily protect?",
+                "hi": "भारत में DPDP अधिनियम, 2023 मुख्य रूप से किसकी सुरक्षा करता है?",
+                "ur": "بھارت میں DPDP ایکٹ 2023 بنیادی طور پر کس چیز کا تحفظ کرتا ہے؟",
+                "bn": "ভারতের DPDP আইন, ২০২৩ মূলত কী সুরক্ষিত করে?"
               },
-              "options": [
-                "Digital Personal Data",
-                "Railway tickets",
-                "Agricultural land",
-                "Forest reserves"
-              ],
+              "options": {
+                "en": [
+                  "Digital Personal Data",
+                  "Railway tickets",
+                  "Agricultural land",
+                  "Forest reserves"
+                ],
+                "hi": [
+                  "डिजिटल व्यक्तिगत डेटा (Digital Personal Data)",
+                  "रेलवे टिकट",
+                  "कृषि भूमि",
+                  "वन क्षेत्र"
+                ],
+                "ur": [
+                  "ڈیجیٹل ذاتی ڈیٹا (Digital Personal Data)",
+                  "ریلوے ٹکٹ",
+                  "زرعی زمین",
+                  "جنگلات"
+                ],
+                "bn": [
+                  "ডিজিটাল ব্যক্তিগত ডেটা (Digital Personal Data)",
+                  "রেলের টিকিট",
+                  "কৃষিজমি",
+                  "বনাঞ্চল"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "The Digital Personal Data Protection Act, 2023 safeguards citizens' personal digital data."
+              "explanation": {
+                "en": "The Digital Personal Data Protection Act, 2023 safeguards citizens' personal digital data.",
+                "hi": "डिजिटल पर्सनल डेटा प्रोटेक्शन एक्ट, 2023 नागरिकों के डिजिटल डेटा की सुरक्षा करता है।",
+                "ur": "ڈیجیٹل پرسنل ڈیٹا پروٹیکشن ایکٹ 2023 شہریوں کے ذاتی ڈیجیٹل ڈیٹا کا تحفظ کرتا ہے۔",
+                "bn": "ডিজিটাল পার্সোনাল ডেটা প্রোটেকশন আইন, ২০২৩ নাগরিকদের ব্যক্তিগত ডিজিটাল ডেটা সুরক্ষিত করে।"
+              }
             },
             {
               "id": "g_a_2",
               "prompt": {
-                "default": "Which Article of the Indian Constitution guarantees Right to Equality?"
+                "en": "Which Article of the Indian Constitution guarantees Right to Equality?",
+                "hi": "भारतीय संविधान का कौन-सा अनुच्छेद (Article) समानता के अधिकार की गारंटी देता है?",
+                "ur": "بھارتی آئین کا کون سا آرٹیکل مساوات کے حق کی ضمانت دیتا ہے؟",
+                "bn": "ভারতীয় সংবিধানের কোন অনুচ্ছেদ সাম্যের অধিকার নিশ্চিত করে?"
               },
-              "options": [
-                "Article 14",
-                "Article 32",
-                "Article 51",
-                "Article 370"
-              ],
+              "options": {
+                "en": [
+                  "Article 14",
+                  "Article 32",
+                  "Article 51",
+                  "Article 370"
+                ],
+                "hi": [
+                  "अनुच्छेद 14",
+                  "अनुच्छेद 32",
+                  "अनुच्छेद 51",
+                  "अनुच्छेद 370"
+                ],
+                "ur": [
+                  "آرٹیکل 14",
+                  "آرٹیکل 32",
+                  "آرٹیکل 51",
+                  "آرٹیکل 370"
+                ],
+                "bn": [
+                  "অনুচ্ছেদ ১৪",
+                  "অনুচ্ছেদ ৩২",
+                  "অনুচ্ছেদ ৫১",
+                  "অনুচ্ছেদ ৩৭০"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "Article 14 guarantees equality before the law."
+              "explanation": {
+                "en": "Article 14 guarantees equality before the law.",
+                "hi": "अनुच्छेद 14 कानून के समक्ष समानता की गारंटी देता है।",
+                "ur": "آرٹیکل 14 قانون کے سامنے برابری کی ضمانت دیتا ہے۔",
+                "bn": "অনুচ্ছেদ ১৪ আইনের দৃষ্টিতে সমতার নিশ্চয়তা দেয়।"
+              }
             },
             {
               "id": "g_a_3",
               "prompt": {
-                "default": "Which Indian institution operates the UPI payment system?"
+                "en": "Which Indian institution operates the UPI payment system?",
+                "hi": "भारत में UPI भुगतान प्रणाली का संचालन कौन-सी संस्था करती है?",
+                "ur": "بھارت میں UPI پیمنٹ سسٹم کون سا ادارہ چلاتا ہے؟",
+                "bn": "ভারতে কোন সংস্থা UPI পেমেন্ট সিস্টেম পরিচালনা করে?"
               },
-              "options": [
-                "NPCI",
-                "SEBI",
-                "TRAI",
-                "IRDAI"
-              ],
+              "options": {
+                "en": [
+                  "NPCI",
+                  "SEBI",
+                  "TRAI",
+                  "IRDAI"
+                ],
+                "hi": [
+                  "NPCI",
+                  "SEBI",
+                  "TRAI",
+                  "IRDAI"
+                ],
+                "ur": [
+                  "NPCI",
+                  "SEBI",
+                  "TRAI",
+                  "IRDAI"
+                ],
+                "bn": [
+                  "NPCI",
+                  "SEBI",
+                  "TRAI",
+                  "IRDAI"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "National Payments Corporation of India (NPCI) operates UPI."
+              "explanation": {
+                "en": "National Payments Corporation of India (NPCI) operates UPI.",
+                "hi": "भारतीय राष्ट्रीय भुगतान निगम (NPCI) UPI का संचालन करता है।",
+                "ur": "نیشنل پیمنٹس کارپوریشن آف انڈیا (NPCI) UPI چلاتا ہے۔",
+                "bn": "ন্যাশনাল পেমেন্টস কর্পোরেশন অফ ইন্ডিয়া (NPCI) UPI পরিচালনা করে।"
+              }
             },
             {
               "id": "g_a_4",
               "prompt": {
-                "default": "Which is the highest civilian award in India?"
+                "en": "Which is the highest civilian award in India?",
+                "hi": "भारत का सर्वोच्च नागरिक सम्मान कौन-सा है?",
+                "ur": "بھارت کا سب سے بڑا شہری اعزاز کون سا ہے؟",
+                "bn": "ভারতের সর্বোচ্চ অসামরিক সম্মাননা কোনটি?"
               },
-              "options": [
-                "Padma Shri",
-                "Padma Bhushan",
-                "Bharat Ratna",
-                "Padma Vibhushan"
-              ],
+              "options": {
+                "en": [
+                  "Padma Shri",
+                  "Padma Bhushan",
+                  "Bharat Ratna",
+                  "Padma Vibhushan"
+                ],
+                "hi": [
+                  "पद्म श्री",
+                  "पद्म भूषण",
+                  "भारत रत्न",
+                  "पद्म विभूषण"
+                ],
+                "ur": [
+                  "پدم شری",
+                  "پدم بھوشن",
+                  "بھارت رتن",
+                  "پدم وبھوشن"
+                ],
+                "bn": [
+                  "পদ্মশ্রী",
+                  "পদ্মভূষণ",
+                  "ভারতরত্ন",
+                  "পদ্মবিভূষণ"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "Bharat Ratna is India's highest civilian honour."
+              "explanation": {
+                "en": "Bharat Ratna is India's highest civilian honour.",
+                "hi": "भारत रत्न भारत का सर्वोच्च नागरिक सम्मान है।",
+                "ur": "بھارت رتن بھارت کا سب سے بڑا شہری اعزاز ہے۔",
+                "bn": "ভারতরত্ন হলো ভারতের সর্বোচ্চ অসামরিক সম্মাননা।"
+              }
             }
           ]
         }
@@ -1052,58 +2820,170 @@
             {
               "id": "d_b_1",
               "prompt": {
-                "default": "Should you ever share your UPI PIN or OTP with anyone to 'receive' money?"
+                "en": "Should you ever share your UPI PIN or OTP with anyone to 'receive' money?",
+                "hi": "क्या पैसे 'प्राप्त करने' (receive) के लिए कभी किसी के साथ UPI PIN या OTP साझा करना चाहिए?",
+                "ur": "کیا پیسے 'وصول کرنے' (receive) کے لیے کبھی کسی کو اپنا UPI PIN یا OTP بتانا چاہیے؟",
+                "bn": "টাকা 'পাওয়ার' (receive) জন্য কি কখনো কাউকে UPI PIN বা OTP দেওয়া উচিত?"
               },
-              "options": [
-                "Yes, always",
-                "Never — receiving money does NOT require a PIN or OTP",
-                "Only on weekends",
-                "Only with strangers"
-              ],
+              "options": {
+                "en": [
+                  "Yes, always",
+                  "Never — receiving money does NOT require a PIN or OTP",
+                  "Only on weekends",
+                  "Only with strangers"
+                ],
+                "hi": [
+                  "हाँ, हमेशा",
+                  "कभी नहीं — पैसे पाने के लिए PIN या OTP नहीं लगता",
+                  "केवल सप्ताहांत पर",
+                  "केवल अनजान लोगों के साथ"
+                ],
+                "ur": [
+                  "ہاں، ہمیشہ",
+                  "کبھی نہیں — پیسے لینے کے لیے PIN یا OTP نہیں لگتا",
+                  "صرف اتوار کو",
+                  "صرف اجنبیوں کے ساتھ"
+                ],
+                "bn": [
+                  "হ্যাঁ, সবসময়",
+                  "কখনোই নয় — টাকা পেতে PIN বা OTP লাগে না",
+                  "শুধু ছুটির দিনে",
+                  "শুধু অচেনা লোকের সাথে"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "UPI PIN is only needed to SEND money, never to receive it."
+              "explanation": {
+                "en": "UPI PIN is only needed to SEND money, never to receive it.",
+                "hi": "UPI PIN केवल पैसे भेजने के लिए चाहिए होता है, पाने के लिए कभी नहीं।",
+                "ur": "UPI PIN صرف پیسے بھیجنے کے لیے ہوتا ہے، لینے کے لیے کبھی نہیں۔",
+                "bn": "UPI PIN শুধু টাকা পাঠানোর সময় লাগে, টাকা পাওয়ার সময় নয়।"
+              }
             },
             {
               "id": "d_b_2",
               "prompt": {
-                "default": "What makes a password strong?"
+                "en": "What makes a password strong?",
+                "hi": "एक मजबूत (Strong) पासवर्ड कैसा होता है?",
+                "ur": "ایک مضبوط (Strong) پاس ورڈ کیسا ہوتا ہے؟",
+                "bn": "একটি শক্তিশালী (Strong) পাসওয়ার্ড কেমন হয়?"
               },
-              "options": [
-                "123456",
-                "Your birth date",
-                "A mix of letters, numbers, and symbols",
-                "Your own name"
-              ],
+              "options": {
+                "en": [
+                  "123456",
+                  "Your birth date",
+                  "A mix of letters, numbers, and symbols",
+                  "Your own name"
+                ],
+                "hi": [
+                  "123456",
+                  "आपकी जन्मतिथि",
+                  "अक्षरों, संख्याओं और चिह्नों का मिश्रण",
+                  "आपका अपना नाम"
+                ],
+                "ur": [
+                  "123456",
+                  "آپ کی تاریخِ پیدائش",
+                  "حروف، اعداد اور علامات کا امتزاج",
+                  "آپ کا اپنا نام"
+                ],
+                "bn": [
+                  "123456",
+                  "আপনার জন্মতারিখ",
+                  "অক্ষর, সংখ্যা এবং চিহ্নের মিশ্রণ",
+                  "আপনার নিজের নাম"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "Long passwords mixing letters, numbers, and symbols are much harder to guess."
+              "explanation": {
+                "en": "Long passwords mixing letters, numbers, and symbols are much harder to guess.",
+                "hi": "अक्षरों, संख्याओं और चिह्नों वाले लंबे पासवर्ड का अनुमान लगाना बहुत कठिन होता है।",
+                "ur": "حروف، اعداد اور علامات والے لمبے پاس ورڈ کا اندازہ لگانا بہت مشکل ہوتا ہے۔",
+                "bn": "অক্ষর, সংখ্যা ও বিশেষ চিহ্নযুক্ত লম্বা পাসওয়ার্ড অনুমান করা কঠিন।"
+              }
             },
             {
               "id": "d_b_3",
               "prompt": {
-                "default": "What does the padlock icon (https://) in a browser address bar indicate?"
+                "en": "What does the padlock icon (https://) in a browser address bar indicate?",
+                "hi": "ब्राउज़र के एड्रेस बार में ताले का चिह्न (https://) क्या दर्शाता है?",
+                "ur": "براؤزر کے ایڈریس بار میں تالے کا نشان (https://) کیا ظاہر کرتا ہے؟",
+                "bn": "ব্রাউজারের অ্যাড্রেস বারে তালার চিহ্ন (https://) কী নির্দেশ করে?"
               },
-              "options": [
-                "The website connection is encrypted",
-                "The phone is locked",
-                "Internet is off",
-                "Free downloads"
-              ],
+              "options": {
+                "en": [
+                  "The website connection is encrypted",
+                  "The phone is locked",
+                  "Internet is off",
+                  "Free downloads"
+                ],
+                "hi": [
+                  "वेबसाइट का कनेक्शन एन्क्रिप्टेड (सुरक्षित) है",
+                  "फ़ोन लॉक है",
+                  "इंटरनेट बंद है",
+                  "मुफ़्त डाउनलोड"
+                ],
+                "ur": [
+                  "ویب سائٹ کا کنکشن محفوظ (Encrypted) ہے",
+                  "فون لاک ہے",
+                  "انٹرنیٹ بند ہے",
+                  "مفت ڈاؤن لوڈ"
+                ],
+                "bn": [
+                  "ওয়েবসাইটের সংযোগ এনক্রিপ্টেড (সুরক্ষিত)",
+                  "ফোন লক করা",
+                  "ইন্টারনেট বন্ধ",
+                  "বিনামূল্যে ডাউনলোড"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "HTTPS encrypts data sent between your device and the website."
+              "explanation": {
+                "en": "HTTPS encrypts data sent between your device and the website.",
+                "hi": "HTTPS आपके डिवाइस और वेबसाइट के बीच भेजे जाने वाले डेटा को सुरक्षित (एन्क्रिप्ट) रखता है।",
+                "ur": "HTTPS آپ کے فون اور ویب سائٹ کے درمیان ڈیٹا کو محفوظ (Encrypt) رکھتا ہے۔",
+                "bn": "HTTPS আপনার ডিভাইস এবং ওয়েবসাইটের মধ্যে আদান-প্রদান হওয়া ডেটা সুরক্ষিত রাখে।"
+              }
             },
             {
               "id": "d_b_4",
               "prompt": {
-                "default": "What is the safest place to install official Android apps from?"
+                "en": "What is the safest place to install official Android apps from?",
+                "hi": "आधिकारिक Android ऐप इंस्टॉल करने की सबसे सुरक्षित जगह कौन-सी है?",
+                "ur": "آفیشل اینڈرائیڈ ایپس انسٹال کرنے کی سب سے محفوظ جگہ کون سی ہے؟",
+                "bn": "অফিশিয়াল অ্যান্ড্রয়েড অ্যাপ ইনস্টল করার সবচেয়ে নিরাপদ জায়গা কোনটি?"
               },
-              "options": [
-                "Random SMS links",
-                "Official trusted app stores",
-                "Unknown WhatsApp forwards",
-                "Pop-up ads"
-              ],
+              "options": {
+                "en": [
+                  "Random SMS links",
+                  "Official trusted app stores",
+                  "Unknown WhatsApp forwards",
+                  "Pop-up ads"
+                ],
+                "hi": [
+                  "अनजान SMS लिंक",
+                  "आधिकारिक विश्वसनीय ऐप स्टोर",
+                  "अनजान WhatsApp फॉरवर्ड",
+                  "पॉप-अप विज्ञापन"
+                ],
+                "ur": [
+                  "انجان SMS لنکس",
+                  "آفیشل قابلِ اعتماد ایپ اسٹورز",
+                  "انجان واٹس ایپ فارورڈز",
+                  "پاپ اپ اشتہارات"
+                ],
+                "bn": [
+                  "অজানা SMS লিংক",
+                  "অফিশিয়াল বিশ্বস্ত অ্যাপ স্টোর",
+                  "অচেনা হোয়াটসঅ্যাপ ফরওয়ার্ড",
+                  "পপ-আপ বিজ্ঞাপন"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Trusted stores scan apps for malware and protect your device."
+              "explanation": {
+                "en": "Trusted stores scan apps for malware and protect your device.",
+                "hi": "विश्वसनीय ऐप स्टोर ऐप्स की सुरक्षा जाँच करते हैं और आपके फ़ोन को वायरस से बचाते हैं।",
+                "ur": "قابلِ اعتماد ایپ اسٹورز ایپس کو وائرس کے لیے اسکین کرتے ہیں اور آپ کے فون کو محفوظ رکھتے ہیں۔",
+                "bn": "বিশ্বস্ত অ্যাপ স্টোরগুলো অ্যাপ যাচাই করে আপনার ডিভাইসকে নিরাপদ রাখে।"
+              }
             }
           ]
         },
@@ -1114,58 +2994,170 @@
             {
               "id": "d_e_1",
               "prompt": {
-                "default": "What is 'Phishing'?"
+                "en": "What is 'Phishing'?",
+                "hi": "'फ़िशिंग' (Phishing) क्या है?",
+                "ur": "'فشنگ' (Phishing) کیا ہے؟",
+                "bn": "'ফিশিং' (Phishing) কী?"
               },
-              "options": [
-                "Catching fish",
-                "Fake messages/links trying to steal your password or money",
-                "A phone game",
-                "A battery saver"
-              ],
+              "options": {
+                "en": [
+                  "Catching fish",
+                  "Fake messages/links trying to steal your password or money",
+                  "A phone game",
+                  "A battery saver"
+                ],
+                "hi": [
+                  "मछली पकड़ना",
+                  "पासवर्ड या पैसे चुराने वाले नकली संदेश/लिंक",
+                  "एक फ़ोन गेम",
+                  "बैटरी सेवर"
+                ],
+                "ur": [
+                  "مچھلی پکڑنا",
+                  "پاس ورڈ یا پیسے چرانے والے جعلی پیغامات یا لنکس",
+                  "ایک موبائل گیم",
+                  "بیٹری سیور"
+                ],
+                "bn": [
+                  "মাছ ধরা",
+                  "পাসওয়ার্ড বা টাকা চুরি করার ভুয়া বার্তা বা লিংক",
+                  "একটি ফোন গেম",
+                  "ব্যাটারি সেভার"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Phishing tricks people into clicking fake links or sharing sensitive info."
+              "explanation": {
+                "en": "Phishing tricks people into clicking fake links or sharing sensitive info.",
+                "hi": "फ़िशिंग में ठग नकली लिंक भेजकर लोगों का पासवर्ड या बैंक जानकारी चुराने की कोशिश करते हैं।",
+                "ur": "فشنگ میں دھوکے باز جعلی لنکس بھیج کر لوگوں کے پاس ورڈ یا پیسے چرانے کی کوشش کرتے ہیں۔",
+                "bn": "ফিশিং হলো ভুয়া লিংক বা বার্তার মাধ্যমে মানুষের পাসওয়ার্ড বা টাকা হাতিয়ে নেওয়ার কৌশল।"
+              }
             },
             {
               "id": "d_e_2",
               "prompt": {
-                "default": "What does '2FA' (Two-Factor Authentication) do?"
+                "en": "What does '2FA' (Two-Factor Authentication) do?",
+                "hi": "'2FA' (टू-फ़ैक्टर ऑथेंटिकेशन) क्या करता है?",
+                "ur": "'2FA' (ٹو فیکٹر آتھنٹیکیشن) کیا کرتا ہے؟",
+                "bn": "'2FA' (টু-ফ্যাক্টর অথেনটিকেশন) কী করে?"
               },
-              "options": [
-                "Deletes your account",
-                "Adds a second security check besides your password",
-                "Doubles internet speed",
-                "Turns off Wi-Fi"
-              ],
+              "options": {
+                "en": [
+                  "Deletes your account",
+                  "Adds a second security check besides your password",
+                  "Doubles internet speed",
+                  "Turns off Wi-Fi"
+                ],
+                "hi": [
+                  "आपका खाता हटा देता है",
+                  "पासवर्ड के अलावा एक अतिरिक्त सुरक्षा परत जोड़ता है",
+                  "इंटरनेट स्पीड दोगुनी करता है",
+                  "Wi-Fi बंद कर देता है"
+                ],
+                "ur": [
+                  "آپ کا اکاؤنٹ ڈیلیٹ کر دیتا ہے",
+                  "پاس ورڈ کے علاوہ ایک اضافی سیکیورٹی چیک شامل کرتا ہے",
+                  "انٹرنیٹ کی رفتار دگنی کرتا ہے",
+                  "وائی فائی بند کر دیتا ہے"
+                ],
+                "bn": [
+                  "আপনার অ্যাকাউন্ট মুছে দেয়",
+                  "পাসওয়ার্ডের পাশাপাশি দ্বিতীয় স্তরের নিরাপত্তা যোগ করে",
+                  "ইন্টারনেট স্পিড দ্বিগুণ করে",
+                  "ওয়াই-ফাই বন্ধ করে দেয়"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "2FA protects your account even if someone learns your password."
+              "explanation": {
+                "en": "2FA protects your account even if someone learns your password.",
+                "hi": "यदि किसी को आपका पासवर्ड पता चल जाए, तब भी 2FA आपके खाते को सुरक्षित रखता है।",
+                "ur": "اگر کسی کو آپ کا پاس ورڈ پتہ چل بھی جائے، تب بھی 2FA آپ کے اکاؤنٹ کو محفوظ رکھتا ہے۔",
+                "bn": "কেউ আপনার পাসওয়ার্ড জেনে গেলেও 2FA আপনার অ্যাকাউন্টকে সুরক্ষিত রাখে।"
+              }
             },
             {
               "id": "d_e_3",
               "prompt": {
-                "default": "What is the national cybercrime helpline number in India?"
+                "en": "What is the national cybercrime helpline number in India?",
+                "hi": "भारत में राष्ट्रीय साइबर अपराध (Cybercrime) हेल्पलाइन नंबर क्या है?",
+                "ur": "بھارت میں قومی سائبر کرائم ہیلپ لائن نمبر کیا ہے؟",
+                "bn": "ভারতের জাতীয় সাইবার ক্রাইম হেল্পলাইন নম্বর কোনটি?"
               },
-              "options": [
-                "1930",
-                "1000",
-                "5555",
-                "8888"
-              ],
+              "options": {
+                "en": [
+                  "1930",
+                  "1000",
+                  "5555",
+                  "8888"
+                ],
+                "hi": [
+                  "1930",
+                  "1000",
+                  "5555",
+                  "8888"
+                ],
+                "ur": [
+                  "1930",
+                  "1000",
+                  "5555",
+                  "8888"
+                ],
+                "bn": [
+                  "১৯৩০",
+                  "১০০০",
+                  "৫৫৫৫",
+                  "৮৮৮৮"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "1930 is India's official helpline to report financial cyber fraud quickly."
+              "explanation": {
+                "en": "1930 is India's official helpline to report financial cyber fraud quickly.",
+                "hi": "1930 ऑनलाइन वित्तीय धोखाधड़ी की तुरंत शिकायत करने का भारत का आधिकारिक नंबर है।",
+                "ur": "1930 آن لائن مالی فراڈ کی فوری شکایت کے لیے بھارت کی سرکاری ہیلپ لائن ہے۔",
+                "bn": "১৯৩০ হলো অনলাইন আর্থিক প্রতারণার দ্রুত অভিযোগ জানানোর ভারতের সরকারি হেল্পলাইন।"
+              }
             },
             {
               "id": "d_e_4",
               "prompt": {
-                "default": "Why should you keep your phone's OS and apps updated?"
+                "en": "Why should you keep your phone's OS and apps updated?",
+                "hi": "अपने फ़ोन के OS और ऐप्स को अपडेट क्यों रखना चाहिए?",
+                "ur": "اپنے فون کے OS اور ایپس کو اپ ڈیٹ کیوں رکھنا چاہیے؟",
+                "bn": "ফোনের OS এবং অ্যাপগুলো কেন আপডেট রাখা উচিত?"
               },
-              "options": [
-                "To get security fixes and bug patches",
-                "To waste data",
-                "To slow down the phone",
-                "No benefit"
-              ],
+              "options": {
+                "en": [
+                  "To get security fixes and bug patches",
+                  "To waste data",
+                  "To slow down the phone",
+                  "No benefit"
+                ],
+                "hi": [
+                  "सुरक्षा सुधार और बग फ़िक्स पाने के लिए",
+                  "डेटा बर्बाद करने के लिए",
+                  "फ़ोन धीमा करने के लिए",
+                  "कोई लाभ नहीं"
+                ],
+                "ur": [
+                  "سیکیورٹی فکس اور بگز درست کرنے کے لیے",
+                  "ڈیٹا ضائع کرنے کے لیے",
+                  "فون سست کرنے کے لیے",
+                  "کوئی فائدہ نہیں"
+                ],
+                "bn": [
+                  "নিরাপত্তা আপডেট ও বাগ ফিক্স পাওয়ার জন্য",
+                  "ডেটা নষ্ট করতে",
+                  "ফোন ধীর করতে",
+                  "কোনো লাভ নেই"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "Updates patch security holes that hackers could otherwise exploit."
+              "explanation": {
+                "en": "Updates patch security holes that hackers could otherwise exploit.",
+                "hi": "अपडेट सुरक्षा खामियों को बंद करते हैं जिनका फायदा हैकर्स उठा सकते हैं।",
+                "ur": "اپ ڈیٹس سیکیورٹی خامیوں کو بند کرتی ہیں جن کا فائدہ ہیکرز اٹھا سکتے ہیں۔",
+                "bn": "আপডেট নিরাপত্তার দুর্বলতাগুলো ঠিক করে এবং ডিভাইস সুরক্ষিত রাখে।"
+              }
             }
           ]
         },
@@ -1176,58 +3168,170 @@
             {
               "id": "d_i_1",
               "prompt": {
-                "default": "What does 'Cloud Storage' (like Google Drive) allow you to do?"
+                "en": "What does 'Cloud Storage' (like Google Drive) allow you to do?",
+                "hi": "'क्लाउड स्टोरेज' (जैसे Google Drive) आपको क्या करने की सुविधा देता है?",
+                "ur": "'کلاؤڈ اسٹوریج' (جیسے Google Drive) آپ کو کیا سہولت دیتا ہے؟",
+                "bn": "'ক্লাউড স্টোরেজ' (যেমন Google Drive) আপনাকে কী সুবিধা দেয়?"
               },
-              "options": [
-                "Save and access files online across devices",
-                "Control weather",
-                "Charge your battery",
-                "Block calls"
-              ],
+              "options": {
+                "en": [
+                  "Save and access files online across devices",
+                  "Control weather",
+                  "Charge your battery",
+                  "Block calls"
+                ],
+                "hi": [
+                  "फ़ाइलों को ऑनलाइन सहेजना और किसी भी डिवाइस से खोलना",
+                  "मौसम नियंत्रित करना",
+                  "बैटरी चार्ज करना",
+                  "कॉल ब्लॉक करना"
+                ],
+                "ur": [
+                  "فائلیں آن لائن محفوظ کرنا اور کسی بھی ڈیوائس سے کھولنا",
+                  "موسم کنٹرول کرنا",
+                  "بیٹری چارج کرنا",
+                  "کالز بلاک کرنا"
+                ],
+                "bn": [
+                  "অনলাইনে ফাইল সংরক্ষণ ও যেকোনো ডিভাইস থেকে ব্যবহার করা",
+                  "আবহাওয়া নিয়ন্ত্রণ করা",
+                  "ব্যাটারি চার্জ করা",
+                  "কল ব্লক করা"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "Cloud storage backs up files securely on remote servers."
+              "explanation": {
+                "en": "Cloud storage backs up files securely on remote servers.",
+                "hi": "क्लाउड स्टोरेज आपकी फ़ाइलों को सुरक्षित सर्वर पर बैकअप रखता है।",
+                "ur": "کلاؤڈ اسٹوریج آپ کی فائلوں کا محفوظ آن لائن بیک اپ رکھتا ہے۔",
+                "bn": "ক্লাউড স্টোরেজ আপনার ফাইলগুলো নিরাপদ অনলাইন সার্ভারে সংরক্ষণ করে।"
+              }
             },
             {
               "id": "d_i_2",
               "prompt": {
-                "default": "What is a PDF file best used for?"
+                "en": "What is a PDF file best used for?",
+                "hi": "PDF फ़ाइल का सबसे अच्छा उपयोग किस लिए होता है?",
+                "ur": "PDF فائل کا سب سے بہترین استعمال کس لیے ہوتا ہے؟",
+                "bn": "PDF ফাইল সবচেয়ে ভালো কোন কাজে ব্যবহৃত হয়?"
               },
-              "options": [
-                "Sharing documents that look the same on every device",
-                "Recording audio",
-                "Making phone calls",
-                "Editing videos"
-              ],
+              "options": {
+                "en": [
+                  "Sharing documents that look the same on every device",
+                  "Recording audio",
+                  "Making phone calls",
+                  "Editing videos"
+                ],
+                "hi": [
+                  "ऐसे दस्तावेज़ साझा करना जो हर डिवाइस पर एक जैसे दिखें",
+                  "ऑडियो रिकॉर्ड करना",
+                  "फ़ोन कॉल करना",
+                  "वीडियो एडिट करना"
+                ],
+                "ur": [
+                  "ایسی دستاویزات شیئر کرنا جو ہر ڈیوائس پر ایک جیسی دکھیں",
+                  "آڈیو ریکارڈ کرنا",
+                  "فون کال کرنا",
+                  "ویڈیو ایڈٹ کرنا"
+                ],
+                "bn": [
+                  "এমন ডকুমেন্ট শেয়ার করা যা সব ডিভাইসে একই রকম দেখায়",
+                  "অডিও রেকর্ড করা",
+                  "ফোন কল করা",
+                  "ভিডিও এডিট করা"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "PDF preserves exact layout and formatting across phones and computers."
+              "explanation": {
+                "en": "PDF preserves exact layout and formatting across phones and computers.",
+                "hi": "PDF फ़ोन और कंप्यूटर दोनों पर दस्तावेज़ का लेआउट और फ़ॉर्मेटिंग एक जैसा बनाए रखता है।",
+                "ur": "PDF فون اور کمپیوٹر دونوں پر دستاویز کا ڈیزائن اور فارمیٹنگ یکساں رکھتا ہے۔",
+                "bn": "PDF যেকোনো ফোন বা কম্পিউটারে ডকুমেন্টের লেআউট অপরিবর্তিত রাখে।"
+              }
             },
             {
               "id": "d_i_3",
               "prompt": {
-                "default": "Before granting a new app 'Contacts' or 'SMS' permission, you should:"
+                "en": "Before granting a new app 'Contacts' or 'SMS' permission, you should:",
+                "hi": "किसी नए ऐप को 'Contacts' या 'SMS' की अनुमति (permission) देने से पहले आपको क्या करना चाहिए?",
+                "ur": "کسی نئی ایپ کو 'Contacts' یا 'SMS' کی اجازت دینے سے پہلے آپ کو کیا کرنا چاہیے؟",
+                "bn": "কোনো নতুন অ্যাপকে 'Contacts' বা 'SMS' পারমিশন দেওয়ার আগে আপনার কী করা উচিত?"
               },
-              "options": [
-                "Allow everything blindly",
-                "Check if the app genuinely needs that permission",
-                "Turn off the phone",
-                "Share your password"
-              ],
+              "options": {
+                "en": [
+                  "Allow everything blindly",
+                  "Check if the app genuinely needs that permission",
+                  "Turn off the phone",
+                  "Share your password"
+                ],
+                "hi": [
+                  "बिना देखे सब कुछ अनुमति दे दें",
+                  "जाँचें कि क्या ऐप को सच में उस अनुमति की ज़रूरत है",
+                  "फ़ोन बंद कर दें",
+                  "अपना पासवर्ड साझा करें"
+                ],
+                "ur": [
+                  "بغیر دیکھے سب اجازت دے دیں",
+                  "چیک کریں کہ آیا ایپ کو واقعی اس اجازت کی ضرورت ہے",
+                  "فون بند کر دیں",
+                  "اپنا پاس ورڈ بتائیں"
+                ],
+                "bn": [
+                  "না দেখেই সব অনুমতি দেওয়া",
+                  "যাচাই করা অ্যাপটির সত্যিই এই পারমিশন দরকার কিনা",
+                  "ফোন বন্ধ করা",
+                  "পাসওয়ার্ড শেয়ার করা"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Only grant permissions that match the app's actual purpose."
+              "explanation": {
+                "en": "Only grant permissions that match the app's actual purpose.",
+                "hi": "केवल वही अनुमतियाँ दें जो ऐप के असली काम के लिए ज़रूरी हों।",
+                "ur": "صرف وہی اجازتیں دیں جو ایپ کے اصل کام کے لیے ضروری ہوں۔",
+                "bn": "শুধুমাত্র সেই পারমিশনগুলোই দিন যা অ্যাপটির কাজের জন্য সত্যিই প্রয়োজন।"
+              }
             },
             {
               "id": "d_i_4",
               "prompt": {
-                "default": "What is an 'Offline-First' app?"
+                "en": "What is an 'Offline-First' app?",
+                "hi": "'ऑफ़लाइन-फ़र्स्ट' (Offline-First) ऐप क्या होता है?",
+                "ur": "'آف لائن فرسٹ' (Offline-First) ایپ کیا ہوتی ہے؟",
+                "bn": "'অফলাইন-ফার্স্ট' (Offline-First) অ্যাপ কী?"
               },
-              "options": [
-                "An app that never works",
-                "An app that works smoothly even without internet",
-                "An app that only works on Wi-Fi",
-                "A paid-only app"
-              ],
+              "options": {
+                "en": [
+                  "An app that never works",
+                  "An app that works smoothly even without internet",
+                  "An app that only works on Wi-Fi",
+                  "A paid-only app"
+                ],
+                "hi": [
+                  "ऐसा ऐप जो कभी नहीं चलता",
+                  "ऐसा ऐप जो बिना इंटरनेट के भी सुचारू रूप से चलता है",
+                  "ऐसा ऐप जो केवल Wi-Fi पर चलता है",
+                  "केवल पेड ऐप"
+                ],
+                "ur": [
+                  "ایسی ایپ جو کبھی نہ چلے",
+                  "ایسی ایپ جو بغیر انٹرنیٹ کے بھی آسانی سے چلے",
+                  "جو صرف وائی فائی پر چلے",
+                  "صرف پیسوں والی ایپ"
+                ],
+                "bn": [
+                  "এমন অ্যাপ যা কখনো চলে না",
+                  "এমন অ্যাপ যা ইন্টারনেট ছাড়াই মসৃণভাবে চলে",
+                  "শুধু ওয়াই-ফাইতে চলে",
+                  "শুধু পেইড অ্যাপ"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Offline-first apps store essential data locally so you can learn anywhere."
+              "explanation": {
+                "en": "Offline-first apps store essential data locally so you can learn anywhere.",
+                "hi": "ऑफ़लाइन-फ़र्स्ट ऐप्स ज़रूरी डेटा फ़ोन में सहेजते हैं ताकि आप कहीं भी सीख सकें।",
+                "ur": "آف لائن فرسٹ ایپس ضروری ڈیٹا فون میں محفوظ رکھتی ہیں تاکہ آپ کہیں بھی سیکھ سکیں۔",
+                "bn": "অফলাইন-ফার্স্ট অ্যাপ প্রয়োজনীয় ডেটা ফোনে সংরক্ষণ করে যাতে যেকোনো জায়গায় শেখা যায়।"
+              }
             }
           ]
         },
@@ -1238,58 +3342,170 @@
             {
               "id": "d_a_1",
               "prompt": {
-                "default": "What is the safest way to use public Wi-Fi at a railway station or cafe?"
+                "en": "What is the safest way to use public Wi-Fi at a railway station or cafe?",
+                "hi": "रेलवे स्टेशन या कैफ़े के पब्लिक Wi-Fi का उपयोग करने का सबसे सुरक्षित तरीका क्या है?",
+                "ur": "ریلوے اسٹیشن یا کیفے کے پبلک وائی فائی کے استعمال کا سب سے محفوظ طریقہ کیا ہے؟",
+                "bn": "রেলওয়ে স্টেশন বা ক্যাফের পাবলিক ওয়াই-ফাই ব্যবহারের সবচেয়ে নিরাপদ উপায় কী?"
               },
-              "options": [
-                "Do net-banking without caution",
-                "Avoid sensitive banking or use mobile data for payments",
-                "Share passwords openly",
-                "Turn off screen lock"
-              ],
+              "options": {
+                "en": [
+                  "Do net-banking without caution",
+                  "Avoid sensitive banking or use mobile data for payments",
+                  "Share passwords openly",
+                  "Turn off screen lock"
+                ],
+                "hi": [
+                  "बिना सावधानी नेट-बैंकिंग करें",
+                  "बैंकिंग/भुगतान से बचें या उसके लिए मोबाइल डेटा का उपयोग करें",
+                  "पासवर्ड खुलकर साझा करें",
+                  "स्क्रीन लॉक बंद कर दें"
+                ],
+                "ur": [
+                  "بغیر احتیاط نیٹ بینکنگ کریں",
+                  "بینکنگ سے بچیں یا پیمنٹ کے لیے موبائل ڈیٹا استعمال کریں",
+                  "پاس ورڈ کھلے عام بتائیں",
+                  "اسکرین لاک بند کر دیں"
+                ],
+                "bn": [
+                  "সতর্কতা ছাড়াই নেট-ব্যাংকিং করা",
+                  "ব্যাংকিং এড়িয়ে চলা বা পেমেন্টের জন্য মোবাইল ডেটা ব্যবহার করা",
+                  "পাসওয়ার্ড শেয়ার করা",
+                  "স্ক্রিন লক বন্ধ করা"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Mobile data is much safer than open public Wi-Fi for banking."
+              "explanation": {
+                "en": "Mobile data is much safer than open public Wi-Fi for banking.",
+                "hi": "बैंकिंग के लिए खुले पब्लिक Wi-Fi की तुलना में मोबाइल डेटा कहीं अधिक सुरक्षित है।",
+                "ur": "بینکنگ کے لیے کھلے پبلک وائی فائی کے مقابلے موبائل ڈیٹا زیادہ محفوظ ہے۔",
+                "bn": "ব্যাংকিং বা পেমেন্টের জন্য পাবলিক ওয়াই-ফাইয়ের চেয়ে মোবাইল ডেটা অনেক বেশি নিরাপদ।"
+              }
             },
             {
               "id": "d_a_2",
               "prompt": {
-                "default": "What does 'Open Source' software mean?"
+                "en": "What does 'Open Source' software mean?",
+                "hi": "'ओपन सोर्स' (Open Source) सॉफ़्टवेयर का क्या अर्थ है?",
+                "ur": "'اوپن سورس' (Open Source) سافٹ ویئر کا کیا مطلب ہے؟",
+                "bn": "'ওপেন সোর্স' (Open Source) সফটওয়্যার বলতে কী বোঝায়?"
               },
-              "options": [
-                "Its source code is publicly inspectable and community-auditable",
-                "It is always a virus",
-                "It costs ₹1 Lakh",
-                "It has no code"
-              ],
+              "options": {
+                "en": [
+                  "Its source code is publicly inspectable and community-auditable",
+                  "It is always a virus",
+                  "It costs ₹1 Lakh",
+                  "It has no code"
+                ],
+                "hi": [
+                  "इसका सोर्स कोड सार्वजनिक रूप से देखा और जाँचा जा सकता है",
+                  "यह हमेशा वायरस होता है",
+                  "इसकी कीमत ₹1 लाख होती है",
+                  "इसमें कोई कोड नहीं होता"
+                ],
+                "ur": [
+                  "اس کا سورس کوڈ عوامی طور پر دیکھا اور جانچا جا سکتا ہے",
+                  "یہ ہمیشہ وائرس ہوتا ہے",
+                  "اس کی قیمت ₹1 لاکھ ہوتی ہے",
+                  "اس میں کوئی کوڈ نہیں ہوتا"
+                ],
+                "bn": [
+                  "এর সোর্স কোড সবার জন্য উন্মুক্ত এবং যাচাইযোগ্য",
+                  "এটি সবসময় ভাইরাস",
+                  "এর দাম ₹১ লাখ",
+                  "এর কোনো কোড নেই"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "Open-source software allows anyone to inspect, learn from, and improve the code."
+              "explanation": {
+                "en": "Open-source software allows anyone to inspect, learn from, and improve the code.",
+                "hi": "ओपन-सोर्स सॉफ़्टवेयर का कोड कोई भी देख सकता है, उससे सीख सकता है और सुधार कर सकता है।",
+                "ur": "اوپن سورس سافٹ ویئر کا کوڈ کوئی بھی دیکھ سکتا ہے، اس سے سیکھ سکتا ہے اور بہتر بنا سکتا ہے۔",
+                "bn": "ওপেন সোর্স সফটওয়্যারের কোড যে কেউ দেখতে, শিখতে এবং উন্নত করতে পারে।"
+              }
             },
             {
               "id": "d_a_3",
               "prompt": {
-                "default": "What is a 'Backup' in digital hygiene?"
+                "en": "What is a 'Backup' in digital hygiene?",
+                "hi": "डिजिटल सुरक्षा में 'बैकअप' (Backup) क्या होता है?",
+                "ur": "ڈیجیٹل حفاظت میں 'بیک اپ' (Backup) کیا ہوتا ہے؟",
+                "bn": "ডিজিটাল নিরাপত্তায় 'ব্যাকআপ' (Backup) কী?"
               },
-              "options": [
-                "Deleting old files",
-                "Keeping a safe copy of important data in case of device loss",
-                "Restarting Wi-Fi",
-                "Lowering brightness"
-              ],
+              "options": {
+                "en": [
+                  "Deleting old files",
+                  "Keeping a safe copy of important data in case of device loss",
+                  "Restarting Wi-Fi",
+                  "Lowering brightness"
+                ],
+                "hi": [
+                  "पुरानी फ़ाइलें मिटाना",
+                  "फ़ोन खोने या खराब होने की स्थिति के लिए महत्वपूर्ण डेटा की सुरक्षित प्रति रखना",
+                  "Wi-Fi रीस्टार्ट करना",
+                  "ब्राइटनेस कम करना"
+                ],
+                "ur": [
+                  "پرانی فائلیں مٹانا",
+                  "فون گم یا خراب ہونے کی صورت کے لیے اہم ڈیٹا کی محفوظ کاپی رکھنا",
+                  "وائی فائی ری اسٹارٹ کرنا",
+                  "برائٹنس کم کرنا"
+                ],
+                "bn": [
+                  "পুরনো ফাইল মুছে ফেলা",
+                  "ডিভাইস হারিয়ে বা নষ্ট হলে সুরক্ষার জন্য জরুরি ডেটার কপি রাখা",
+                  "ওয়াই-ফাই রিস্টার্ট করা",
+                  "ব্রাইটনেস কমানো"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Regular backups protect you from accidental deletion or phone damage."
+              "explanation": {
+                "en": "Regular backups protect you from accidental deletion or phone damage.",
+                "hi": "नियमित बैकअप आपको फ़ाइल मिटने या फ़ोन खराब होने के नुकसान से बचाता है।",
+                "ur": "باقاعدہ بیک اپ آپ کو فائل ڈیلیٹ ہونے یا فون خراب ہونے کے نقصان سے بچاتا ہے۔",
+                "bn": "নিয়মিত ব্যাকআপ রাখলে ফোন নষ্ট বা ফাইল মুছে গেলেও ডেটা সুরক্ষিত থাকে।"
+              }
             },
             {
               "id": "d_a_4",
               "prompt": {
-                "default": "Why is a Personal Access Token (PAT) used instead of a password in Git?"
+                "en": "Why is a Personal Access Token (PAT) used instead of a password in Git?",
+                "hi": "Git में पासवर्ड की जगह Personal Access Token (PAT) का उपयोग क्यों किया जाता है?",
+                "ur": "Git میں پاس ورڈ کے بجائے Personal Access Token (PAT) کیوں استعمال ہوتا ہے؟",
+                "bn": "Git-এ পাসওয়ার্ডের বদলে Personal Access Token (PAT) কেন ব্যবহার করা হয়?"
               },
-              "options": [
-                "It allows scoped permissions and can be revoked anytime",
-                "It is shorter than 3 letters",
-                "It is public",
-                "It never expires"
-              ],
+              "options": {
+                "en": [
+                  "It allows scoped permissions and can be revoked anytime",
+                  "It is shorter than 3 letters",
+                  "It is public",
+                  "It never expires"
+                ],
+                "hi": [
+                  "यह सीमित अनुमतियाँ देता है और कभी भी रद्द (revoke) किया जा सकता है",
+                  "यह 3 अक्षरों से छोटा होता है",
+                  "यह सार्वजनिक होता है",
+                  "यह कभी समाप्त नहीं होता"
+                ],
+                "ur": [
+                  "یہ محدود اجازتیں دیتا ہے اور کسی بھی وقت منسوخ (revoke) کیا جا سکتا ہے",
+                  "یہ 3 حروف سے چھوٹا ہوتا ہے",
+                  "یہ عوامی ہوتا ہے",
+                  "یہ کبھی ختم نہیں ہوتا"
+                ],
+                "bn": [
+                  "এতে নির্দিষ্ট পারমিশন দেওয়া যায় এবং যেকোনো সময় বাতিল করা যায়",
+                  "এটি ৩ অক্ষরের ছোট",
+                  "এটি সবার জন্য উন্মুক্ত",
+                  "এর মেয়াদ কখনো শেষ হয় না"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "PATs give fine-grained control and keep your main account password safe."
+              "explanation": {
+                "en": "PATs give fine-grained control and keep your main account password safe.",
+                "hi": "PAT आपको सटीक नियंत्रण देता है और आपके मुख्य पासवर्ड को सुरक्षित रखता है।",
+                "ur": "PAT آپ کو مکمل کنٹرول دیتا ہے اور آپ کے اصل پاس ورڈ کو محفوظ رکھتا ہے۔",
+                "bn": "PAT সূক্ষ্ম নিয়ন্ত্রণ দেয় এবং আপনার মূল অ্যাকাউন্টের পাসওয়ার্ড নিরাপদ রাখে।"
+              }
             }
           ]
         }
@@ -1306,58 +3522,170 @@
             {
               "id": "r_b_1",
               "prompt": {
-                "default": "Which sentence has correct capitalization and punctuation?"
+                "en": "Which sentence has correct capitalization and punctuation?",
+                "hi": "किस वाक्य में बड़े अक्षर (Capitalization) और विराम चिह्न (Punctuation) सही हैं?",
+                "ur": "کس جملے میں بڑے حروف (Capitalization) اور رموزِ اوقاف درست ہیں؟",
+                "bn": "কোন বাক্যটিতে বড় হাতের অক্ষর এবং বিরামচিহ্ন সঠিক আছে?"
               },
-              "options": [
-                "i live in india",
-                "I live in India.",
-                "i Live in india.",
-                "I live In india"
-              ],
+              "options": {
+                "en": [
+                  "i live in india",
+                  "I live in India.",
+                  "i Live in india.",
+                  "I live In india"
+                ],
+                "hi": [
+                  "i live in india",
+                  "I live in India.",
+                  "i Live in india.",
+                  "I live In india"
+                ],
+                "ur": [
+                  "i live in india",
+                  "I live in India.",
+                  "i Live in india.",
+                  "I live In india"
+                ],
+                "bn": [
+                  "i live in india",
+                  "I live in India.",
+                  "i Live in india.",
+                  "I live In india"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Start with a capital letter, capitalize proper nouns like 'India', and end with a full stop."
+              "explanation": {
+                "en": "Start with a capital letter, capitalize proper nouns like 'India', and end with a full stop.",
+                "hi": "वाक्य की शुरुआत बड़े अक्षर से करें, 'India' जैसे नाम बड़े अक्षर से लिखें और अंत में पूर्ण विराम (.) लगाएँ।",
+                "ur": "جملہ بڑے حرف سے شروع کریں، 'India' جیسے نام بڑے حرف سے لکھیں اور آخر میں فل اسٹاپ (.) لگائیں۔",
+                "bn": "বাক্য বড় হাতের অক্ষর দিয়ে শুরু হয়, 'India'-এর মতো নামের প্রথম অক্ষর বড় হয় এবং শেষে ফুলস্টপ (.) বসে।"
+              }
             },
             {
               "id": "r_b_2",
               "prompt": {
-                "default": "Choose the correct word: 'She ___ to school every day.'"
+                "en": "Choose the correct word: 'She ___ to school every day.'",
+                "hi": "सही शब्द चुनें: 'She ___ to school every day.'",
+                "ur": "صحیح لفظ چنیں: 'She ___ to school every day.'",
+                "bn": "সঠিক শব্দটি বাছুন: 'She ___ to school every day.'"
               },
-              "options": [
-                "go",
-                "goes",
-                "going",
-                "gone"
-              ],
+              "options": {
+                "en": [
+                  "go",
+                  "goes",
+                  "going",
+                  "gone"
+                ],
+                "hi": [
+                  "go",
+                  "goes",
+                  "going",
+                  "gone"
+                ],
+                "ur": [
+                  "go",
+                  "goes",
+                  "going",
+                  "gone"
+                ],
+                "bn": [
+                  "go",
+                  "goes",
+                  "going",
+                  "gone"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "With 'She/He/It' in simple present tense, we use 'goes'."
+              "explanation": {
+                "en": "With 'She/He/It' in simple present tense, we use 'goes'.",
+                "hi": "Simple present tense में 'She/He/It' के साथ 'goes' का उपयोग होता है।",
+                "ur": "Simple present tense میں 'She/He/It' کے ساتھ 'goes' استعمال ہوتا ہے۔",
+                "bn": "Simple present tense-এ 'She/He/It'-এর সাথে 'goes' বসে।"
+              }
             },
             {
               "id": "r_b_3",
               "prompt": {
-                "default": "Which punctuation mark is used at the end of a question?"
+                "en": "Which punctuation mark is used at the end of a question?",
+                "hi": "किसी प्रश्न के अंत में कौन-सा विराम चिह्न लगाया जाता है?",
+                "ur": "کسی سوال کے آخر میں کون سی علامت لگائی جاتی ہے؟",
+                "bn": "কোনো প্রশ্নের শেষে কোন বিরামচিহ্ন বসে?"
               },
-              "options": [
-                ".",
-                ",",
-                "?",
-                "!"
-              ],
+              "options": {
+                "en": [
+                  ".",
+                  ",",
+                  "?",
+                  "!"
+                ],
+                "hi": [
+                  ".",
+                  ",",
+                  "?",
+                  "!"
+                ],
+                "ur": [
+                  ".",
+                  ",",
+                  "?",
+                  "!"
+                ],
+                "bn": [
+                  ".",
+                  ",",
+                  "?",
+                  "!"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "A question mark (?) ends a direct question."
+              "explanation": {
+                "en": "A question mark (?) ends a direct question.",
+                "hi": "प्रश्न के अंत में प्रश्नवाचक चिह्न (?) लगाया जाता है।",
+                "ur": "سوال کے آخر میں سوالیہ نشان (?) لگایا جاتا ہے۔",
+                "bn": "প্রশ্নের শেষে প্রশ্নবোধক চিহ্ন (?) ব্যবহার করা হয়।"
+              }
             },
             {
               "id": "r_b_4",
               "prompt": {
-                "default": "Choose the correct article: 'He ate ___ apple.'"
+                "en": "Choose the correct article: 'He ate ___ apple.'",
+                "hi": "सही आर्टिकल चुनें: 'He ate ___ apple.'",
+                "ur": "صحیح آرٹیکل چنیں: 'He ate ___ apple.'",
+                "bn": "সঠিক আর্টিকেল বাছুন: 'He ate ___ apple.'"
               },
-              "options": [
-                "a",
-                "an",
-                "the",
-                "no article"
-              ],
+              "options": {
+                "en": [
+                  "a",
+                  "an",
+                  "the",
+                  "no article"
+                ],
+                "hi": [
+                  "a",
+                  "an",
+                  "the",
+                  "no article"
+                ],
+                "ur": [
+                  "a",
+                  "an",
+                  "the",
+                  "no article"
+                ],
+                "bn": [
+                  "a",
+                  "an",
+                  "the",
+                  "no article"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Use 'an' before words starting with a vowel sound like 'apple'."
+              "explanation": {
+                "en": "Use 'an' before words starting with a vowel sound like 'apple'.",
+                "hi": "'apple' जैसे स्वर ध्वनि (vowel sound) से शुरू होने वाले शब्दों से पहले 'an' लगता है।",
+                "ur": "'apple' جیسے واول آواز سے شروع ہونے والے الفاظ سے پہلے 'an' آتا ہے۔",
+                "bn": "'apple'-এর মতো vowel সাউন্ড দিয়ে শুরু শব্দের আগে 'an' বসে।"
+              }
             }
           ]
         },
@@ -1368,58 +3696,170 @@
             {
               "id": "r_e_1",
               "prompt": {
-                "default": "What is the main purpose of a 'Subject Line' in an email?"
+                "en": "What is the main purpose of a 'Subject Line' in an email?",
+                "hi": "ईमेल में 'Subject Line' का मुख्य उद्देश्य क्या होता है?",
+                "ur": "ای میل میں 'Subject Line' کا بنیادی مقصد کیا ہوتا ہے؟",
+                "bn": "ইমেইলে 'Subject Line'-এর মূল উদ্দেশ্য কী?"
               },
-              "options": [
-                "To summarize what the email is about",
-                "To write the entire essay",
-                "To add your password",
-                "To leave it blank"
-              ],
+              "options": {
+                "en": [
+                  "To summarize what the email is about",
+                  "To write the entire essay",
+                  "To add your password",
+                  "To leave it blank"
+                ],
+                "hi": [
+                  "संक्षेप में बताना कि ईमेल किस विषय पर है",
+                  "पूरा निबंध लिखना",
+                  "अपना पासवर्ड डालना",
+                  "इसे खाली छोड़ देना"
+                ],
+                "ur": [
+                  "مختصراً بتانا کہ ای میل کس موضوع پر ہے",
+                  "پورا مضمون لکھنا",
+                  "اپنا پاس ورڈ لکھنا",
+                  "اسے خالی چھوڑ دینا"
+                ],
+                "bn": [
+                  "ইমেইলটি কী বিষয়ে তা সংক্ষেপে জানানো",
+                  "পুরো রচনা লেখা",
+                  "পাসওয়ার্ড লেখা",
+                  "ফাঁকা রাখা"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "A clear subject line helps the reader understand your email immediately."
+              "explanation": {
+                "en": "A clear subject line helps the reader understand your email immediately.",
+                "hi": "स्पष्ट सब्जेक्ट लाइन से पढ़ने वाले को तुरंत ईमेल का विषय समझ आ जाता है।",
+                "ur": "واضح سبجیکٹ لائن سے پڑھنے والے کو فوراً ای میل کا موضوع سمجھ آ جاتا ہے۔",
+                "bn": "স্পষ্ট সাবজেক্ট লাইন পাঠককে সহজেই ইমেইলের বিষয়বস্তু বুঝতে সাহায্য করে।"
+              }
             },
             {
               "id": "r_e_2",
               "prompt": {
-                "default": "Choose the past tense of 'write':"
+                "en": "Choose the past tense of 'write':",
+                "hi": "'write' का भूतकाल (Past tense) रूप चुनें:",
+                "ur": "'write' کا ماضی (Past tense) لفظ چنیں:",
+                "bn": "'write'-এর অতীত কাল (Past tense) কোনটি?"
               },
-              "options": [
-                "writed",
-                "wrote",
-                "written",
-                "writing"
-              ],
+              "options": {
+                "en": [
+                  "writed",
+                  "wrote",
+                  "written",
+                  "writing"
+                ],
+                "hi": [
+                  "writed",
+                  "wrote",
+                  "written",
+                  "writing"
+                ],
+                "ur": [
+                  "writed",
+                  "wrote",
+                  "written",
+                  "writing"
+                ],
+                "bn": [
+                  "writed",
+                  "wrote",
+                  "written",
+                  "writing"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "'Wrote' is the simple past tense of 'write'."
+              "explanation": {
+                "en": "'Wrote' is the simple past tense of 'write'.",
+                "hi": "'write' का simple past tense 'wrote' होता है।",
+                "ur": "'write' کا simple past tense 'wrote' ہوتا ہے۔",
+                "bn": "'write'-এর simple past tense হলো 'wrote'।"
+              }
             },
             {
               "id": "r_e_3",
               "prompt": {
-                "default": "Which sentence is polite for a formal request?"
+                "en": "Which sentence is polite for a formal request?",
+                "hi": "औपचारिक अनुरोध (formal request) के लिए कौन-सा वाक्य विनम्र है?",
+                "ur": "باوقار اور رسمی درخواست کے لیے کون سا جملہ شائستہ ہے؟",
+                "bn": "আনুষ্ঠানিক অনুরোধের (formal request) জন্য কোন বাক্যটি ভদ্র?"
               },
-              "options": [
-                "Give me the file now.",
-                "Could you please share the file?",
-                "File now!",
-                "Send it fast."
-              ],
+              "options": {
+                "en": [
+                  "Give me the file now.",
+                  "Could you please share the file?",
+                  "File now!",
+                  "Send it fast."
+                ],
+                "hi": [
+                  "Give me the file now.",
+                  "Could you please share the file?",
+                  "File now!",
+                  "Send it fast."
+                ],
+                "ur": [
+                  "Give me the file now.",
+                  "Could you please share the file?",
+                  "File now!",
+                  "Send it fast."
+                ],
+                "bn": [
+                  "Give me the file now.",
+                  "Could you please share the file?",
+                  "File now!",
+                  "Send it fast."
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "'Could you please...' is polite and professional."
+              "explanation": {
+                "en": "'Could you please...' is polite and professional.",
+                "hi": "'Could you please...' विनम्र और पेशेवर (professional) तरीका है।",
+                "ur": "'Could you please...' شائستہ اور پیشہ ورانہ انداز ہے۔",
+                "bn": "'Could you please...' ভদ্র এবং পেশাদার প্রকাশভঙ্গি।"
+              }
             },
             {
               "id": "r_e_4",
               "prompt": {
-                "default": "What is a paragraph?"
+                "en": "What is a paragraph?",
+                "hi": "अनुच्छेद (Paragraph) क्या होता है?",
+                "ur": "پیراگراف (Paragraph) کیا ہوتا ہے؟",
+                "bn": "অনুচ্ছেদ (Paragraph) কাকে বলে?"
               },
-              "options": [
-                "A group of sentences focused on one main idea",
-                "A single letter",
-                "A list of random numbers",
-                "A title only"
-              ],
+              "options": {
+                "en": [
+                  "A group of sentences focused on one main idea",
+                  "A single letter",
+                  "A list of random numbers",
+                  "A title only"
+                ],
+                "hi": [
+                  "एक मुख्य विचार पर केंद्रित वाक्यों का समूह",
+                  "एक अकेला अक्षर",
+                  "अनियमित संख्याओं की सूची",
+                  "केवल एक शीर्षक"
+                ],
+                "ur": [
+                  "ایک مرکزی خیال پر مشتمل جملوں کا مجموعہ",
+                  "ایک اکیلا حرف",
+                  "بے ترتیب اعداد کی فہرست",
+                  "صرف ایک عنوان"
+                ],
+                "bn": [
+                  "একটি মূল ভাবকে কেন্দ্র করে লেখা বাক্যের সমষ্টি",
+                  "একটি মাত্র অক্ষর",
+                  "এলোমেলো সংখ্যার তালিকা",
+                  "শুধু একটি শিরোনাম"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "Good paragraphs group related sentences around one clear topic."
+              "explanation": {
+                "en": "Good paragraphs group related sentences around one clear topic.",
+                "hi": "अच्छे पैराग्राफ़ में एक ही विषय से जुड़े वाक्य एक साथ होते हैं।",
+                "ur": "اچھے پیراگراف میں ایک ہی موضوع سے جڑے جملے ایک ساتھ ہوتے ہیں۔",
+                "bn": "ভালো অনুচ্ছেদে একটি নির্দিষ্ট বিষয় ঘিরে সম্পর্কিত বাক্যগুলো সাজানো থাকে।"
+              }
             }
           ]
         },
@@ -1430,58 +3870,170 @@
             {
               "id": "r_i_1",
               "prompt": {
-                "default": "Which word correctly completes: 'Their / There / They're going to the market.'?"
+                "en": "Which word correctly completes: '___ going to the market.'?",
+                "hi": "सही शब्द से वाक्य पूरा करें: '___ going to the market.'",
+                "ur": "صحیح لفظ سے جملہ مکمل کریں: '___ going to the market.'",
+                "bn": "সঠিক শব্দ দিয়ে বাক্যটি সম্পূর্ণ করুন: '___ going to the market.'"
               },
-              "options": [
-                "Their",
-                "There",
-                "They're",
-                "None"
-              ],
+              "options": {
+                "en": [
+                  "Their",
+                  "There",
+                  "They're",
+                  "None"
+                ],
+                "hi": [
+                  "Their",
+                  "There",
+                  "They're",
+                  "None"
+                ],
+                "ur": [
+                  "Their",
+                  "There",
+                  "They're",
+                  "None"
+                ],
+                "bn": [
+                  "Their",
+                  "There",
+                  "They're",
+                  "None"
+                ]
+              },
               "correctIndex": 2,
-              "explanation": "'They're' is the contraction of 'They are'."
+              "explanation": {
+                "en": "'They're' is the contraction of 'They are'.",
+                "hi": "'They're' असल में 'They are' का संक्षिप्त रूप है।",
+                "ur": "'They're' دراصل 'They are' کا مختصر روپ ہے۔",
+                "bn": "'They're' হলো 'They are'-এর সংক্ষিপ্ত রূপ।"
+              }
             },
             {
               "id": "r_i_2",
               "prompt": {
-                "default": "What does 'Proofreading' mean?"
+                "en": "What does 'Proofreading' mean?",
+                "hi": "'प्रूफ़रीडिंग' (Proofreading) का क्या अर्थ है?",
+                "ur": "'پروف ریڈنگ' (Proofreading) کا کیا مطلب ہے؟",
+                "bn": "'প্রুফরিডিং' (Proofreading) বলতে কী বোঝায়?"
               },
-              "options": [
-                "Checking your writing for spelling and grammar mistakes",
-                "Deleting your draft",
-                "Copying someone else",
-                "Printing without reading"
-              ],
+              "options": {
+                "en": [
+                  "Checking your writing for spelling and grammar mistakes",
+                  "Deleting your draft",
+                  "Copying someone else",
+                  "Printing without reading"
+                ],
+                "hi": [
+                  "लिखे हुए में वर्तनी और व्याकरण की गलतियाँ जाँचना",
+                  "अपना ड्राफ़्ट मिटा देना",
+                  "किसी और की नकल करना",
+                  "बिना पढ़े प्रिंट करना"
+                ],
+                "ur": [
+                  "تحریر میں املا اور گرامر کی غلطیاں چیک کرنا",
+                  "اپنا ڈرافٹ مٹا دینا",
+                  "کسی اور کی نقل کرنا",
+                  "بغیر پڑھے پرنٹ کرنا"
+                ],
+                "bn": [
+                  "লেখার বানান ও ব্যাকরণের ভুল যাচাই করা",
+                  "খসড়া মুছে ফেলা",
+                  "অন্যের লেখা নকল করা",
+                  "না পড়ে প্রিন্ট করা"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "Proofreading catches errors before you send or publish."
+              "explanation": {
+                "en": "Proofreading catches errors before you send or publish.",
+                "hi": "प्रूफ़रीडिंग से भेजने या प्रकाशित करने से पहले गलतियाँ पकड़ में आ जाती हैं।",
+                "ur": "پروف ریڈنگ سے تحریر بھیجنے یا شائع کرنے سے پہلے غلطیاں درست ہو جاتی ہیں۔",
+                "bn": "প্রুফরিডিং লেখা পাঠানোর বা প্রকাশের আগে ভুলগুলো ধরে দেয়।"
+              }
             },
             {
               "id": "r_i_3",
               "prompt": {
-                "default": "Which sentence is more concise and clear?"
+                "en": "Which sentence is more concise and clear?",
+                "hi": "इनमें से कौन-सा वाक्य अधिक संक्षिप्त और स्पष्ट है?",
+                "ur": "ان میں سے کون سا جملہ زیادہ مختصر اور واضح ہے؟",
+                "bn": "কোন বাক্যটি বেশি সংক্ষিপ্ত ও স্পষ্ট?"
               },
-              "options": [
-                "Due to the fact that it was raining, we stayed inside.",
-                "Because it was raining, we stayed inside.",
-                "It was raining so therefore because of that we stayed.",
-                "Staying inside was done by us due to rain."
-              ],
+              "options": {
+                "en": [
+                  "Due to the fact that it was raining, we stayed inside.",
+                  "Because it was raining, we stayed inside.",
+                  "It was raining so therefore because of that we stayed.",
+                  "Staying inside was done by us due to rain."
+                ],
+                "hi": [
+                  "Due to the fact that it was raining, we stayed inside.",
+                  "Because it was raining, we stayed inside.",
+                  "It was raining so therefore because of that we stayed.",
+                  "Staying inside was done by us due to rain."
+                ],
+                "ur": [
+                  "Due to the fact that it was raining, we stayed inside.",
+                  "Because it was raining, we stayed inside.",
+                  "It was raining so therefore because of that we stayed.",
+                  "Staying inside was done by us due to rain."
+                ],
+                "bn": [
+                  "Due to the fact that it was raining, we stayed inside.",
+                  "Because it was raining, we stayed inside.",
+                  "It was raining so therefore because of that we stayed.",
+                  "Staying inside was done by us due to rain."
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "Simple, direct phrasing ('Because...') is easier to read."
+              "explanation": {
+                "en": "Simple, direct phrasing ('Because...') is easier to read.",
+                "hi": "सरल और सीधी भाषा ('Because...') पढ़ने में अधिक आसान होती है।",
+                "ur": "سادہ اور براہِ راست انداز ('Because...') پڑھنے میں زیادہ آسان ہوتا ہے۔",
+                "bn": "সহজ ও সরাসরি বাক্য ('Because...') পড়তে অনেক সহজ হয়।"
+              }
             },
             {
               "id": "r_i_4",
               "prompt": {
-                "default": "In a formal letter, which closing is most appropriate?"
+                "en": "In a formal letter, which closing is most appropriate?",
+                "hi": "औपचारिक पत्र (Formal letter) के अंत में कौन-सा समापन सबसे उपयुक्त है?",
+                "ur": "رسمی خط (Formal letter) کے آخر میں کون سا اختتام سب سے مناسب ہے؟",
+                "bn": "আনুষ্ঠানিক চিঠির (Formal letter) শেষে কোন সমাপ্তি সবচেয়ে উপযুক্ত?"
               },
-              "options": [
-                "See ya!",
-                "Sincerely,",
-                "Bye bro,",
-                "Later,"
-              ],
+              "options": {
+                "en": [
+                  "See ya!",
+                  "Sincerely,",
+                  "Bye bro,",
+                  "Later,"
+                ],
+                "hi": [
+                  "See ya!",
+                  "Sincerely,",
+                  "Bye bro,",
+                  "Later,"
+                ],
+                "ur": [
+                  "See ya!",
+                  "Sincerely,",
+                  "Bye bro,",
+                  "Later,"
+                ],
+                "bn": [
+                  "See ya!",
+                  "Sincerely,",
+                  "Bye bro,",
+                  "Later,"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "'Sincerely,' or 'Regards,' is standard for formal writing."
+              "explanation": {
+                "en": "'Sincerely,' or 'Regards,' is standard for formal writing.",
+                "hi": "औपचारिक लेखन में 'Sincerely,' या 'Regards,' का उपयोग मानक माना जाता है।",
+                "ur": "رسمی تحریر میں 'Sincerely,' یا 'Regards,' کا استعمال معیاری مانا جاتا ہے۔",
+                "bn": "আনুষ্ঠানিক চিঠিতে 'Sincerely,' বা 'Regards,' ব্যবহার করা আদর্শ।"
+              }
             }
           ]
         },
@@ -1492,58 +4044,170 @@
             {
               "id": "r_a_1",
               "prompt": {
-                "default": "What is the active voice version of 'The report was written by Ayesha'?"
+                "en": "What is the active voice version of 'The report was written by Ayesha'?",
+                "hi": "'The report was written by Ayesha' का Active Voice रूप क्या होगा?",
+                "ur": "'The report was written by Ayesha' کا Active Voice جملہ کیا ہوگا؟",
+                "bn": "'The report was written by Ayesha'-এর Active Voice কী হবে?"
               },
-              "options": [
-                "Ayesha wrote the report.",
-                "The report is being written.",
-                "Written by Ayesha was the report.",
-                "Ayesha has been a report."
-              ],
+              "options": {
+                "en": [
+                  "Ayesha wrote the report.",
+                  "The report is being written.",
+                  "Written by Ayesha was the report.",
+                  "Ayesha has been a report."
+                ],
+                "hi": [
+                  "Ayesha wrote the report.",
+                  "The report is being written.",
+                  "Written by Ayesha was the report.",
+                  "Ayesha has been a report."
+                ],
+                "ur": [
+                  "Ayesha wrote the report.",
+                  "The report is being written.",
+                  "Written by Ayesha was the report.",
+                  "Ayesha has been a report."
+                ],
+                "bn": [
+                  "Ayesha wrote the report.",
+                  "The report is being written.",
+                  "Written by Ayesha was the report.",
+                  "Ayesha has been a report."
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "Active voice puts the doer ('Ayesha') first, making writing stronger."
+              "explanation": {
+                "en": "Active voice puts the doer ('Ayesha') first, making writing stronger.",
+                "hi": "Active voice में कर्ता ('Ayesha') को पहले रखा जाता है, जिससे वाक्य प्रभावी बनता है।",
+                "ur": "Active voice میں فاعل ('Ayesha') پہلے آتا ہے، جس سے جملہ مضبوط بنتا ہے۔",
+                "bn": "Active voice-এ কর্তা ('Ayesha') প্রথমে বসে, ফলে বাক্যটি শক্তিশালী হয়।"
+              }
             },
             {
               "id": "r_a_2",
               "prompt": {
-                "default": "What is a 'Thesis Statement' in an essay?"
+                "en": "What is a 'Thesis Statement' in an essay?",
+                "hi": "निबंध (Essay) में 'थीसिस स्टेटमेंट' (Thesis Statement) क्या होता है?",
+                "ur": "مضمون (Essay) میں 'تھیسس اسٹیٹمنٹ' (Thesis Statement) کیا ہوتا ہے؟",
+                "bn": "রচনায় 'থিসিস স্টেটমেন্ট' (Thesis Statement) কী?"
               },
-              "options": [
-                "The central argument or main point of the essay",
-                "The last word",
-                "A footnote",
-                "The page number"
-              ],
+              "options": {
+                "en": [
+                  "The central argument or main point of the essay",
+                  "The last word",
+                  "A footnote",
+                  "The page number"
+                ],
+                "hi": [
+                  "निबंध का मुख्य तर्क या केंद्रीय बिंदु",
+                  "आखिरी शब्द",
+                  "फ़ुटनोट",
+                  "पृष्ठ संख्या"
+                ],
+                "ur": [
+                  "مضمون کا مرکزی نقطہ یا بنیادی دلیل",
+                  "آخری لفظ",
+                  "حاشیہ (Footnote)",
+                  "صفحہ نمبر"
+                ],
+                "bn": [
+                  "রচনার মূল বক্তব্য বা কেন্দ্রীয় যুক্তি",
+                  "শেষ শব্দ",
+                  "পাদটীকা",
+                  "পৃষ্ঠা নম্বর"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "A thesis statement clearly states the essay's main claim."
+              "explanation": {
+                "en": "A thesis statement clearly states the essay's main claim.",
+                "hi": "थीसिस स्टेटमेंट निबंध के मुख्य विचार को स्पष्ट रूप से सामने रखता है।",
+                "ur": "تھیسس اسٹیٹمنٹ مضمون کے مرکزی خیال کو واضح طور پر بیان کرتا ہے۔",
+                "bn": "থিসিস স্টেটমেন্ট রচনার মূল দাবি বা বক্তব্য পরিষ্কারভাবে তুলে ধরে।"
+              }
             },
             {
               "id": "r_a_3",
               "prompt": {
-                "default": "Which transition word shows contrast?"
+                "en": "Which transition word shows contrast?",
+                "hi": "इनमें से कौन-सा शब्द विरोध या अंतर (Contrast) दर्शाता है?",
+                "ur": "ان میں سے کون سا لفظ تضاد یا فرق (Contrast) ظاہر کرتا ہے؟",
+                "bn": "কোন শব্দটি বৈপরীত্য (Contrast) প্রকাশ করে?"
               },
-              "options": [
-                "Furthermore",
-                "However",
-                "Similarly",
-                "Also"
-              ],
+              "options": {
+                "en": [
+                  "Furthermore",
+                  "However",
+                  "Similarly",
+                  "Also"
+                ],
+                "hi": [
+                  "Furthermore",
+                  "However",
+                  "Similarly",
+                  "Also"
+                ],
+                "ur": [
+                  "Furthermore",
+                  "However",
+                  "Similarly",
+                  "Also"
+                ],
+                "bn": [
+                  "Furthermore",
+                  "However",
+                  "Similarly",
+                  "Also"
+                ]
+              },
               "correctIndex": 1,
-              "explanation": "'However' introduces a contrasting idea."
+              "explanation": {
+                "en": "'However' introduces a contrasting idea.",
+                "hi": "'However' (हालाँकि) किसी विपरीत या अलग विचार को जोड़ता है।",
+                "ur": "'However' (تاہم) کسی مختلف یا متضاد خیال کو جوڑتا ہے۔",
+                "bn": "'However' (তবে/যাইহোক) বিপরীত কোনো ভাব প্রকাশ করে।"
+              }
             },
             {
               "id": "r_a_4",
               "prompt": {
-                "default": "Why is skimming useful when reading a long article?"
+                "en": "Why is skimming useful when reading a long article?",
+                "hi": "लंबा लेख पढ़ते समय 'स्किमिंग' (Skimming) क्यों उपयोगी होती है?",
+                "ur": "لمبا مضمون پڑھتے وقت 'اسکمنگ' (Skimming) کیوں مفید ہوتی ہے؟",
+                "bn": "লম্বা প্রবন্ধ পড়ার সময় 'স্কিমিং' (Skimming) কেন উপকারী?"
               },
-              "options": [
-                "It helps you quickly grasp the main structure and key points",
-                "It skips reading forever",
-                "It memorizes every comma",
-                "It translates languages"
-              ],
+              "options": {
+                "en": [
+                  "It helps you quickly grasp the main structure and key points",
+                  "It skips reading forever",
+                  "It memorizes every comma",
+                  "It translates languages"
+                ],
+                "hi": [
+                  "यह लेख की मुख्य संरचना और ज़रूरी बिंदुओं को जल्दी समझने में मदद करती है",
+                  "इससे पढ़ना हमेशा के लिए छूट जाता है",
+                  "यह हर कॉमा याद कराती है",
+                  "यह भाषा का अनुवाद करती है"
+                ],
+                "ur": [
+                  "یہ مضمون کے بنیادی ڈھانچے اور اہم نکات کو جلدی سمجھنے میں مدد دیتی ہے",
+                  "اس سے پڑھنا ہمیشہ کے لیے چھوٹ جاتا ہے",
+                  "یہ ہر کاما یاد کراتی ہے",
+                  "یہ زبان کا ترجمہ کرتی ہے"
+                ],
+                "bn": [
+                  "এটি দ্রুত মূল কাঠামো ও গুরুত্বপূর্ণ পয়েন্ট বুঝতে সাহায্য করে",
+                  "এটি পড়া বাদ দেয়",
+                  "প্রতিটি কমা মুখস্থ করায়",
+                  "ভাষা অনুবাদ করে"
+                ]
+              },
               "correctIndex": 0,
-              "explanation": "Skimming headings and first sentences gives a fast overview."
+              "explanation": {
+                "en": "Skimming headings and first sentences gives a fast overview.",
+                "hi": "शीर्षक और शुरुआती वाक्य देखकर पूरे लेख का तेज़ी से अंदाज़ा मिल जाता है।",
+                "ur": "سرخیوں اور ابتدائی جملوں پر نظر ڈالنے سے پورے مضمون کا خلاصہ جلدی سمجھ آ جاتا ہے۔",
+                "bn": "শিরোনাম ও প্রথম বাক্যগুলো দেখে দ্রুত পুরো লেখার ধারণা পাওয়া যায়।"
+              }
             }
           ]
         }
