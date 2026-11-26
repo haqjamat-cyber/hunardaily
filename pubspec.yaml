@@ -3,7 +3,7 @@ description: >-
   HunarDaily - Offline-first, privacy-respecting multilingual learning and
   personal development Android application.
 publish_to: 'none'
-version: 0.1.0+1
+version: 0.2.0+2
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
@@ -28,3 +28,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/content/curriculum_v1.json

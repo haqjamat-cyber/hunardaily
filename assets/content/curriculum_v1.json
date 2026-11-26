@@ -1,0 +1,1553 @@
+{
+  "version": 1,
+  "courses": [
+    {
+      "id": "vocab",
+      "title": "English Vocabulary",
+      "levels": [
+        {
+          "id": "beginner",
+          "name": "Beginner",
+          "questions": [
+            {
+              "id": "v_b_1",
+              "prompt": {
+                "hi_to_en": "'धन्यवाद' का सही English शब्द क्या है?",
+                "ur_to_en": "'شکریہ' کا صحیح English لفظ کیا ہے؟",
+                "bn_to_en": "'ধন্যবাদ'-এর সঠিক English শব্দ কী?",
+                "default": "Which English word means 'Thank you'?"
+              },
+              "options": [
+                "Sorry",
+                "Thank you",
+                "Please",
+                "Welcome"
+              ],
+              "correctIndex": 1,
+              "explanation": "'Thank you' is used to express gratitude."
+            },
+            {
+              "id": "v_b_2",
+              "prompt": {
+                "hi_to_en": "'पानी' को English में क्या कहते हैं?",
+                "ur_to_en": "'پانی' کو English میں کیا کہتے ہیں؟",
+                "bn_to_en": "'জল/পানি'-কে English-এ কী বলে?",
+                "default": "What is the English word for water?"
+              },
+              "options": [
+                "Fire",
+                "Air",
+                "Water",
+                "Food"
+              ],
+              "correctIndex": 2,
+              "explanation": "'Water' means पानी / پانی / জল."
+            },
+            {
+              "id": "v_b_3",
+              "prompt": {
+                "hi_to_en": "'किताब' का सही English शब्द चुनें:",
+                "ur_to_en": "'کتاب' کا صحیح English لفظ چنیں:",
+                "bn_to_en": "'বই'-এর সঠিক English শব্দ বাছুন:",
+                "default": "Choose the English word for book:"
+              },
+              "options": [
+                "Book",
+                "Pen",
+                "Chair",
+                "Table"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Book' means किताब / کتاب / বই."
+            },
+            {
+              "id": "v_b_4",
+              "prompt": {
+                "hi_to_en": "'सुबह' को English में क्या कहते हैं?",
+                "ur_to_en": "'صبح' کو English میں کیا کہتے ہیں؟",
+                "bn_to_en": "'সকাল'-কে English-এ কী বলে?",
+                "default": "What is the English word for morning?"
+              },
+              "options": [
+                "Night",
+                "Evening",
+                "Morning",
+                "Noon"
+              ],
+              "correctIndex": 2,
+              "explanation": "'Morning' is the early part of the day."
+            }
+          ]
+        },
+        {
+          "id": "elementary",
+          "name": "Elementary",
+          "questions": [
+            {
+              "id": "v_e_1",
+              "prompt": {
+                "hi_to_en": "'भरोसा' के लिए सही English शब्द कौन-सा है?",
+                "ur_to_en": "'بھروسہ' کے لیے صحیح English لفظ کون سا ہے؟",
+                "bn_to_en": "'বিশ্বাস/ভরসা'-এর সঠিক English শব্দ কোনটি?",
+                "default": "Which word means 'Trust'?"
+              },
+              "options": [
+                "Trust",
+                "Doubt",
+                "Fear",
+                "Anger"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Trust' means firm belief in someone's reliability."
+            },
+            {
+              "id": "v_e_2",
+              "prompt": {
+                "hi_to_en": "'मेहनत' को English में क्या कहते हैं?",
+                "ur_to_en": "'محنت' کو English میں کیا کہتے ہیں؟",
+                "bn_to_en": "'পরিশ্রম'-কে English-এ কী বলে?",
+                "default": "What is the English phrase for hard work?"
+              },
+              "options": [
+                "Lazy",
+                "Hard work",
+                "Sleep",
+                "Rest"
+              ],
+              "correctIndex": 1,
+              "explanation": "'Hard work' means consistent effort and dedication."
+            },
+            {
+              "id": "v_e_3",
+              "prompt": {
+                "hi_to_en": "'अवसर / मौका' का सही English शब्द है:",
+                "ur_to_en": "'موقع' کا صحیح English لفظ ہے:",
+                "bn_to_en": "'সুযোগ'-এর সঠিক English শব্দ হলো:",
+                "default": "Which word means 'Opportunity'?"
+              },
+              "options": [
+                "Problem",
+                "Opportunity",
+                "Mistake",
+                "Delay"
+              ],
+              "correctIndex": 1,
+              "explanation": "'Opportunity' means a favourable time or chance."
+            },
+            {
+              "id": "v_e_4",
+              "prompt": {
+                "hi_to_en": "'सुधारना' को English में क्या कहते हैं?",
+                "ur_to_en": "'بہتر بنانا' کو English میں کیا کہتے ہیں؟",
+                "bn_to_en": "'উন্নতি করা'-কে English-এ কী বলে?",
+                "default": "Which verb means 'to make better'?"
+              },
+              "options": [
+                "Break",
+                "Forget",
+                "Improve",
+                "Stop"
+              ],
+              "correctIndex": 2,
+              "explanation": "'Improve' means to make or become better."
+            }
+          ]
+        },
+        {
+          "id": "intermediate",
+          "name": "Intermediate",
+          "questions": [
+            {
+              "id": "v_i_1",
+              "prompt": {
+                "default": "What is the closest meaning of 'Consistent'?"
+              },
+              "options": [
+                "Changing often",
+                "Steady and regular",
+                "Very loud",
+                "Temporary"
+              ],
+              "correctIndex": 1,
+              "explanation": "'Consistent' means acting or done in the same steady way over time."
+            },
+            {
+              "id": "v_i_2",
+              "prompt": {
+                "default": "Choose the opposite of 'Scarce':"
+              },
+              "options": [
+                "Rare",
+                "Empty",
+                "Abundant",
+                "Tiny"
+              ],
+              "correctIndex": 2,
+              "explanation": "'Abundant' means existing in large quantities."
+            },
+            {
+              "id": "v_i_3",
+              "prompt": {
+                "default": "Which word means 'able to adjust easily to new conditions'?"
+              },
+              "options": [
+                "Rigid",
+                "Adaptable",
+                "Fragile",
+                "Silent"
+              ],
+              "correctIndex": 1,
+              "explanation": "'Adaptable' describes someone who adjusts well to change."
+            },
+            {
+              "id": "v_i_4",
+              "prompt": {
+                "default": "What does 'Verify' mean?"
+              },
+              "options": [
+                "To guess",
+                "To confirm truth or accuracy",
+                "To delete",
+                "To hide"
+              ],
+              "correctIndex": 1,
+              "explanation": "'Verify' means to make sure something is true or accurate."
+            }
+          ]
+        },
+        {
+          "id": "advanced",
+          "name": "Advanced",
+          "questions": [
+            {
+              "id": "v_a_1",
+              "prompt": {
+                "default": "What does 'Resilient' mean?"
+              },
+              "options": [
+                "Easily broken",
+                "Able to recover quickly from difficulties",
+                "Always late",
+                "Uncertain"
+              ],
+              "correctIndex": 1,
+              "explanation": "'Resilient' means able to withstand or recover quickly from tough conditions."
+            },
+            {
+              "id": "v_a_2",
+              "prompt": {
+                "default": "Choose the meaning of 'Pragmatic':"
+              },
+              "options": [
+                "Practical and realistic",
+                "Purely imaginary",
+                "Overly emotional",
+                "Very slow"
+              ],
+              "correctIndex": 0,
+              "explanation": "'Pragmatic' means dealing with things sensibly and realistically."
+            },
+            {
+              "id": "v_a_3",
+              "prompt": {
+                "default": "What is the meaning of 'Articulate'?"
+              },
+              "options": [
+                "Unable to speak",
+                "Able to express ideas clearly",
+                "Confusing",
+                "Secretive"
+              ],
+              "correctIndex": 1,
+              "explanation": "'Articulate' means expressing thoughts clearly and effectively."
+            },
+            {
+              "id": "v_a_4",
+              "prompt": {
+                "default": "Which word means 'to lessen the severity of a problem'?"
+              },
+              "options": [
+                "Worsen",
+                "Mitigate",
+                "Ignore",
+                "Multiply"
+              ],
+              "correctIndex": 1,
+              "explanation": "'Mitigate' means to make something less severe or painful."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "typing",
+      "title": "Typing Practice",
+      "levels": [
+        {
+          "id": "beginner",
+          "name": "Beginner",
+          "questions": [
+            {
+              "id": "t_b_1",
+              "prompt": {
+                "default": "Which row of keys is called the 'Home Row' on a QWERTY keyboard?"
+              },
+              "options": [
+                "Q W E R T Y",
+                "A S D F G H J K L",
+                "Z X C V B N M",
+                "1 2 3 4 5 6"
+              ],
+              "correctIndex": 1,
+              "explanation": "Your fingers rest on A S D F (left) and J K L ; (right) — the Home Row."
+            },
+            {
+              "id": "t_b_2",
+              "prompt": {
+                "default": "Which two keys have small raised bumps to guide your index fingers?"
+              },
+              "options": [
+                "A and L",
+                "F and J",
+                "G and H",
+                "Q and P"
+              ],
+              "correctIndex": 1,
+              "explanation": "F and J have tactile bumps so you can type without looking at the keyboard."
+            },
+            {
+              "id": "t_b_3",
+              "prompt": {
+                "default": "Which finger is normally used to press the Spacebar?"
+              },
+              "options": [
+                "Little finger",
+                "Ring finger",
+                "Thumb",
+                "Index finger"
+              ],
+              "correctIndex": 2,
+              "explanation": "Thumbs are used to press the Spacebar smoothly."
+            },
+            {
+              "id": "t_b_4",
+              "prompt": {
+                "default": "What is more important first when learning touch typing?"
+              },
+              "options": [
+                "Accuracy first, then speed",
+                "Speed only",
+                "Looking at every key",
+                "Using only one finger"
+              ],
+              "correctIndex": 0,
+              "explanation": "Building accuracy first creates clean muscle memory; speed follows naturally."
+            }
+          ]
+        },
+        {
+          "id": "elementary",
+          "name": "Elementary",
+          "questions": [
+            {
+              "id": "t_e_1",
+              "prompt": {
+                "default": "What does WPM stand for in typing tests?"
+              },
+              "options": [
+                "Words Per Month",
+                "Words Per Minute",
+                "Writes Per Machine",
+                "Word Page Mode"
+              ],
+              "correctIndex": 1,
+              "explanation": "WPM stands for Words Per Minute."
+            },
+            {
+              "id": "t_e_2",
+              "prompt": {
+                "default": "Which shortcut copies selected text on most computers?"
+              },
+              "options": [
+                "Ctrl + V",
+                "Ctrl + X",
+                "Ctrl + C",
+                "Ctrl + Z"
+              ],
+              "correctIndex": 2,
+              "explanation": "Ctrl + C copies, Ctrl + V pastes, and Ctrl + Z undoes."
+            },
+            {
+              "id": "t_e_3",
+              "prompt": {
+                "default": "Which key removes the character immediately to the left of the cursor?"
+              },
+              "options": [
+                "Backspace",
+                "Shift",
+                "Tab",
+                "Caps Lock"
+              ],
+              "correctIndex": 0,
+              "explanation": "Backspace deletes the character to the left of the cursor."
+            },
+            {
+              "id": "t_e_4",
+              "prompt": {
+                "default": "Holding Shift while pressing a letter key produces:"
+              },
+              "options": [
+                "A number",
+                "A capital letter",
+                "A space",
+                "A new line"
+              ],
+              "correctIndex": 1,
+              "explanation": "Shift temporarily capitalizes letters or types top symbols."
+            }
+          ]
+        },
+        {
+          "id": "intermediate",
+          "name": "Intermediate",
+          "questions": [
+            {
+              "id": "t_i_1",
+              "prompt": {
+                "default": "What is considered a solid office-ready typing speed?"
+              },
+              "options": [
+                "10 WPM",
+                "40–50 WPM with 95%+ accuracy",
+                "5 WPM",
+                "15 WPM with 50% accuracy"
+              ],
+              "correctIndex": 1,
+              "explanation": "40–50 WPM with high accuracy is ideal for most office and data-entry roles."
+            },
+            {
+              "id": "t_i_2",
+              "prompt": {
+                "default": "Which shortcut selects all text in a document?"
+              },
+              "options": [
+                "Ctrl + S",
+                "Ctrl + A",
+                "Ctrl + P",
+                "Ctrl + F"
+              ],
+              "correctIndex": 1,
+              "explanation": "Ctrl + A selects all content."
+            },
+            {
+              "id": "t_i_3",
+              "prompt": {
+                "default": "Why should you keep your wrists slightly raised instead of pressed hard on the desk?"
+              },
+              "options": [
+                "To reduce strain and type faster",
+                "To make noise",
+                "To slow down",
+                "No reason"
+              ],
+              "correctIndex": 0,
+              "explanation": "Good posture prevents wrist fatigue during long typing sessions."
+            },
+            {
+              "id": "t_i_4",
+              "prompt": {
+                "default": "Which shortcut undoes your last typing action?"
+              },
+              "options": [
+                "Ctrl + Z",
+                "Ctrl + B",
+                "Ctrl + U",
+                "Ctrl + L"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ctrl + Z undoes the most recent action."
+            }
+          ]
+        },
+        {
+          "id": "advanced",
+          "name": "Advanced",
+          "questions": [
+            {
+              "id": "t_a_1",
+              "prompt": {
+                "default": "How is a standard 'word' counted in WPM calculations?"
+              },
+              "options": [
+                "Every 5 characters including spaces",
+                "Only long words",
+                "Every 10 characters",
+                "Every sentence"
+              ],
+              "correctIndex": 0,
+              "explanation": "Standard WPM counts 1 word as 5 keystrokes (including spaces)."
+            },
+            {
+              "id": "t_a_2",
+              "prompt": {
+                "default": "What is the best way to break a speed plateau above 60 WPM?"
+              },
+              "options": [
+                "Look at the keyboard",
+                "Practice common word patterns and maintain rhythm",
+                "Press keys harder",
+                "Skip punctuation"
+              ],
+              "correctIndex": 1,
+              "explanation": "Steady rhythm and practicing common letter combinations boosts speed smoothly."
+            },
+            {
+              "id": "t_a_3",
+              "prompt": {
+                "default": "Which shortcut deletes an entire word to the left of the cursor on Windows/Linux?"
+              },
+              "options": [
+                "Ctrl + Backspace",
+                "Alt + Space",
+                "Shift + Enter",
+                "Tab + Delete"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ctrl + Backspace quickly removes the previous word."
+            },
+            {
+              "id": "t_a_4",
+              "prompt": {
+                "default": "Net WPM differs from Gross WPM because Net WPM:"
+              },
+              "options": [
+                "Subtracts uncorrected errors",
+                "Ignores time",
+                "Counts only capital letters",
+                "Adds bonus points"
+              ],
+              "correctIndex": 0,
+              "explanation": "Net WPM accounts for mistakes, rewarding accurate typing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quizzes",
+      "title": "Daily Quizzes",
+      "levels": [
+        {
+          "id": "beginner",
+          "name": "Beginner",
+          "questions": [
+            {
+              "id": "q_b_1",
+              "prompt": {
+                "default": "How many minutes are there in 2 hours?"
+              },
+              "options": [
+                "60",
+                "90",
+                "120",
+                "150"
+              ],
+              "correctIndex": 2,
+              "explanation": "1 hour = 60 minutes, so 2 hours = 120 minutes."
+            },
+            {
+              "id": "q_b_2",
+              "prompt": {
+                "default": "Which planet is known as the Red Planet?"
+              },
+              "options": [
+                "Venus",
+                "Mars",
+                "Jupiter",
+                "Saturn"
+              ],
+              "correctIndex": 1,
+              "explanation": "Mars appears reddish due to iron oxide on its surface."
+            },
+            {
+              "id": "q_b_3",
+              "prompt": {
+                "default": "What is 15% of 200?"
+              },
+              "options": [
+                "20",
+                "25",
+                "30",
+                "35"
+              ],
+              "correctIndex": 2,
+              "explanation": "15% of 100 is 15, so 15% of 200 is 30."
+            },
+            {
+              "id": "q_b_4",
+              "prompt": {
+                "default": "Which gas do plants mainly absorb from the air for photosynthesis?"
+              },
+              "options": [
+                "Oxygen",
+                "Carbon dioxide",
+                "Nitrogen",
+                "Helium"
+              ],
+              "correctIndex": 1,
+              "explanation": "Plants absorb carbon dioxide and release oxygen."
+            }
+          ]
+        },
+        {
+          "id": "elementary",
+          "name": "Elementary",
+          "questions": [
+            {
+              "id": "q_e_1",
+              "prompt": {
+                "default": "If a train travels at 60 km/h, how far does it go in 3 hours?"
+              },
+              "options": [
+                "120 km",
+                "150 km",
+                "180 km",
+                "200 km"
+              ],
+              "correctIndex": 2,
+              "explanation": "Distance = Speed × Time = 60 × 3 = 180 km."
+            },
+            {
+              "id": "q_e_2",
+              "prompt": {
+                "default": "Which organ pumps blood throughout the human body?"
+              },
+              "options": [
+                "Lungs",
+                "Heart",
+                "Liver",
+                "Kidney"
+              ],
+              "correctIndex": 1,
+              "explanation": "The heart circulates blood through the body."
+            },
+            {
+              "id": "q_e_3",
+              "prompt": {
+                "default": "What is the next number in the pattern: 2, 4, 8, 16, ...?"
+              },
+              "options": [
+                "20",
+                "24",
+                "32",
+                "36"
+              ],
+              "correctIndex": 2,
+              "explanation": "Each number doubles: 16 × 2 = 32."
+            },
+            {
+              "id": "q_e_4",
+              "prompt": {
+                "default": "How many days are there in a leap year?"
+              },
+              "options": [
+                "364",
+                "365",
+                "366",
+                "367"
+              ],
+              "correctIndex": 2,
+              "explanation": "A leap year has 366 days (February has 29 days)."
+            }
+          ]
+        },
+        {
+          "id": "intermediate",
+          "name": "Intermediate",
+          "questions": [
+            {
+              "id": "q_i_1",
+              "prompt": {
+                "default": "What is the square root of 144?"
+              },
+              "options": [
+                "11",
+                "12",
+                "13",
+                "14"
+              ],
+              "correctIndex": 1,
+              "explanation": "12 × 12 = 144."
+            },
+            {
+              "id": "q_i_2",
+              "prompt": {
+                "default": "Which vitamin is mainly produced when skin is exposed to sunlight?"
+              },
+              "options": [
+                "Vitamin A",
+                "Vitamin C",
+                "Vitamin D",
+                "Vitamin K"
+              ],
+              "correctIndex": 2,
+              "explanation": "Sunlight helps the body synthesize Vitamin D."
+            },
+            {
+              "id": "q_i_3",
+              "prompt": {
+                "default": "If ₹500 is divided equally among 4 people, each person gets:"
+              },
+              "options": [
+                "₹100",
+                "₹120",
+                "₹125",
+                "₹150"
+              ],
+              "correctIndex": 2,
+              "explanation": "500 ÷ 4 = ₹125."
+            },
+            {
+              "id": "q_i_4",
+              "prompt": {
+                "default": "Which is the largest ocean on Earth?"
+              },
+              "options": [
+                "Indian Ocean",
+                "Atlantic Ocean",
+                "Pacific Ocean",
+                "Arctic Ocean"
+              ],
+              "correctIndex": 2,
+              "explanation": "The Pacific Ocean is the largest and deepest ocean."
+            }
+          ]
+        },
+        {
+          "id": "advanced",
+          "name": "Advanced",
+          "questions": [
+            {
+              "id": "q_a_1",
+              "prompt": {
+                "default": "A shop gives a 20% discount on a ₹1,000 item. What is the final price?"
+              },
+              "options": [
+                "₹750",
+                "₹800",
+                "₹820",
+                "₹900"
+              ],
+              "correctIndex": 1,
+              "explanation": "20% of ₹1,000 is ₹200; 1,000 - 200 = ₹800."
+            },
+            {
+              "id": "q_a_2",
+              "prompt": {
+                "default": "What is the chemical symbol for Gold?"
+              },
+              "options": [
+                "Ag",
+                "Au",
+                "Gd",
+                "Go"
+              ],
+              "correctIndex": 1,
+              "explanation": "Au comes from the Latin word 'Aurum'."
+            },
+            {
+              "id": "q_a_3",
+              "prompt": {
+                "default": "Which SI unit is used to measure electric current?"
+              },
+              "options": [
+                "Volt",
+                "Watt",
+                "Ampere",
+                "Ohm"
+              ],
+              "correctIndex": 2,
+              "explanation": "Electric current is measured in Amperes (A)."
+            },
+            {
+              "id": "q_a_4",
+              "prompt": {
+                "default": "If 3x + 6 = 21, what is the value of x?"
+              },
+              "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+              ],
+              "correctIndex": 2,
+              "explanation": "3x = 15, so x = 5."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gk",
+      "title": "General Knowledge",
+      "levels": [
+        {
+          "id": "beginner",
+          "name": "Beginner",
+          "questions": [
+            {
+              "id": "g_b_1",
+              "prompt": {
+                "default": "What is the national emergency helpline number in India?"
+              },
+              "options": [
+                "112",
+                "911",
+                "999",
+                "123"
+              ],
+              "correctIndex": 0,
+              "explanation": "112 is India's unified emergency response number."
+            },
+            {
+              "id": "g_b_2",
+              "prompt": {
+                "default": "Which city is the capital of India?"
+              },
+              "options": [
+                "Mumbai",
+                "New Delhi",
+                "Kolkata",
+                "Bengaluru"
+              ],
+              "correctIndex": 1,
+              "explanation": "New Delhi is the capital of India."
+            },
+            {
+              "id": "g_b_3",
+              "prompt": {
+                "default": "Which river is the longest river flowing in India?"
+              },
+              "options": [
+                "Yamuna",
+                "Ganga",
+                "Kaveri",
+                "Narmada"
+              ],
+              "correctIndex": 1,
+              "explanation": "The Ganga is the longest river in India."
+            },
+            {
+              "id": "g_b_4",
+              "prompt": {
+                "default": "On which date is India's Republic Day celebrated?"
+              },
+              "options": [
+                "15 August",
+                "2 October",
+                "26 January",
+                "14 November"
+              ],
+              "correctIndex": 2,
+              "explanation": "India's Constitution came into effect on 26 January 1950."
+            }
+          ]
+        },
+        {
+          "id": "elementary",
+          "name": "Elementary",
+          "questions": [
+            {
+              "id": "g_e_1",
+              "prompt": {
+                "default": "What does ISRO stand for?"
+              },
+              "options": [
+                "Indian Space Research Organisation",
+                "International Science Research Office",
+                "Indian Satellite Radio Organisation",
+                "Institute of Space Robotics"
+              ],
+              "correctIndex": 0,
+              "explanation": "ISRO is India's national space agency."
+            },
+            {
+              "id": "g_e_2",
+              "prompt": {
+                "default": "Which Indian state is known as the 'Spice Garden of India'?"
+              },
+              "options": [
+                "Punjab",
+                "Kerala",
+                "Rajasthan",
+                "Gujarat"
+              ],
+              "correctIndex": 1,
+              "explanation": "Kerala is famous for its rich variety of spices."
+            },
+            {
+              "id": "g_e_3",
+              "prompt": {
+                "default": "Which currency symbol is used for the Indian Rupee?"
+              },
+              "options": [
+                "$",
+                "€",
+                "₹",
+                "£"
+              ],
+              "correctIndex": 2,
+              "explanation": "₹ is the official symbol of the Indian Rupee (INR)."
+            },
+            {
+              "id": "g_e_4",
+              "prompt": {
+                "default": "In India, vehicles are driven on which side of the road?"
+              },
+              "options": [
+                "Left side",
+                "Right side",
+                "Center",
+                "Either side"
+              ],
+              "correctIndex": 0,
+              "explanation": "India follows left-hand traffic (driving on the left side)."
+            }
+          ]
+        },
+        {
+          "id": "intermediate",
+          "name": "Intermediate",
+          "questions": [
+            {
+              "id": "g_i_1",
+              "prompt": {
+                "default": "Who is known as the Father of the Indian Constitution?"
+              },
+              "options": [
+                "Dr. B. R. Ambedkar",
+                "Mahatma Gandhi",
+                "Sardar Patel",
+                "Dr. Rajendra Prasad"
+              ],
+              "correctIndex": 0,
+              "explanation": "Dr. B. R. Ambedkar chaired the Drafting Committee of the Constitution."
+            },
+            {
+              "id": "g_i_2",
+              "prompt": {
+                "default": "Which mission made India the first country to land near the Moon's south pole?"
+              },
+              "options": [
+                "Chandrayaan-1",
+                "Chandrayaan-2",
+                "Chandrayaan-3",
+                "Mangalyaan"
+              ],
+              "correctIndex": 2,
+              "explanation": "Chandrayaan-3 successfully landed near the lunar south pole in August 2023."
+            },
+            {
+              "id": "g_i_3",
+              "prompt": {
+                "default": "What is the central bank of India called?"
+              },
+              "options": [
+                "State Bank of India",
+                "Reserve Bank of India",
+                "National Bank of India",
+                "Central Finance Bank"
+              ],
+              "correctIndex": 1,
+              "explanation": "The Reserve Bank of India (RBI) is India's central bank."
+            },
+            {
+              "id": "g_i_4",
+              "prompt": {
+                "default": "Which monument in Agra is a UNESCO World Heritage Site?"
+              },
+              "options": [
+                "Hawa Mahal",
+                "Taj Mahal",
+                "Charminar",
+                "Victoria Memorial"
+              ],
+              "correctIndex": 1,
+              "explanation": "The Taj Mahal in Agra is a world-famous UNESCO site."
+            }
+          ]
+        },
+        {
+          "id": "advanced",
+          "name": "Advanced",
+          "questions": [
+            {
+              "id": "g_a_1",
+              "prompt": {
+                "default": "What does DPDP Act, 2023 in India primarily protect?"
+              },
+              "options": [
+                "Digital Personal Data",
+                "Railway tickets",
+                "Agricultural land",
+                "Forest reserves"
+              ],
+              "correctIndex": 0,
+              "explanation": "The Digital Personal Data Protection Act, 2023 safeguards citizens' personal digital data."
+            },
+            {
+              "id": "g_a_2",
+              "prompt": {
+                "default": "Which Article of the Indian Constitution guarantees Right to Equality?"
+              },
+              "options": [
+                "Article 14",
+                "Article 32",
+                "Article 51",
+                "Article 370"
+              ],
+              "correctIndex": 0,
+              "explanation": "Article 14 guarantees equality before the law."
+            },
+            {
+              "id": "g_a_3",
+              "prompt": {
+                "default": "Which Indian institution operates the UPI payment system?"
+              },
+              "options": [
+                "NPCI",
+                "SEBI",
+                "TRAI",
+                "IRDAI"
+              ],
+              "correctIndex": 0,
+              "explanation": "National Payments Corporation of India (NPCI) operates UPI."
+            },
+            {
+              "id": "g_a_4",
+              "prompt": {
+                "default": "Which is the highest civilian award in India?"
+              },
+              "options": [
+                "Padma Shri",
+                "Padma Bhushan",
+                "Bharat Ratna",
+                "Padma Vibhushan"
+              ],
+              "correctIndex": 2,
+              "explanation": "Bharat Ratna is India's highest civilian honour."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital_skills",
+      "title": "Basic Digital Skills",
+      "levels": [
+        {
+          "id": "beginner",
+          "name": "Beginner",
+          "questions": [
+            {
+              "id": "d_b_1",
+              "prompt": {
+                "default": "Should you ever share your UPI PIN or OTP with anyone to 'receive' money?"
+              },
+              "options": [
+                "Yes, always",
+                "Never — receiving money does NOT require a PIN or OTP",
+                "Only on weekends",
+                "Only with strangers"
+              ],
+              "correctIndex": 1,
+              "explanation": "UPI PIN is only needed to SEND money, never to receive it."
+            },
+            {
+              "id": "d_b_2",
+              "prompt": {
+                "default": "What makes a password strong?"
+              },
+              "options": [
+                "123456",
+                "Your birth date",
+                "A mix of letters, numbers, and symbols",
+                "Your own name"
+              ],
+              "correctIndex": 2,
+              "explanation": "Long passwords mixing letters, numbers, and symbols are much harder to guess."
+            },
+            {
+              "id": "d_b_3",
+              "prompt": {
+                "default": "What does the padlock icon (https://) in a browser address bar indicate?"
+              },
+              "options": [
+                "The website connection is encrypted",
+                "The phone is locked",
+                "Internet is off",
+                "Free downloads"
+              ],
+              "correctIndex": 0,
+              "explanation": "HTTPS encrypts data sent between your device and the website."
+            },
+            {
+              "id": "d_b_4",
+              "prompt": {
+                "default": "What is the safest place to install official Android apps from?"
+              },
+              "options": [
+                "Random SMS links",
+                "Official trusted app stores",
+                "Unknown WhatsApp forwards",
+                "Pop-up ads"
+              ],
+              "correctIndex": 1,
+              "explanation": "Trusted stores scan apps for malware and protect your device."
+            }
+          ]
+        },
+        {
+          "id": "elementary",
+          "name": "Elementary",
+          "questions": [
+            {
+              "id": "d_e_1",
+              "prompt": {
+                "default": "What is 'Phishing'?"
+              },
+              "options": [
+                "Catching fish",
+                "Fake messages/links trying to steal your password or money",
+                "A phone game",
+                "A battery saver"
+              ],
+              "correctIndex": 1,
+              "explanation": "Phishing tricks people into clicking fake links or sharing sensitive info."
+            },
+            {
+              "id": "d_e_2",
+              "prompt": {
+                "default": "What does '2FA' (Two-Factor Authentication) do?"
+              },
+              "options": [
+                "Deletes your account",
+                "Adds a second security check besides your password",
+                "Doubles internet speed",
+                "Turns off Wi-Fi"
+              ],
+              "correctIndex": 1,
+              "explanation": "2FA protects your account even if someone learns your password."
+            },
+            {
+              "id": "d_e_3",
+              "prompt": {
+                "default": "What is the national cybercrime helpline number in India?"
+              },
+              "options": [
+                "1930",
+                "1000",
+                "5555",
+                "8888"
+              ],
+              "correctIndex": 0,
+              "explanation": "1930 is India's official helpline to report financial cyber fraud quickly."
+            },
+            {
+              "id": "d_e_4",
+              "prompt": {
+                "default": "Why should you keep your phone's OS and apps updated?"
+              },
+              "options": [
+                "To get security fixes and bug patches",
+                "To waste data",
+                "To slow down the phone",
+                "No benefit"
+              ],
+              "correctIndex": 0,
+              "explanation": "Updates patch security holes that hackers could otherwise exploit."
+            }
+          ]
+        },
+        {
+          "id": "intermediate",
+          "name": "Intermediate",
+          "questions": [
+            {
+              "id": "d_i_1",
+              "prompt": {
+                "default": "What does 'Cloud Storage' (like Google Drive) allow you to do?"
+              },
+              "options": [
+                "Save and access files online across devices",
+                "Control weather",
+                "Charge your battery",
+                "Block calls"
+              ],
+              "correctIndex": 0,
+              "explanation": "Cloud storage backs up files securely on remote servers."
+            },
+            {
+              "id": "d_i_2",
+              "prompt": {
+                "default": "What is a PDF file best used for?"
+              },
+              "options": [
+                "Sharing documents that look the same on every device",
+                "Recording audio",
+                "Making phone calls",
+                "Editing videos"
+              ],
+              "correctIndex": 0,
+              "explanation": "PDF preserves exact layout and formatting across phones and computers."
+            },
+            {
+              "id": "d_i_3",
+              "prompt": {
+                "default": "Before granting a new app 'Contacts' or 'SMS' permission, you should:"
+              },
+              "options": [
+                "Allow everything blindly",
+                "Check if the app genuinely needs that permission",
+                "Turn off the phone",
+                "Share your password"
+              ],
+              "correctIndex": 1,
+              "explanation": "Only grant permissions that match the app's actual purpose."
+            },
+            {
+              "id": "d_i_4",
+              "prompt": {
+                "default": "What is an 'Offline-First' app?"
+              },
+              "options": [
+                "An app that never works",
+                "An app that works smoothly even without internet",
+                "An app that only works on Wi-Fi",
+                "A paid-only app"
+              ],
+              "correctIndex": 1,
+              "explanation": "Offline-first apps store essential data locally so you can learn anywhere."
+            }
+          ]
+        },
+        {
+          "id": "advanced",
+          "name": "Advanced",
+          "questions": [
+            {
+              "id": "d_a_1",
+              "prompt": {
+                "default": "What is the safest way to use public Wi-Fi at a railway station or cafe?"
+              },
+              "options": [
+                "Do net-banking without caution",
+                "Avoid sensitive banking or use mobile data for payments",
+                "Share passwords openly",
+                "Turn off screen lock"
+              ],
+              "correctIndex": 1,
+              "explanation": "Mobile data is much safer than open public Wi-Fi for banking."
+            },
+            {
+              "id": "d_a_2",
+              "prompt": {
+                "default": "What does 'Open Source' software mean?"
+              },
+              "options": [
+                "Its source code is publicly inspectable and community-auditable",
+                "It is always a virus",
+                "It costs ₹1 Lakh",
+                "It has no code"
+              ],
+              "correctIndex": 0,
+              "explanation": "Open-source software allows anyone to inspect, learn from, and improve the code."
+            },
+            {
+              "id": "d_a_3",
+              "prompt": {
+                "default": "What is a 'Backup' in digital hygiene?"
+              },
+              "options": [
+                "Deleting old files",
+                "Keeping a safe copy of important data in case of device loss",
+                "Restarting Wi-Fi",
+                "Lowering brightness"
+              ],
+              "correctIndex": 1,
+              "explanation": "Regular backups protect you from accidental deletion or phone damage."
+            },
+            {
+              "id": "d_a_4",
+              "prompt": {
+                "default": "Why is a Personal Access Token (PAT) used instead of a password in Git?"
+              },
+              "options": [
+                "It allows scoped permissions and can be revoked anytime",
+                "It is shorter than 3 letters",
+                "It is public",
+                "It never expires"
+              ],
+              "correctIndex": 0,
+              "explanation": "PATs give fine-grained control and keep your main account password safe."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading_writing",
+      "title": "Reading & Writing",
+      "levels": [
+        {
+          "id": "beginner",
+          "name": "Beginner",
+          "questions": [
+            {
+              "id": "r_b_1",
+              "prompt": {
+                "default": "Which sentence has correct capitalization and punctuation?"
+              },
+              "options": [
+                "i live in india",
+                "I live in India.",
+                "i Live in india.",
+                "I live In india"
+              ],
+              "correctIndex": 1,
+              "explanation": "Start with a capital letter, capitalize proper nouns like 'India', and end with a full stop."
+            },
+            {
+              "id": "r_b_2",
+              "prompt": {
+                "default": "Choose the correct word: 'She ___ to school every day.'"
+              },
+              "options": [
+                "go",
+                "goes",
+                "going",
+                "gone"
+              ],
+              "correctIndex": 1,
+              "explanation": "With 'She/He/It' in simple present tense, we use 'goes'."
+            },
+            {
+              "id": "r_b_3",
+              "prompt": {
+                "default": "Which punctuation mark is used at the end of a question?"
+              },
+              "options": [
+                ".",
+                ",",
+                "?",
+                "!"
+              ],
+              "correctIndex": 2,
+              "explanation": "A question mark (?) ends a direct question."
+            },
+            {
+              "id": "r_b_4",
+              "prompt": {
+                "default": "Choose the correct article: 'He ate ___ apple.'"
+              },
+              "options": [
+                "a",
+                "an",
+                "the",
+                "no article"
+              ],
+              "correctIndex": 1,
+              "explanation": "Use 'an' before words starting with a vowel sound like 'apple'."
+            }
+          ]
+        },
+        {
+          "id": "elementary",
+          "name": "Elementary",
+          "questions": [
+            {
+              "id": "r_e_1",
+              "prompt": {
+                "default": "What is the main purpose of a 'Subject Line' in an email?"
+              },
+              "options": [
+                "To summarize what the email is about",
+                "To write the entire essay",
+                "To add your password",
+                "To leave it blank"
+              ],
+              "correctIndex": 0,
+              "explanation": "A clear subject line helps the reader understand your email immediately."
+            },
+            {
+              "id": "r_e_2",
+              "prompt": {
+                "default": "Choose the past tense of 'write':"
+              },
+              "options": [
+                "writed",
+                "wrote",
+                "written",
+                "writing"
+              ],
+              "correctIndex": 1,
+              "explanation": "'Wrote' is the simple past tense of 'write'."
+            },
+            {
+              "id": "r_e_3",
+              "prompt": {
+                "default": "Which sentence is polite for a formal request?"
+              },
+              "options": [
+                "Give me the file now.",
+                "Could you please share the file?",
+                "File now!",
+                "Send it fast."
+              ],
+              "correctIndex": 1,
+              "explanation": "'Could you please...' is polite and professional."
+            },
+            {
+              "id": "r_e_4",
+              "prompt": {
+                "default": "What is a paragraph?"
+              },
+              "options": [
+                "A group of sentences focused on one main idea",
+                "A single letter",
+                "A list of random numbers",
+                "A title only"
+              ],
+              "correctIndex": 0,
+              "explanation": "Good paragraphs group related sentences around one clear topic."
+            }
+          ]
+        },
+        {
+          "id": "intermediate",
+          "name": "Intermediate",
+          "questions": [
+            {
+              "id": "r_i_1",
+              "prompt": {
+                "default": "Which word correctly completes: 'Their / There / They're going to the market.'?"
+              },
+              "options": [
+                "Their",
+                "There",
+                "They're",
+                "None"
+              ],
+              "correctIndex": 2,
+              "explanation": "'They're' is the contraction of 'They are'."
+            },
+            {
+              "id": "r_i_2",
+              "prompt": {
+                "default": "What does 'Proofreading' mean?"
+              },
+              "options": [
+                "Checking your writing for spelling and grammar mistakes",
+                "Deleting your draft",
+                "Copying someone else",
+                "Printing without reading"
+              ],
+              "correctIndex": 0,
+              "explanation": "Proofreading catches errors before you send or publish."
+            },
+            {
+              "id": "r_i_3",
+              "prompt": {
+                "default": "Which sentence is more concise and clear?"
+              },
+              "options": [
+                "Due to the fact that it was raining, we stayed inside.",
+                "Because it was raining, we stayed inside.",
+                "It was raining so therefore because of that we stayed.",
+                "Staying inside was done by us due to rain."
+              ],
+              "correctIndex": 1,
+              "explanation": "Simple, direct phrasing ('Because...') is easier to read."
+            },
+            {
+              "id": "r_i_4",
+              "prompt": {
+                "default": "In a formal letter, which closing is most appropriate?"
+              },
+              "options": [
+                "See ya!",
+                "Sincerely,",
+                "Bye bro,",
+                "Later,"
+              ],
+              "correctIndex": 1,
+              "explanation": "'Sincerely,' or 'Regards,' is standard for formal writing."
+            }
+          ]
+        },
+        {
+          "id": "advanced",
+          "name": "Advanced",
+          "questions": [
+            {
+              "id": "r_a_1",
+              "prompt": {
+                "default": "What is the active voice version of 'The report was written by Ayesha'?"
+              },
+              "options": [
+                "Ayesha wrote the report.",
+                "The report is being written.",
+                "Written by Ayesha was the report.",
+                "Ayesha has been a report."
+              ],
+              "correctIndex": 0,
+              "explanation": "Active voice puts the doer ('Ayesha') first, making writing stronger."
+            },
+            {
+              "id": "r_a_2",
+              "prompt": {
+                "default": "What is a 'Thesis Statement' in an essay?"
+              },
+              "options": [
+                "The central argument or main point of the essay",
+                "The last word",
+                "A footnote",
+                "The page number"
+              ],
+              "correctIndex": 0,
+              "explanation": "A thesis statement clearly states the essay's main claim."
+            },
+            {
+              "id": "r_a_3",
+              "prompt": {
+                "default": "Which transition word shows contrast?"
+              },
+              "options": [
+                "Furthermore",
+                "However",
+                "Similarly",
+                "Also"
+              ],
+              "correctIndex": 1,
+              "explanation": "'However' introduces a contrasting idea."
+            },
+            {
+              "id": "r_a_4",
+              "prompt": {
+                "default": "Why is skimming useful when reading a long article?"
+              },
+              "options": [
+                "It helps you quickly grasp the main structure and key points",
+                "It skips reading forever",
+                "It memorizes every comma",
+                "It translates languages"
+              ],
+              "correctIndex": 0,
+              "explanation": "Skimming headings and first sentences gives a fast overview."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

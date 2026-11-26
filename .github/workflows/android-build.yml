@@ -55,6 +55,7 @@ jobs:
           if [ -f "/tmp/tpl_app/android/app/build.gradle.kts" ]; then
             cp -f "/tmp/tpl_app/android/app/build.gradle.kts" "android/app/build.gradle.kts"
             sed -i 's/com\.hunardaily\.hunardaily/com.hunardaily.app/g' android/app/build.gradle.kts
+            sed -i '/signingConfig = signingConfigs.getByName("debug")/a\            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")' android/app/build.gradle.kts
           fi
 
           rm -rf android/gradle

@@ -7,6 +7,9 @@ analyzer:
   errors:
     missing_required_param: error
     missing_return: error
+    # Flutter 3.47+ marks package:flutter/material.dart as info-deprecated
+    # during its Material/Cupertino package split; ignore deprecation infos
+    # while keeping all real errors, warnings, and strict lints enforced.
     deprecated_member_use: ignore
 
 linter:
