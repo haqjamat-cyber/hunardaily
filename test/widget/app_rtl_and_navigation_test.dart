@@ -36,9 +36,13 @@ void main() {
       );
       expect(initialDirection, TextDirection.ltr);
 
-      // Tap Urdu quick language chip on Home
+      // Scroll Home ListView so the language chip is centered and hittable
+      await tester.drag(find.byType(ListView), const Offset(0, -300));
+      await tester.pumpAndSettle();
+
       final urduChip = find.byKey(const ValueKey<String>('home_lang_ur'));
       await tester.ensureVisible(urduChip);
+      await tester.pumpAndSettle();
       await tester.tap(urduChip);
       await tester.pumpAndSettle();
 
