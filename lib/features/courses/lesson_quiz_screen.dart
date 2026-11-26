@@ -141,7 +141,7 @@ class _LessonQuizScreenState extends ConsumerState<LessonQuizScreen> {
     }
 
     final question = questions[_currentIndex];
-    final prompt = question.promptForPair(settings.learningPair.code);
+    final prompt = question.promptForPair(settings.learningPair.id);
     final isAnswered = _selectedOptionIndex != null;
 
     return Scaffold(
